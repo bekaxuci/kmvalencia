@@ -1,0 +1,369 @@
+/* Reset básico y fondo */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #c6c6e4 0%, #a1a9c8 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Box-sizing global */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Contenedor principal */
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem 2rem;
+  margin: 0;
+  background: linear-gradient(135deg, #d0d3e5 0%, #aab0cc 100%);
+  box-shadow: inset 0 0 40px rgba(255 255 255 / 0.3);
+  transition: background 0.3s ease;
+}
+
+/* Efecto hover moderno */
+.App:hover {
+  background: linear-gradient(135deg, #b8bbd8 0%, #8a8fba 100%);
+}
+
+/* Texto estilizado */
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #222;
+  letter-spacing: 0.03em;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  max-width: 700px;
+  color: #333;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Formulario principal */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Inputs */
+.input {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #646cff;
+}
+
+/* Botones */
+.button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 0.25rem;
+}
+
+.button:disabled {
+  background-color: #a5a5d6;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #4a4dd4;
+  transform: scale(1.02);
+}
+
+/* Lista de sugerencias */
+.suggestions {
+  width: 100%;
+  max-width: 500px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: white;
+  box-sizing: border-box;
+}
+
+.suggestion-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+.localidad {
+  font-weight: 500;
+}
+
+.kms {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Resultados */
+.result {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.result h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Contenedor del mapa con carretera de fondo */
+.map-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+/* Elemento individual del mapa */
+.map-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  margin-bottom: 80px;
+  pointer-events: auto;
+}
+
+/* Imagen del puerto */
+.puerto-img {
+  width: 400px;
+  height: auto;
+  border-radius: 150px;
+}
+
+/* Contenedor del camión */
+.contenedor-camion {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: visible;
+  background: #f0f0f0; /* opcional, para simular suelo */
+}
+
+/* Camión animado */
+.camion {
+    animation-name: move-truck;
+      animation-duration: 6s;
+        animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation-fill-mode: forwards;
+            animation-iteration-count: 1;
+              position: absolute;
+                top: 50%;
+                  left: 120px;
+                    transform: translateY(-50%);
+                      z-index: 3;
+                      }
+
+
+/* Luz de faros */
+.camion::after {
+  content: '';
+  position: absolute;
+  top: 100px; /* Ajusta para que coincida con los faros */
+  left: 110px; /* Ajusta para que coincida con los faros */
+  width: 100px;
+  height: 15px;
+  background: radial-gradient(circle at center, rgba(226, 226, 99, 0.8), rgba(115, 29, 29, 0) 70%);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 180, 0.8));
+  pointer-events: none;
+  z-index: 4;
+}
+
+/* Imagen del camión */
+.camion-img {
+  width: 190px;
+  height: 150px;
+  transform: scaleX(-1); /* Voltea horizontalmente */
+}
+
+/* Animación */
+@keyframes move-truck {
+  from {
+    left: 120px;
+  }
+  to {
+    left: calc(100% - 180px);
+  }
+}
+
+/* Marcador de ubicación */
+.marker {
+  min-width: 150px;
+  text-align: center;
+  padding: 8px 12px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.marker-emoji {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.marker-text {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #111;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  letter-spacing: 0.12em;
+  font-size: 1.1rem;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.marker-text:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
+/* Efecto humo */
+.marker-text::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  width: 120px;
+  height: 80px;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateX(-50%) translateY(20px);
+  transition: opacity 0.6s ease, transform 1.5s ease;
+  pointer-events: none;
+  z-index: -1;
+  animation: smokeUp 2s infinite;
+}
+
+.marker-text:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-60px);
+}
+
+@keyframes smokeUp {
+  0% {
+    transform: translateX(-50%) translateY(20px) rotate(0deg);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateX(calc(-50% + 10px)) translateY(-40px) rotate(5deg);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(calc(-50% - 10px)) translateY(-80px) rotate(-5deg);
+    opacity: 0;
+  }
+}
+
+/* Contenedor general para el mapa (fijo abajo) */
+.map-content {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 10;
+  pointer-events: none;
+}
+.contenedores-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+  font-size: 24px; /* tamaño de los contenedores */
+}
+
+.contenedor {
+  position: absolute;
+  top: -30px;
+  animation-name: caer-contenedor;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  user-select: none;
+}
+
+/* Animación caída */
+@keyframes caer-contenedor {
+  0% {
+    top: -30px;
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}
