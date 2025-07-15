@@ -1,0 +1,8354 @@
+[
+  {
+    "poblacion": "Cox",
+    "provincia": "Alicante",
+    "cp": 3350,
+    "distancia": 562
+  },
+  {
+    "poblacion": "Jun",
+    "provincia": "Granada",
+    "cp": 18213,
+    "distancia": 262
+  },
+  {
+    "poblacion": "Mos",
+    "provincia": "Lugo",
+    "cp": 27268,
+    "distancia": 1064
+  },
+  {
+    "poblacion": "Rus",
+    "provincia": "Jaen",
+    "cp": 23430,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Adra",
+    "provincia": "Almeria",
+    "cp": 4770,
+    "distancia": 287
+  },
+  {
+    "poblacion": "Alia",
+    "provincia": "Caceres",
+    "cp": 10137,
+    "distancia": 525
+  },
+  {
+    "poblacion": "Aspe",
+    "provincia": "Alicante",
+    "cp": 3680,
+    "distancia": 595
+  },
+  {
+    "poblacion": "Baza",
+    "provincia": "Granada",
+    "cp": 18800,
+    "distancia": 356
+  },
+  {
+    "poblacion": "Beja",
+    "provincia": "Caceres",
+    "cp": 48100,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Beja",
+    "provincia": "Portugal",
+    "cp": "7800-449",
+    "distancia": 415
+  },
+  {
+    "poblacion": "Cala",
+    "provincia": "Huelva",
+    "cp": 21270,
+    "distancia": 281
+  },
+  {
+    "poblacion": "Coin",
+    "provincia": "Malaga",
+    "cp": 29100,
+    "distancia": 110
+  },
+  {
+    "poblacion": "Elda",
+    "provincia": "Alicante",
+    "cp": 3600,
+    "distancia": 614
+  },
+  {
+    "poblacion": "Gata",
+    "provincia": "Caceres",
+    "cp": 10860,
+    "distancia": 565
+  },
+  {
+    "poblacion": "Gava",
+    "provincia": "Barcelona",
+    "cp": 8850,
+    "distancia": 1012
+  },
+  {
+    "poblacion": "Haro",
+    "provincia": "La Rioja",
+    "cp": 26200,
+    "distancia": 922
+  },
+  {
+    "poblacion": "Irun",
+    "provincia": "Guipuzcoa",
+    "cp": 20305,
+    "distancia": 1141
+  },
+  {
+    "poblacion": "Jaen",
+    "provincia": "Jaen",
+    "cp": 23000,
+    "distancia": 341
+  },
+  {
+    "poblacion": "Jaen",
+    "provincia": "Jaen",
+    "cp": 23009,
+    "distancia": 341
+  },
+  {
+    "poblacion": "Leon",
+    "provincia": "Leon",
+    "cp": 24000,
+    "distancia": 884
+  },
+  {
+    "poblacion": "Lepe",
+    "provincia": "Huelva",
+    "cp": 21440,
+    "distancia": 322
+  },
+  {
+    "poblacion": "Loja",
+    "provincia": "Granada",
+    "cp": 18300,
+    "distancia": 209
+  },
+  {
+    "poblacion": "Lugo",
+    "provincia": "Lugo",
+    "cp": 27000,
+    "distancia": 1063
+  },
+  {
+    "poblacion": "Maia",
+    "provincia": "Portugal",
+    "cp": "4475 611",
+    "distancia": 885
+  },
+  {
+    "poblacion": "Meco",
+    "provincia": "Madrid",
+    "cp": 28880,
+    "distancia": 701
+  },
+  {
+    "poblacion": "Mora",
+    "provincia": "Toledo",
+    "cp": 45400,
+    "distancia": 544
+  },
+  {
+    "poblacion": "Mula",
+    "provincia": "Murcia",
+    "cp": 30170,
+    "distancia": 554
+  },
+  {
+    "poblacion": "Ojen",
+    "provincia": "Malaga",
+    "cp": 29610,
+    "distancia": 89
+  },
+  {
+    "poblacion": "Onda",
+    "provincia": "Castellon",
+    "cp": 12200,
+    "distancia": 840
+  },
+  {
+    "poblacion": "Onil",
+    "provincia": "Alicante",
+    "cp": 3430,
+    "distancia": 624
+  },
+  {
+    "poblacion": "Reus",
+    "provincia": "Tarragona",
+    "cp": 43001,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Rota",
+    "provincia": "Cadiz",
+    "cp": 11520,
+    "distancia": 148
+  },
+  {
+    "poblacion": "Rubi",
+    "provincia": "Barcelona",
+    "cp": 8191,
+    "distancia": 1105
+  },
+  {
+    "poblacion": "Rute",
+    "provincia": "Cordoba",
+    "cp": 14960,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Vera",
+    "provincia": "Almeria",
+    "cp": 4620,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Vigo",
+    "provincia": "Pontevedra",
+    "cp": 36200,
+    "distancia": 1075
+  },
+  {
+    "poblacion": "Acula",
+    "provincia": "Granada",
+    "cp": 18131,
+    "distancia": 257
+  },
+  {
+    "poblacion": "Agost",
+    "provincia": "Alicante",
+    "cp": 3698,
+    "distancia": 613
+  },
+  {
+    "poblacion": "Albal",
+    "provincia": "Valencia",
+    "cp": 46470,
+    "distancia": 751
+  },
+  {
+    "poblacion": "Albox",
+    "provincia": "Almeria",
+    "cp": 4800,
+    "distancia": 428
+  },
+  {
+    "poblacion": "Algar",
+    "provincia": "Cadiz",
+    "cp": 11639,
+    "distancia": 98
+  },
+  {
+    "poblacion": "Algoz",
+    "provincia": "Portugal",
+    "cp": "8365 081",
+    "distancia": 435
+  },
+  {
+    "poblacion": "Alora",
+    "provincia": "Malaga",
+    "cp": 29500,
+    "distancia": 130
+  },
+  {
+    "poblacion": "Altea",
+    "provincia": "Alicante",
+    "cp": 3590,
+    "distancia": 661
+  },
+  {
+    "poblacion": "Antas",
+    "provincia": "Almeria",
+    "cp": 4628,
+    "distancia": 429
+  },
+  {
+    "poblacion": "Añora",
+    "provincia": "Cordoba",
+    "cp": 14450,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Araia",
+    "provincia": "Alava",
+    "cp": 1250,
+    "distancia": 1055
+  },
+  {
+    "poblacion": "Areso",
+    "provincia": "Navarra",
+    "cp": 31876,
+    "distancia": 1121
+  },
+  {
+    "poblacion": "Ateca",
+    "provincia": "Zaragoza",
+    "cp": 50200,
+    "distancia": 878
+  },
+  {
+    "poblacion": "Autol",
+    "provincia": "La Rioja",
+    "cp": 26560,
+    "distancia": 992
+  },
+  {
+    "poblacion": "Avila",
+    "provincia": "Avila",
+    "cp": 5000,
+    "distancia": 710
+  },
+  {
+    "poblacion": "Baena",
+    "provincia": "Cordoba",
+    "cp": 14850,
+    "distancia": 267
+  },
+  {
+    "poblacion": "Baeza",
+    "provincia": "Jaen",
+    "cp": 23440,
+    "distancia": 368
+  },
+  {
+    "poblacion": "Bedar",
+    "provincia": "Almeria",
+    "cp": "",
+    "distancia": 412
+  },
+  {
+    "poblacion": "Bejar",
+    "provincia": "Salamanca",
+    "cp": 37700,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Belas",
+    "provincia": "Portugal",
+    "cp": "2605-001",
+    "distancia": 690
+  },
+  {
+    "poblacion": "Berja",
+    "provincia": "Almeria",
+    "cp": 4760,
+    "distancia": 305
+  },
+  {
+    "poblacion": "Borox",
+    "provincia": "Toledo",
+    "cp": 45222,
+    "distancia": 650
+  },
+  {
+    "poblacion": "Cabra",
+    "provincia": "Cordoba",
+    "cp": 14940,
+    "distancia": 244
+  },
+  {
+    "poblacion": "Cadiz",
+    "provincia": "Cadiz",
+    "cp": 11000,
+    "distancia": 127
+  },
+  {
+    "poblacion": "Cadiz",
+    "provincia": "Cadiz",
+    "cp": 11006,
+    "distancia": 127
+  },
+  {
+    "poblacion": "Cadiz",
+    "provincia": "Cadiz",
+    "cp": 11011,
+    "distancia": 127
+  },
+  {
+    "poblacion": "Cajar",
+    "provincia": "Granada",
+    "cp": 18199,
+    "distancia": 270
+  },
+  {
+    "poblacion": "Cajiz",
+    "provincia": "Malaga",
+    "cp": 29792,
+    "distancia": 171
+  },
+  {
+    "poblacion": "Camas",
+    "provincia": "Sevilla",
+    "cp": 41900,
+    "distancia": 208
+  },
+  {
+    "poblacion": "Caspe",
+    "provincia": "Zaragoza",
+    "cp": 50700,
+    "distancia": 1088
+  },
+  {
+    "poblacion": "Cervo",
+    "provincia": "Lugo",
+    "cp": 27890,
+    "distancia": 1100
+  },
+  {
+    "poblacion": "Ceuti",
+    "provincia": "Murcia",
+    "cp": 30562,
+    "distancia": 535
+  },
+  {
+    "poblacion": "Cieza",
+    "provincia": "Murcia",
+    "cp": 30530,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Coria",
+    "provincia": "Caceres",
+    "cp": 10800,
+    "distancia": 517
+  },
+  {
+    "poblacion": "Darro",
+    "provincia": "Granada",
+    "cp": 18181,
+    "distancia": 276
+  },
+  {
+    "poblacion": "Denia",
+    "provincia": "Alicante",
+    "cp": 3700,
+    "distancia": 706
+  },
+  {
+    "poblacion": "Derio",
+    "provincia": "Vizcaya",
+    "cp": 48160,
+    "distancia": 1100
+  },
+  {
+    "poblacion": "Dilar",
+    "provincia": "Granada",
+    "cp": 18152,
+    "distancia": 272
+  },
+  {
+    "poblacion": "Dolar",
+    "provincia": "Granada",
+    "cp": 18512,
+    "distancia": 336
+  },
+  {
+    "poblacion": "Ecija",
+    "provincia": "Sevilla",
+    "cp": 41400,
+    "distancia": 250
+  },
+  {
+    "poblacion": "Egües",
+    "provincia": "Navarra",
+    "cp": 31486,
+    "distancia": 1059
+  },
+  {
+    "poblacion": "Eibar",
+    "provincia": "Guipuzcoa",
+    "cp": 20600,
+    "distancia": 1081
+  },
+  {
+    "poblacion": "Eljas",
+    "provincia": "Caceres",
+    "cp": 10891,
+    "distancia": 566
+  },
+  {
+    "poblacion": "Elvas",
+    "provincia": "Portugal",
+    "cp": 735,
+    "distancia": 426
+  },
+  {
+    "poblacion": "Fines",
+    "provincia": "Almeria",
+    "cp": 4869,
+    "distancia": 414
+  },
+  {
+    "poblacion": "Gador",
+    "provincia": "Almeria",
+    "cp": 4560,
+    "distancia": 358
+  },
+  {
+    "poblacion": "Geria",
+    "provincia": "Valladolid",
+    "cp": 47131,
+    "distancia": 803
+  },
+  {
+    "poblacion": "Gijon",
+    "provincia": "Asturias",
+    "cp": 33000,
+    "distancia": 1041
+  },
+  {
+    "poblacion": "Gines",
+    "provincia": "Sevilla",
+    "cp": 41960,
+    "distancia": 208
+  },
+  {
+    "poblacion": "Gojar",
+    "provincia": "Granada",
+    "cp": 18150,
+    "distancia": 247
+  },
+  {
+    "poblacion": "Graus",
+    "provincia": "Huesca",
+    "cp": 22430,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Huesa",
+    "provincia": "Jaen",
+    "cp": 23487,
+    "distancia": 401
+  },
+  {
+    "poblacion": "Istan",
+    "provincia": "Malaga",
+    "cp": 29611,
+    "distancia": 100
+  },
+  {
+    "poblacion": "Jodar",
+    "provincia": "Jaen",
+    "cp": 23500,
+    "distancia": 347
+  },
+  {
+    "poblacion": "Lagos",
+    "provincia": "Lisboa",
+    "cp": 8600281,
+    "distancia": 466
+  },
+  {
+    "poblacion": "Lagos",
+    "provincia": "Malaga",
+    "cp": 29760,
+    "distancia": 190
+  },
+  {
+    "poblacion": "Lagos",
+    "provincia": "Portugal",
+    "cp": "8600-281",
+    "distancia": 466
+  },
+  {
+    "poblacion": "Larva",
+    "provincia": "Jaen",
+    "cp": 23591,
+    "distancia": 389
+  },
+  {
+    "poblacion": "Lobon",
+    "provincia": "Badajoz",
+    "cp": 6498,
+    "distancia": 408
+  },
+  {
+    "poblacion": "Lorca",
+    "provincia": "Murcia",
+    "cp": 30800,
+    "distancia": 431
+  },
+  {
+    "poblacion": "Luque",
+    "provincia": "Cordoba",
+    "cp": 14880,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Mijas",
+    "provincia": "Malaga",
+    "cp": 29650,
+    "distancia": 111
+  },
+  {
+    "poblacion": "Mogon",
+    "provincia": "Jaen",
+    "cp": 23310,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Monda",
+    "provincia": "Malaga",
+    "cp": 29110,
+    "distancia": 98
+  },
+  {
+    "poblacion": "Moura",
+    "provincia": "Portugal",
+    "cp": 7860,
+    "distancia": 407
+  },
+  {
+    "poblacion": "NARON",
+    "provincia": "A Coruña",
+    "cp": 15572,
+    "distancia": 1030
+  },
+  {
+    "poblacion": "NERJA",
+    "provincia": "Malaga",
+    "cp": 29780,
+    "distancia": 195
+  },
+  {
+    "poblacion": "Nerva",
+    "provincia": "Huelva",
+    "cp": 21670,
+    "distancia": 279
+  },
+  {
+    "poblacion": "Nijar",
+    "provincia": "Almeria",
+    "cp": "",
+    "distancia": 381
+  },
+  {
+    "poblacion": "Nules",
+    "provincia": "Castellon",
+    "cp": 12520,
+    "distancia": 821
+  },
+  {
+    "poblacion": "Obejo",
+    "provincia": "Cordoba",
+    "cp": 14310,
+    "distancia": 348
+  },
+  {
+    "poblacion": "Ocaña",
+    "provincia": "Toledo",
+    "cp": 45300,
+    "distancia": 607
+  },
+  {
+    "poblacion": "Oliva",
+    "provincia": "Valencia",
+    "cp": 46780,
+    "distancia": 648
+  },
+  {
+    "poblacion": "Oñati",
+    "provincia": "Guipuzcoa",
+    "cp": 20560,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Osuna",
+    "provincia": "Sevilla",
+    "cp": 41640,
+    "distancia": 237
+  },
+  {
+    "poblacion": "Otura",
+    "provincia": "Granada",
+    "cp": 18630,
+    "distancia": 280
+  },
+  {
+    "poblacion": "Padul",
+    "provincia": "Granada",
+    "cp": 18640,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Parla",
+    "provincia": "Madrid",
+    "cp": 28980,
+    "distancia": 660
+  },
+  {
+    "poblacion": "Pilas",
+    "provincia": "Sevilla",
+    "cp": 41840,
+    "distancia": 235
+  },
+  {
+    "poblacion": "Pinto",
+    "provincia": "Madrid",
+    "cp": 28320,
+    "distancia": 657
+  },
+  {
+    "poblacion": "Pruna",
+    "provincia": "Sevilla",
+    "cp": 41670,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Pulpi",
+    "provincia": "Almeria",
+    "cp": 4640,
+    "distancia": 469
+  },
+  {
+    "poblacion": "Rioja",
+    "provincia": "Almeria",
+    "cp": 4260,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Ronda",
+    "provincia": "Malaga",
+    "cp": 29400,
+    "distancia": 118
+  },
+  {
+    "poblacion": "Salar",
+    "provincia": "Granada",
+    "cp": 18310,
+    "distancia": 223
+  },
+  {
+    "poblacion": "Silla",
+    "provincia": "Valencia",
+    "cp": 46460,
+    "distancia": 742
+  },
+  {
+    "poblacion": "Sines",
+    "provincia": "Lisboa",
+    "cp": 7520,
+    "distancia": 583
+  },
+  {
+    "poblacion": "Sueca",
+    "provincia": "Valencia",
+    "cp": 46410,
+    "distancia": 747
+  },
+  {
+    "poblacion": "Tocon",
+    "provincia": "Granada",
+    "cp": 18380,
+    "distancia": 216
+  },
+  {
+    "poblacion": "Treto",
+    "provincia": "Cantabria",
+    "cp": 39760,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Troia",
+    "provincia": "Lisboa",
+    "cp": 7570,
+    "distancia": 597
+  },
+  {
+    "poblacion": "Ubeda",
+    "provincia": "Jaen",
+    "cp": 23400,
+    "distancia": 392
+  },
+  {
+    "poblacion": "Valls",
+    "provincia": "Tarragona",
+    "cp": 43800,
+    "distancia": 1050
+  },
+  {
+    "poblacion": "Vicar",
+    "provincia": "Almeria",
+    "cp": "",
+    "distancia": 330
+  },
+  {
+    "poblacion": "Yecla",
+    "provincia": "Murcia",
+    "cp": 30510,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Yeles",
+    "provincia": "Toledo",
+    "cp": 45220,
+    "distancia": 646
+  },
+  {
+    "poblacion": "Zafra",
+    "provincia": "Badajoz",
+    "cp": 6300,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Zufre",
+    "provincia": "Huelva",
+    "cp": 21210,
+    "distancia": 285
+  },
+  {
+    "poblacion": "Abaran",
+    "provincia": "Murcia",
+    "cp": 30550,
+    "distancia": 569
+  },
+  {
+    "poblacion": "Adamuz",
+    "provincia": "Cordoba",
+    "cp": 14430,
+    "distancia": 330
+  },
+  {
+    "poblacion": "Ahigal",
+    "provincia": "Caceres",
+    "cp": 10650,
+    "distancia": 563
+  },
+  {
+    "poblacion": "Alagon",
+    "provincia": "Zaragoza",
+    "cp": 50630,
+    "distancia": 970
+  },
+  {
+    "poblacion": "Alange",
+    "provincia": "Badajoz",
+    "cp": 6840,
+    "distancia": 385
+  },
+  {
+    "poblacion": "Alcora",
+    "provincia": "Castellon",
+    "cp": 12110,
+    "distancia": 812
+  },
+  {
+    "poblacion": "Aldaya",
+    "provincia": "Valencia",
+    "cp": 46960,
+    "distancia": 763
+  },
+  {
+    "poblacion": "Algete",
+    "provincia": "Madrid",
+    "cp": 28110,
+    "distancia": 701
+  },
+  {
+    "poblacion": "ALMADA",
+    "provincia": "Portugal",
+    "cp": 2801,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Alosno",
+    "provincia": "Huelva",
+    "cp": 21520,
+    "distancia": 330
+  },
+  {
+    "poblacion": "Alzira",
+    "provincia": "Valencia",
+    "cp": 46600,
+    "distancia": 722
+  },
+  {
+    "poblacion": "Amares",
+    "provincia": "Braga",
+    "cp": "4720-527",
+    "distancia": 935
+  },
+  {
+    "poblacion": "Ambroz",
+    "provincia": "Granada",
+    "cp": 18194,
+    "distancia": 258
+  },
+  {
+    "poblacion": "Arahal",
+    "provincia": "Sevilla",
+    "cp": 41600,
+    "distancia": 192
+  },
+  {
+    "poblacion": "Arbizu",
+    "provincia": "Navarra",
+    "cp": 31839,
+    "distancia": 1080
+  },
+  {
+    "poblacion": "Arjona",
+    "provincia": "Jaen",
+    "cp": 23760,
+    "distancia": 314
+  },
+  {
+    "poblacion": "Arnedo",
+    "provincia": "La Rioja",
+    "cp": 26580,
+    "distancia": 988
+  },
+  {
+    "poblacion": "Aroche",
+    "provincia": "Huelva",
+    "cp": 21240,
+    "distancia": 327
+  },
+  {
+    "poblacion": "Atarfe",
+    "provincia": "Granada",
+    "cp": 18230,
+    "distancia": 256
+  },
+  {
+    "poblacion": "Azabal",
+    "provincia": "Caceres",
+    "cp": 10649,
+    "distancia": 567
+  },
+  {
+    "poblacion": "Azuaga",
+    "provincia": "Badajoz",
+    "cp": 6920,
+    "distancia": 352
+  },
+  {
+    "poblacion": "Bailen",
+    "provincia": "Jaen",
+    "cp": 23710,
+    "distancia": 379
+  },
+  {
+    "poblacion": "Bargas",
+    "provincia": "Toledo",
+    "cp": 45593,
+    "distancia": 623
+  },
+  {
+    "poblacion": "Bedmar",
+    "provincia": "Jaen",
+    "cp": 23537,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Belmez",
+    "provincia": "Cordoba",
+    "cp": 14240,
+    "distancia": 359
+  },
+  {
+    "poblacion": "Beniel",
+    "provincia": "Murcia",
+    "cp": 30130,
+    "distancia": 549
+  },
+  {
+    "poblacion": "Berriz",
+    "provincia": "Vizcaya",
+    "cp": 48240,
+    "distancia": 1070
+  },
+  {
+    "poblacion": "Betera",
+    "provincia": "Valencia",
+    "cp": 46117,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Bilbao",
+    "provincia": "Vizcaya",
+    "cp": 48001,
+    "distancia": 1060
+  },
+  {
+    "poblacion": "Brenes",
+    "provincia": "Sevilla",
+    "cp": 41310,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Brozas",
+    "provincia": "Caceres",
+    "cp": 10950,
+    "distancia": 508
+  },
+  {
+    "poblacion": "Bullas",
+    "provincia": "Murcia",
+    "cp": 30180,
+    "distancia": 513
+  },
+  {
+    "poblacion": "Burgos",
+    "provincia": "Burgos",
+    "cp": 9000,
+    "distancia": 914
+  },
+  {
+    "poblacion": "Cadiar",
+    "provincia": "Granada",
+    "cp": 18440,
+    "distancia": 287
+  },
+  {
+    "poblacion": "Cambeo",
+    "provincia": "Orense",
+    "cp": 32100,
+    "distancia": 993
+  },
+  {
+    "poblacion": "Canals",
+    "provincia": "Valencia",
+    "cp": 46650,
+    "distancia": 710
+  },
+  {
+    "poblacion": "Canena",
+    "provincia": "Jaen",
+    "cp": 23420,
+    "distancia": 388
+  },
+  {
+    "poblacion": "Carcer",
+    "provincia": "Valencia",
+    "cp": 46294,
+    "distancia": 714
+  },
+  {
+    "poblacion": "Carlet",
+    "provincia": "Valencia",
+    "cp": 46240,
+    "distancia": 723
+  },
+  {
+    "poblacion": "Carros",
+    "provincia": "France",
+    "cp": 6516,
+    "distancia": 1905
+  },
+  {
+    "poblacion": "Catral",
+    "provincia": "Alicante",
+    "cp": 3158,
+    "distancia": 575
+  },
+  {
+    "poblacion": "Cegama",
+    "provincia": "Guipuzcoa",
+    "cp": 20215,
+    "distancia": 1088
+  },
+  {
+    "poblacion": "Cepeda",
+    "provincia": "Salamanca",
+    "cp": 37656,
+    "distancia": 608
+  },
+  {
+    "poblacion": "Cheste",
+    "provincia": "Valencia",
+    "cp": 46380,
+    "distancia": 772
+  },
+  {
+    "poblacion": "Churra",
+    "provincia": "Murcia",
+    "cp": 30609,
+    "distancia": 568
+  },
+  {
+    "poblacion": "Coripe",
+    "provincia": "Sevilla",
+    "cp": 41780,
+    "distancia": 185
+  },
+  {
+    "poblacion": "Cuenca",
+    "provincia": "Cuenca",
+    "cp": 16000,
+    "distancia": 728
+  },
+  {
+    "poblacion": "Cullar",
+    "provincia": "Granada",
+    "cp": 18850,
+    "distancia": 385
+  },
+  {
+    "poblacion": "CURTIS",
+    "provincia": "A Coruña",
+    "cp": 15310,
+    "distancia": 1070
+  },
+  {
+    "poblacion": "Daimus",
+    "provincia": "Valencia",
+    "cp": 46710,
+    "distancia": 694
+  },
+  {
+    "poblacion": "Dalias",
+    "provincia": "Almeria",
+    "cp": 4750,
+    "distancia": 302
+  },
+  {
+    "poblacion": "Durana",
+    "provincia": "Alava",
+    "cp": 1520,
+    "distancia": 1029
+  },
+  {
+    "poblacion": "Durcal",
+    "provincia": "Granada",
+    "cp": 18650,
+    "distancia": 260
+  },
+  {
+    "poblacion": "Espejo",
+    "provincia": "Cordoba",
+    "cp": 14830,
+    "distancia": 270
+  },
+  {
+    "poblacion": "Espiel",
+    "provincia": "Cordoba",
+    "cp": 14220,
+    "distancia": 343
+  },
+  {
+    "poblacion": "Estepa",
+    "provincia": "Sevilla",
+    "cp": 41560,
+    "distancia": 233
+  },
+  {
+    "poblacion": "Fondon",
+    "provincia": "Almeria",
+    "cp": 4460,
+    "distancia": 320
+  },
+  {
+    "poblacion": "Gajano",
+    "provincia": "Cantabria",
+    "cp": 39792,
+    "distancia": 1005
+  },
+  {
+    "poblacion": "Gandia",
+    "provincia": "Valencia",
+    "cp": 46730,
+    "distancia": 716
+  },
+  {
+    "poblacion": "Gaucin",
+    "provincia": "Malaga",
+    "cp": 29480,
+    "distancia": 77
+  },
+  {
+    "poblacion": "Gelves",
+    "provincia": "Sevilla",
+    "cp": 41120,
+    "distancia": 204
+  },
+  {
+    "poblacion": "Gerena",
+    "provincia": "Sevilla",
+    "cp": 41860,
+    "distancia": 225
+  },
+  {
+    "poblacion": "Gergal",
+    "provincia": "Almeria",
+    "cp": 4550,
+    "distancia": 379
+  },
+  {
+    "poblacion": "Getafe",
+    "provincia": "Madrid",
+    "cp": 28906,
+    "distancia": 658
+  },
+  {
+    "poblacion": "Gilena",
+    "provincia": "Sevilla",
+    "cp": 41565,
+    "distancia": 231
+  },
+  {
+    "poblacion": "Girona",
+    "provincia": "Girona",
+    "cp": 17001,
+    "distancia": 1200
+  },
+  {
+    "poblacion": "Griñon",
+    "provincia": "Madrid",
+    "cp": 28971,
+    "distancia": 649
+  },
+  {
+    "poblacion": "Guadix",
+    "provincia": "Granada",
+    "cp": 18500,
+    "distancia": 314
+  },
+  {
+    "poblacion": "Guardo",
+    "provincia": "Palencia",
+    "cp": 34880,
+    "distancia": 1040
+  },
+  {
+    "poblacion": "Hellin",
+    "provincia": "Albacete",
+    "cp": 2400,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Hervas",
+    "provincia": "Caceres",
+    "cp": 10700,
+    "distancia": 573
+  },
+  {
+    "poblacion": "Huecas",
+    "provincia": "Toledo",
+    "cp": 45511,
+    "distancia": 605
+  },
+  {
+    "poblacion": "Huelma",
+    "provincia": "Jaen",
+    "cp": 23560,
+    "distancia": 325
+  },
+  {
+    "poblacion": "Huelva",
+    "provincia": "Huelva",
+    "cp": 21000,
+    "distancia": 290
+  },
+  {
+    "poblacion": "HUELVA",
+    "provincia": "Huelva",
+    "cp": 21004,
+    "distancia": 290
+  },
+  {
+    "poblacion": "Huelva",
+    "provincia": "Huelva",
+    "cp": 21006,
+    "distancia": 290
+  },
+  {
+    "poblacion": "Huelva",
+    "provincia": "Huelva",
+    "cp": 21007,
+    "distancia": 290
+  },
+  {
+    "poblacion": "Huerta",
+    "provincia": "Salamanca",
+    "cp": 37336,
+    "distancia": 678
+  },
+  {
+    "poblacion": "Huerta",
+    "provincia": "Salamanca",
+    "cp": 37336,
+    "distancia": 678
+  },
+  {
+    "poblacion": "Huesca",
+    "provincia": "Huesca",
+    "cp": 22000,
+    "distancia": 1047
+  },
+  {
+    "poblacion": "Illora",
+    "provincia": "Granada",
+    "cp": 18260,
+    "distancia": 220
+  },
+  {
+    "poblacion": "Iznate",
+    "provincia": "Malaga",
+    "cp": 29792,
+    "distancia": 174
+  },
+  {
+    "poblacion": "Jabugo",
+    "provincia": "Huelva",
+    "cp": 21290,
+    "distancia": 304
+  },
+  {
+    "poblacion": "Jedula",
+    "provincia": "Cadiz",
+    "cp": 11620,
+    "distancia": 118
+  },
+  {
+    "poblacion": "Jimena",
+    "provincia": "Jaen",
+    "cp": 23530,
+    "distancia": 329
+  },
+  {
+    "poblacion": "Lachar",
+    "provincia": "Granada",
+    "cp": 18327,
+    "distancia": 240
+  },
+  {
+    "poblacion": "Lerida",
+    "provincia": "Lerida",
+    "cp": 25000,
+    "distancia": 1060
+  },
+  {
+    "poblacion": "Lesaca",
+    "provincia": "Navarra",
+    "cp": 31770,
+    "distancia": 1170
+  },
+  {
+    "poblacion": "Lisboa",
+    "provincia": "Lisboa",
+    "cp": 1900,
+    "distancia": 643
+  },
+  {
+    "poblacion": "Llodio",
+    "provincia": "Alava",
+    "cp": 1400,
+    "distancia": 1013
+  },
+  {
+    "poblacion": "Lobres",
+    "provincia": "Granada",
+    "cp": 18610,
+    "distancia": 223
+  },
+  {
+    "poblacion": "Lopera",
+    "provincia": "Jaen",
+    "cp": 23780,
+    "distancia": 352
+  },
+  {
+    "poblacion": "Lorqui",
+    "provincia": "Murcia",
+    "cp": 30564,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Lucena",
+    "provincia": "Cordoba",
+    "cp": 14900,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Macael",
+    "provincia": "Almeria",
+    "cp": 4867,
+    "distancia": 414
+  },
+  {
+    "poblacion": "Madrid",
+    "provincia": "Madrid",
+    "cp": 28001,
+    "distancia": 667
+  },
+  {
+    "poblacion": "Madrid",
+    "provincia": "Madrid",
+    "cp": 28053,
+    "distancia": 667
+  },
+  {
+    "poblacion": "Malaga",
+    "provincia": "Malaga",
+    "cp": 29000,
+    "distancia": 139
+  },
+  {
+    "poblacion": "MALAGA",
+    "provincia": "Malaga",
+    "cp": 29004,
+    "distancia": 139
+  },
+  {
+    "poblacion": "MALAGA",
+    "provincia": "Malaga",
+    "cp": 29005,
+    "distancia": 139
+  },
+  {
+    "poblacion": "Malaga",
+    "provincia": "Malaga",
+    "cp": 29006,
+    "distancia": 139
+  },
+  {
+    "poblacion": "MALAGA",
+    "provincia": "Malaga",
+    "cp": 29196,
+    "distancia": 139
+  },
+  {
+    "poblacion": "MALAGA",
+    "provincia": "Malaga",
+    "cp": 29590,
+    "distancia": 145
+  },
+  {
+    "poblacion": "Martos",
+    "provincia": "Jaen",
+    "cp": 23600,
+    "distancia": 304
+  },
+  {
+    "poblacion": "Mataro",
+    "provincia": "Barcelona",
+    "cp": 8300,
+    "distancia": 1145
+  },
+  {
+    "poblacion": "Mataro",
+    "provincia": "Barcelona",
+    "cp": 8301,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Merida",
+    "provincia": "Badajoz",
+    "cp": 6800,
+    "distancia": 388
+  },
+  {
+    "poblacion": "Mieres",
+    "provincia": "Asturias",
+    "cp": 33600,
+    "distancia": 1034
+  },
+  {
+    "poblacion": "Minaya",
+    "provincia": "Albacete",
+    "cp": 2620,
+    "distancia": 639
+  },
+  {
+    "poblacion": "Moclin",
+    "provincia": "Granada",
+    "cp": 18247,
+    "distancia": 260
+  },
+  {
+    "poblacion": "Moguer",
+    "provincia": "Huelva",
+    "cp": 21800,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Monzon",
+    "provincia": "Huesca",
+    "cp": 22400,
+    "distancia": 1110
+  },
+  {
+    "poblacion": "Motril",
+    "provincia": "Granada",
+    "cp": 18600,
+    "distancia": 242
+  },
+  {
+    "poblacion": "Murcia",
+    "provincia": "Murcia",
+    "cp": 30001,
+    "distancia": 539
+  },
+  {
+    "poblacion": "Niebla",
+    "provincia": "Huelva",
+    "cp": 21840,
+    "distancia": 268
+  },
+  {
+    "poblacion": "Obanos",
+    "provincia": "Navarra",
+    "cp": 31151,
+    "distancia": 1059
+  },
+  {
+    "poblacion": "Olvega",
+    "provincia": "Soria",
+    "cp": 42110,
+    "distancia": 919
+  },
+  {
+    "poblacion": "Olvera",
+    "provincia": "Cadiz",
+    "cp": 11690,
+    "distancia": 175
+  },
+  {
+    "poblacion": "Oporto",
+    "provincia": "Oporto",
+    "cp": 0,
+    "distancia": 875
+  },
+  {
+    "poblacion": "Orgiva",
+    "provincia": "Granada",
+    "cp": 18400,
+    "distancia": 252
+  },
+  {
+    "poblacion": "Oviedo",
+    "provincia": "Asturias",
+    "cp": 33000,
+    "distancia": 1015
+  },
+  {
+    "poblacion": "Padron",
+    "provincia": "A Coruña",
+    "cp": 15900,
+    "distancia": 1100
+  },
+  {
+    "poblacion": "Painho",
+    "provincia": "Portugal",
+    "cp": "2552 403",
+    "distancia": 650
+  },
+  {
+    "poblacion": "Pepino",
+    "provincia": "Toledo",
+    "cp": 45638,
+    "distancia": 573
+  },
+  {
+    "poblacion": "Posada",
+    "provincia": "Cordoba",
+    "cp": 14730,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Pravia",
+    "provincia": "Asturias",
+    "cp": 33120,
+    "distancia": 1034
+  },
+  {
+    "poblacion": "Sedavi",
+    "provincia": "Valencia",
+    "cp": 46910,
+    "distancia": 762
+  },
+  {
+    "poblacion": "Sorbas",
+    "provincia": "Almeria",
+    "cp": 4270,
+    "distancia": 399
+  },
+  {
+    "poblacion": "Tarifa",
+    "provincia": "Cadiz",
+    "cp": 11380,
+    "distancia": 24
+  },
+  {
+    "poblacion": "Tejeda",
+    "provincia": "Caceres",
+    "cp": 10420,
+    "distancia": 560
+  },
+  {
+    "poblacion": "Teruel",
+    "provincia": "Teruel",
+    "cp": 44000,
+    "distancia": 920
+  },
+  {
+    "poblacion": "Tocina",
+    "provincia": "Sevilla",
+    "cp": 41340,
+    "distancia": 228
+  },
+  {
+    "poblacion": "Toledo",
+    "provincia": "Toledo",
+    "cp": 45000,
+    "distancia": 617
+  },
+  {
+    "poblacion": "Tolosa",
+    "provincia": "Guipuzcoa",
+    "cp": 20400,
+    "distancia": 1110
+  },
+  {
+    "poblacion": "Torrox",
+    "provincia": "Malaga",
+    "cp": 29770,
+    "distancia": 191
+  },
+  {
+    "poblacion": "Totana",
+    "provincia": "Murcia",
+    "cp": 30850,
+    "distancia": 496
+  },
+  {
+    "poblacion": "Ugijar",
+    "provincia": "Granada",
+    "cp": 18480,
+    "distancia": 300
+  },
+  {
+    "poblacion": "Utrera",
+    "provincia": "Sevilla",
+    "cp": 41710,
+    "distancia": 176
+  },
+  {
+    "poblacion": "Viator",
+    "provincia": "Almeria",
+    "cp": 4240,
+    "distancia": 352
+  },
+  {
+    "poblacion": "Xeraco",
+    "provincia": "Valencia",
+    "cp": 46770,
+    "distancia": 730
+  },
+  {
+    "poblacion": "Xeraco",
+    "provincia": "Valencia",
+    "cp": 46770,
+    "distancia": 730
+  },
+  {
+    "poblacion": "YELBES",
+    "provincia": "Badajoz",
+    "cp": 6411,
+    "distancia": 435
+  },
+  {
+    "poblacion": "Yuncos",
+    "provincia": "Toledo",
+    "cp": 45210,
+    "distancia": 650
+  },
+  {
+    "poblacion": "Abadiño",
+    "provincia": "Vizcaya",
+    "cp": 48220,
+    "distancia": 1062
+  },
+  {
+    "poblacion": "Aguilas",
+    "provincia": "Murcia",
+    "cp": 30880,
+    "distancia": 496
+  },
+  {
+    "poblacion": "AGURAIN",
+    "provincia": "Alava",
+    "cp": 1200,
+    "distancia": 1055
+  },
+  {
+    "poblacion": "Ajalvir",
+    "provincia": "Madrid",
+    "cp": 28864,
+    "distancia": 731
+  },
+  {
+    "poblacion": "Alacuas",
+    "provincia": "Valencia",
+    "cp": 46970,
+    "distancia": 762
+  },
+  {
+    "poblacion": "Alaejos",
+    "provincia": "Valladolid",
+    "cp": 47510,
+    "distancia": 718
+  },
+  {
+    "poblacion": "Alameda",
+    "provincia": "Malaga",
+    "cp": 29530,
+    "distancia": 210
+  },
+  {
+    "poblacion": "Albaida",
+    "provincia": "Valencia",
+    "cp": 46860,
+    "distancia": 679
+  },
+  {
+    "poblacion": "Albuñol",
+    "provincia": "Granada",
+    "cp": 18700,
+    "distancia": 280
+  },
+  {
+    "poblacion": "Alcañiz",
+    "provincia": "Teruel",
+    "cp": 44600,
+    "distancia": 1000
+  },
+  {
+    "poblacion": "Alcolea",
+    "provincia": "Almeria",
+    "cp": 4480,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Alcolea",
+    "provincia": "Cordoba",
+    "cp": 14610,
+    "distancia": 311
+  },
+  {
+    "poblacion": "Alcover",
+    "provincia": "Tarragona",
+    "cp": 43460,
+    "distancia": 1030
+  },
+  {
+    "poblacion": "Aldeire",
+    "provincia": "Granada",
+    "cp": 18514,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Alginet",
+    "provincia": "Valencia",
+    "cp": 46230,
+    "distancia": 730
+  },
+  {
+    "poblacion": "Aliseda",
+    "provincia": "Caceres",
+    "cp": 10550,
+    "distancia": 483
+  },
+  {
+    "poblacion": "Aljucer",
+    "provincia": "Murcia",
+    "cp": 30152,
+    "distancia": 535
+  },
+  {
+    "poblacion": "Almaden",
+    "provincia": "Ciudad Real",
+    "cp": 13400,
+    "distancia": 417
+  },
+  {
+    "poblacion": "Almansa",
+    "provincia": "Albacete",
+    "cp": 2640,
+    "distancia": 676
+  },
+  {
+    "poblacion": "Almaraz",
+    "provincia": "Caceres",
+    "cp": 10350,
+    "distancia": 528
+  },
+  {
+    "poblacion": "ALMERIA",
+    "provincia": "Almeria",
+    "cp": 4007,
+    "distancia": 343
+  },
+  {
+    "poblacion": "Almeria",
+    "provincia": "Almeria",
+    "cp": 4008,
+    "distancia": 343
+  },
+  {
+    "poblacion": "ALMERIA",
+    "provincia": "Almeria",
+    "cp": 4009,
+    "distancia": 343
+  },
+  {
+    "poblacion": "Almogia",
+    "provincia": "Malaga",
+    "cp": 29150,
+    "distancia": 155
+  },
+  {
+    "poblacion": "Almonte",
+    "provincia": "Huelva",
+    "cp": 21730,
+    "distancia": 263
+  },
+  {
+    "poblacion": "Alovera",
+    "provincia": "Guadalajara",
+    "cp": 19208,
+    "distancia": 738
+  },
+  {
+    "poblacion": "Alverca",
+    "provincia": "Portugal",
+    "cp": 2615,
+    "distancia": 643
+  },
+  {
+    "poblacion": "Amadora",
+    "provincia": "Lisboa",
+    "cp": 2650,
+    "distancia": 659
+  },
+  {
+    "poblacion": "AMORIM",
+    "provincia": "Portugal",
+    "cp": "4495-121",
+    "distancia": 900
+  },
+  {
+    "poblacion": "Amposta",
+    "provincia": "Tarragona",
+    "cp": 43870,
+    "distancia": 947
+  },
+  {
+    "poblacion": "Andujar",
+    "provincia": "Jaen",
+    "cp": 23740,
+    "distancia": 366
+  },
+  {
+    "poblacion": "Aracena",
+    "provincia": "Huelva",
+    "cp": 21200,
+    "distancia": 285
+  },
+  {
+    "poblacion": "Aravaca",
+    "provincia": "Madrid",
+    "cp": 28023,
+    "distancia": 685
+  },
+  {
+    "poblacion": "Arazuri",
+    "provincia": "Navarra",
+    "cp": 31170,
+    "distancia": 1115
+  },
+  {
+    "poblacion": "Arevalo",
+    "provincia": "Avila",
+    "cp": 5200,
+    "distancia": 722
+  },
+  {
+    "poblacion": "Armilla",
+    "provincia": "Granada",
+    "cp": 18100,
+    "distancia": 266
+  },
+  {
+    "poblacion": "Arriate",
+    "provincia": "Malaga",
+    "cp": 29350,
+    "distancia": 118
+  },
+  {
+    "poblacion": "Arteixo",
+    "provincia": "A Coruña",
+    "cp": 15142,
+    "distancia": 1162
+  },
+  {
+    "poblacion": "Asteasu",
+    "provincia": "Guipuzcoa",
+    "cp": 20159,
+    "distancia": 1115
+  },
+  {
+    "poblacion": "ATALAYA",
+    "provincia": "Badajoz",
+    "cp": 6009,
+    "distancia": 316
+  },
+  {
+    "poblacion": "Badajoz",
+    "provincia": "Badajoz",
+    "cp": 6000,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Badajoz",
+    "provincia": "Badajoz",
+    "cp": 6006,
+    "distancia": 405
+  },
+  {
+    "poblacion": "BADAJOZ",
+    "provincia": "Badajoz",
+    "cp": 6008,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Bañeres",
+    "provincia": "Alicante",
+    "cp": 3450,
+    "distancia": 678
+  },
+  {
+    "poblacion": "Barajas",
+    "provincia": "Madrid",
+    "cp": 28042,
+    "distancia": 680
+  },
+  {
+    "poblacion": "Barbate",
+    "provincia": "Cadiz",
+    "cp": 11160,
+    "distancia": 70
+  },
+  {
+    "poblacion": "Barxeta",
+    "provincia": "Valencia",
+    "cp": 46667,
+    "distancia": 695
+  },
+  {
+    "poblacion": "BATALHA",
+    "provincia": "Portugal",
+    "cp": "2440 901",
+    "distancia": 679
+  },
+  {
+    "poblacion": "Beasain",
+    "provincia": "Guipuzcoa",
+    "cp": 20200,
+    "distancia": 1087
+  },
+  {
+    "poblacion": "Begijar",
+    "provincia": "Jaen",
+    "cp": 23520,
+    "distancia": 385
+  },
+  {
+    "poblacion": "Bellvei",
+    "provincia": "Tarragona",
+    "cp": 43719,
+    "distancia": 1090
+  },
+  {
+    "poblacion": "Benifla",
+    "provincia": "Valencia",
+    "cp": 46722,
+    "distancia": 663
+  },
+  {
+    "poblacion": "Benissa",
+    "provincia": "Alicante",
+    "cp": 3720,
+    "distancia": 680
+  },
+  {
+    "poblacion": "Berango",
+    "provincia": "Vizcaya",
+    "cp": 48640,
+    "distancia": 1115
+  },
+  {
+    "poblacion": "Beriain",
+    "provincia": "Navarra",
+    "cp": 31191,
+    "distancia": 1105
+  },
+  {
+    "poblacion": "Binefar",
+    "provincia": "Huesca",
+    "cp": 22500,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Bonares",
+    "provincia": "Huelva",
+    "cp": 21830,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Bugarra",
+    "provincia": "Valencia",
+    "cp": 46165,
+    "distancia": 845
+  },
+  {
+    "poblacion": "Caceres",
+    "provincia": "Caceres",
+    "cp": 10000,
+    "distancia": 456
+  },
+  {
+    "poblacion": "Caceres",
+    "provincia": "Caceres",
+    "cp": 10005,
+    "distancia": 456
+  },
+  {
+    "poblacion": "Calañas",
+    "provincia": "Huelva",
+    "cp": 21300,
+    "distancia": 327
+  },
+  {
+    "poblacion": "Camuñas",
+    "provincia": "Toledo",
+    "cp": 45720,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Carmona",
+    "provincia": "Sevilla",
+    "cp": 41410,
+    "distancia": 211
+  },
+  {
+    "poblacion": "CARTAMA",
+    "provincia": "Malaga",
+    "cp": 29570,
+    "distancia": 146
+  },
+  {
+    "poblacion": "Cartaya",
+    "provincia": "Huelva",
+    "cp": 21450,
+    "distancia": 310
+  },
+  {
+    "poblacion": "Casares",
+    "provincia": "Malaga",
+    "cp": 29690,
+    "distancia": 55
+  },
+  {
+    "poblacion": "Catadau",
+    "provincia": "Valencia",
+    "cp": 46196,
+    "distancia": 731
+  },
+  {
+    "poblacion": "Cazorla",
+    "provincia": "Jaen",
+    "cp": 23470,
+    "distancia": 393
+  },
+  {
+    "poblacion": "Cehegin",
+    "provincia": "Murcia",
+    "cp": 30430,
+    "distancia": 526
+  },
+  {
+    "poblacion": "Cestona",
+    "provincia": "Guipuzcoa",
+    "cp": 20740,
+    "distancia": 1121
+  },
+  {
+    "poblacion": "Chercos",
+    "provincia": "Almeria",
+    "cp": 4859,
+    "distancia": 428
+  },
+  {
+    "poblacion": "Chucena",
+    "provincia": "Huelva",
+    "cp": 21891,
+    "distancia": 205
+  },
+  {
+    "poblacion": "Cijuela",
+    "provincia": "Granada",
+    "cp": 18339,
+    "distancia": 244
+  },
+  {
+    "poblacion": "Colloto",
+    "provincia": "Asturias",
+    "cp": 33010,
+    "distancia": 1080
+  },
+  {
+    "poblacion": "Competa",
+    "provincia": "Malaga",
+    "cp": 29754,
+    "distancia": 178
+  },
+  {
+    "poblacion": "CORDOBA",
+    "provincia": "Cordoba",
+    "cp": 14001,
+    "distancia": 296
+  },
+  {
+    "poblacion": "CORDOBA",
+    "provincia": "Cordoba",
+    "cp": 14004,
+    "distancia": 296
+  },
+  {
+    "poblacion": "CORDOBA",
+    "provincia": "Cordoba",
+    "cp": 14005,
+    "distancia": 296
+  },
+  {
+    "poblacion": "CORDOBA",
+    "provincia": "Cordoba",
+    "cp": 14010,
+    "distancia": 296
+  },
+  {
+    "poblacion": "Cordoba",
+    "provincia": "Cordoba",
+    "cp": 14013,
+    "distancia": 296
+  },
+  {
+    "poblacion": "CORDOBA",
+    "provincia": "Cordoba",
+    "cp": 14014,
+    "distancia": 296
+  },
+  {
+    "poblacion": "Coslada",
+    "provincia": "Madrid",
+    "cp": 28820,
+    "distancia": 671
+  },
+  {
+    "poblacion": "Coslada",
+    "provincia": "Madrid",
+    "cp": 28823,
+    "distancia": 671
+  },
+  {
+    "poblacion": "Daimiel",
+    "provincia": "Ciudad Real",
+    "cp": 13250,
+    "distancia": 516
+  },
+  {
+    "poblacion": "Dolores",
+    "provincia": "Alicante",
+    "cp": 3150,
+    "distancia": 580
+  },
+  {
+    "poblacion": "Escuzar",
+    "provincia": "Granada",
+    "cp": 18130,
+    "distancia": 266
+  },
+  {
+    "poblacion": "Estella",
+    "provincia": "Navarra",
+    "cp": 31200,
+    "distancia": 1092
+  },
+  {
+    "poblacion": "Fonelas",
+    "provincia": "Granada",
+    "cp": 18515,
+    "distancia": 316
+  },
+  {
+    "poblacion": "Fortuna",
+    "provincia": "Murcia",
+    "cp": 30620,
+    "distancia": 592
+  },
+  {
+    "poblacion": "Frailes",
+    "provincia": "Jaen",
+    "cp": 23690,
+    "distancia": 309
+  },
+  {
+    "poblacion": "Godella",
+    "provincia": "Valencia",
+    "cp": 46110,
+    "distancia": 730
+  },
+  {
+    "poblacion": "Granada",
+    "provincia": "Granada",
+    "cp": 18000,
+    "distancia": 262
+  },
+  {
+    "poblacion": "Granada",
+    "provincia": "Granada",
+    "cp": 18015,
+    "distancia": 262
+  },
+  {
+    "poblacion": "Grijota",
+    "provincia": "Palencia",
+    "cp": 34192,
+    "distancia": 788
+  },
+  {
+    "poblacion": "Guareña",
+    "provincia": "Badajoz",
+    "cp": 6470,
+    "distancia": 407
+  },
+  {
+    "poblacion": "Herdade",
+    "provincia": "Portugal",
+    "cp": "4575-487",
+    "distancia": 590
+  },
+  {
+    "poblacion": "Hernani",
+    "provincia": "Guipuzcoa",
+    "cp": 20120,
+    "distancia": 1195
+  },
+  {
+    "poblacion": "Herrera",
+    "provincia": "Sevilla",
+    "cp": 41567,
+    "distancia": 239
+  },
+  {
+    "poblacion": "Hinojos",
+    "provincia": "Huelva",
+    "cp": 21740,
+    "distancia": 243
+  },
+  {
+    "poblacion": "Hueneja",
+    "provincia": "Granada",
+    "cp": 18512,
+    "distancia": 339
+  },
+  {
+    "poblacion": "Huescar",
+    "provincia": "Granada",
+    "cp": 18830,
+    "distancia": 404
+  },
+  {
+    "poblacion": "Iznajar",
+    "provincia": "Cordoba",
+    "cp": 14970,
+    "distancia": 215
+  },
+  {
+    "poblacion": "Izurtza",
+    "provincia": "Vizcaya",
+    "cp": 48213,
+    "distancia": 1058
+  },
+  {
+    "poblacion": "Jumilla",
+    "provincia": "Murcia",
+    "cp": 30520,
+    "distancia": 598
+  },
+  {
+    "poblacion": "LANGREO",
+    "provincia": "Asturias",
+    "cp": 33934,
+    "distancia": 956
+  },
+  {
+    "poblacion": "Lebrija",
+    "provincia": "Sevilla",
+    "cp": 41740,
+    "distancia": 131
+  },
+  {
+    "poblacion": "Leganes",
+    "provincia": "Madrid",
+    "cp": 28911,
+    "distancia": 663
+  },
+  {
+    "poblacion": "Legazpi",
+    "provincia": "Guipuzcoa",
+    "cp": 20230,
+    "distancia": 1077
+  },
+  {
+    "poblacion": "Linares",
+    "provincia": "Jaen",
+    "cp": 23700,
+    "distancia": 381
+  },
+  {
+    "poblacion": "Llerena",
+    "provincia": "Badajoz",
+    "cp": 6900,
+    "distancia": 325
+  },
+  {
+    "poblacion": "Llombay",
+    "provincia": "Valencia",
+    "cp": 46195,
+    "distancia": 726
+  },
+  {
+    "poblacion": "Logroño",
+    "provincia": "La Rioja",
+    "cp": 26005,
+    "distancia": 1015
+  },
+  {
+    "poblacion": "Lousado",
+    "provincia": "Portugal",
+    "cp": "4760 813",
+    "distancia": 960
+  },
+  {
+    "poblacion": "Majadas",
+    "provincia": "Caceres",
+    "cp": 10529,
+    "distancia": 511
+  },
+  {
+    "poblacion": "Malagon",
+    "provincia": "Ciudad Real",
+    "cp": 13420,
+    "distancia": 505
+  },
+  {
+    "poblacion": "Manilva",
+    "provincia": "Malaga",
+    "cp": 29691,
+    "distancia": 43
+  },
+  {
+    "poblacion": "Manises",
+    "provincia": "Valencia",
+    "cp": 46940,
+    "distancia": 764
+  },
+  {
+    "poblacion": "Manlleu",
+    "provincia": "Barcelona",
+    "cp": 8560,
+    "distancia": 1172
+  },
+  {
+    "poblacion": "Manresa",
+    "provincia": "Barcelona",
+    "cp": 8240,
+    "distancia": 992
+  },
+  {
+    "poblacion": "Markina",
+    "provincia": "Vizcaya",
+    "cp": 48270,
+    "distancia": 1090
+  },
+  {
+    "poblacion": "Mazagon",
+    "provincia": "Huelva",
+    "cp": 21130,
+    "distancia": 299
+  },
+  {
+    "poblacion": "Milagro",
+    "provincia": "Navarra",
+    "cp": 31320,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Mojacar",
+    "provincia": "Almeria",
+    "cp": 4638,
+    "distancia": 389
+  },
+  {
+    "poblacion": "Mollina",
+    "provincia": "Malaga",
+    "cp": 29532,
+    "distancia": 203
+  },
+  {
+    "poblacion": "Moncada",
+    "provincia": "Valencia",
+    "cp": 46113,
+    "distancia": 780
+  },
+  {
+    "poblacion": "Montijo",
+    "provincia": "Badajoz",
+    "cp": 6480,
+    "distancia": 407
+  },
+  {
+    "poblacion": "Montijo",
+    "provincia": "Setubal",
+    "cp": "2870-607",
+    "distancia": 690
+  },
+  {
+    "poblacion": "Montoro",
+    "provincia": "Cordoba",
+    "cp": 14600,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Moriles",
+    "provincia": "Cordoba",
+    "cp": 14510,
+    "distancia": 215
+  },
+  {
+    "poblacion": "Noalejo",
+    "provincia": "Jaen",
+    "cp": 23140,
+    "distancia": 301
+  },
+  {
+    "poblacion": "Novelda",
+    "provincia": "Alicante",
+    "cp": 3660,
+    "distancia": 600
+  },
+  {
+    "poblacion": "Palmela",
+    "provincia": "Lisboa",
+    "cp": 2950,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Paradas",
+    "provincia": "Sevilla",
+    "cp": 41610,
+    "distancia": 200
+  },
+  {
+    "poblacion": "Paymogo",
+    "provincia": "Huelva",
+    "cp": 21560,
+    "distancia": 372
+  },
+  {
+    "poblacion": "Pechina",
+    "provincia": "Almeria",
+    "cp": 4250,
+    "distancia": 352
+  },
+  {
+    "poblacion": "Pedrera",
+    "provincia": "Sevilla",
+    "cp": 41566,
+    "distancia": 227
+  },
+  {
+    "poblacion": "Periana",
+    "provincia": "Malaga",
+    "cp": 29710,
+    "distancia": 190
+  },
+  {
+    "poblacion": "Porcuna",
+    "provincia": "Jaen",
+    "cp": 23790,
+    "distancia": 304
+  },
+  {
+    "poblacion": "Puig El",
+    "provincia": "Valencia",
+    "cp": 46540,
+    "distancia": 801
+  },
+  {
+    "poblacion": "Quesada",
+    "provincia": "Jaen",
+    "cp": 23480,
+    "distancia": 406
+  },
+  {
+    "poblacion": "Quintos",
+    "provincia": "Portugal",
+    "cp": "7800-661",
+    "distancia": 400
+  },
+  {
+    "poblacion": "Riachos",
+    "provincia": "Portugal",
+    "cp": "2350-297",
+    "distancia": 597
+  },
+  {
+    "poblacion": "Sabiote",
+    "provincia": "Jaen",
+    "cp": 23410,
+    "distancia": 403
+  },
+  {
+    "poblacion": "Sagunto",
+    "provincia": "Valencia",
+    "cp": 46500,
+    "distancia": 795
+  },
+  {
+    "poblacion": "Santafe",
+    "provincia": "Granada",
+    "cp": 18320,
+    "distancia": 242
+  },
+  {
+    "poblacion": "Segovia",
+    "provincia": "Segovia",
+    "cp": 40000,
+    "distancia": 760
+  },
+  {
+    "poblacion": "SETENIL",
+    "provincia": "Cadiz",
+    "cp": 11692,
+    "distancia": 148
+  },
+  {
+    "poblacion": "Setubal",
+    "provincia": "Portugal",
+    "cp": 2900,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41000,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41006,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41007,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41008,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41011,
+    "distancia": 202
+  },
+  {
+    "poblacion": "SEVILLA",
+    "provincia": "Sevilla",
+    "cp": 41016,
+    "distancia": 202
+  },
+  {
+    "poblacion": "SEVILLA",
+    "provincia": "Sevilla",
+    "cp": 41500,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41902,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Tomares",
+    "provincia": "Sevilla",
+    "cp": 41940,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Tordera",
+    "provincia": "Barcelona",
+    "cp": 8490,
+    "distancia": 1200
+  },
+  {
+    "poblacion": "Trajano",
+    "provincia": "Sevilla",
+    "cp": 41729,
+    "distancia": 154
+  },
+  {
+    "poblacion": "Ubrique",
+    "provincia": "Cadiz",
+    "cp": 11600,
+    "distancia": 156
+  },
+  {
+    "poblacion": "Umbrete",
+    "provincia": "Sevilla",
+    "cp": 41806,
+    "distancia": 218
+  },
+  {
+    "poblacion": "Urretxu",
+    "provincia": "Guipuzcoa",
+    "cp": 20700,
+    "distancia": 1099
+  },
+  {
+    "poblacion": "Vilches",
+    "provincia": "Jaen",
+    "cp": 23220,
+    "distancia": 403
+  },
+  {
+    "poblacion": "Viñuela",
+    "provincia": "Malaga",
+    "cp": 29712,
+    "distancia": 195
+  },
+  {
+    "poblacion": "Vitoria",
+    "provincia": "Alava",
+    "cp": 1015,
+    "distancia": 1019
+  },
+  {
+    "poblacion": "Zahinos",
+    "provincia": "Badajoz",
+    "cp": 6129,
+    "distancia": 347
+  },
+  {
+    "poblacion": "Zamudio",
+    "provincia": "Vicaya",
+    "cp": 48170,
+    "distancia": 1100
+  },
+  {
+    "poblacion": "Abanilla",
+    "provincia": "Murcia",
+    "cp": 30640,
+    "distancia": 561
+  },
+  {
+    "poblacion": "Aceuchal",
+    "provincia": "Badajoz",
+    "cp": 6207,
+    "distancia": 360
+  },
+  {
+    "poblacion": "Agullent",
+    "provincia": "Valencia",
+    "cp": 46890,
+    "distancia": 682
+  },
+  {
+    "poblacion": "Albacete",
+    "provincia": "Albacete",
+    "cp": 2080,
+    "distancia": 674
+  },
+  {
+    "poblacion": "Albaicin",
+    "provincia": "Malaga",
+    "cp": 29310,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Albatera",
+    "provincia": "Alicante",
+    "cp": 3340,
+    "distancia": 584
+  },
+  {
+    "poblacion": "Albolote",
+    "provincia": "Granada",
+    "cp": 18220,
+    "distancia": 258
+  },
+  {
+    "poblacion": "Alcarras",
+    "provincia": "Lerida",
+    "cp": 25180,
+    "distancia": 1103
+  },
+  {
+    "poblacion": "Alcaucin",
+    "provincia": "Malaga",
+    "cp": 29711,
+    "distancia": 197
+  },
+  {
+    "poblacion": "ALCOBACA",
+    "provincia": "Portugal",
+    "cp": "2460 000",
+    "distancia": 650
+  },
+  {
+    "poblacion": "Alcorcon",
+    "provincia": "Madrid",
+    "cp": 28920,
+    "distancia": 670
+  },
+  {
+    "poblacion": "Algemesi",
+    "provincia": "Valencia",
+    "cp": 46680,
+    "distancia": 726
+  },
+  {
+    "poblacion": "Alguazas",
+    "provincia": "Murcia",
+    "cp": 30560,
+    "distancia": 534
+  },
+  {
+    "poblacion": "Alhambra",
+    "provincia": "Ciudad Real",
+    "cp": 13248,
+    "distancia": 510
+  },
+  {
+    "poblacion": "Alhendin",
+    "provincia": "Granada",
+    "cp": 18620,
+    "distancia": 286
+  },
+  {
+    "poblacion": "Alicante",
+    "provincia": "Alicante",
+    "cp": 3002,
+    "distancia": 610
+  },
+  {
+    "poblacion": "Almachar",
+    "provincia": "Malaga",
+    "cp": 29718,
+    "distancia": 176
+  },
+  {
+    "poblacion": "Almargen",
+    "provincia": "Malaga",
+    "cp": 29330,
+    "distancia": 218
+  },
+  {
+    "poblacion": "Almazora",
+    "provincia": "Castellon",
+    "cp": 12550,
+    "distancia": 832
+  },
+  {
+    "poblacion": "Almenara",
+    "provincia": "Castellon",
+    "cp": 12590,
+    "distancia": 804
+  },
+  {
+    "poblacion": "Almoradi",
+    "provincia": "Alicante",
+    "cp": 3160,
+    "distancia": 581
+  },
+  {
+    "poblacion": "Alozaina",
+    "provincia": "Malaga",
+    "cp": 29567,
+    "distancia": 121
+  },
+  {
+    "poblacion": "Alumbres",
+    "provincia": "Murcia",
+    "cp": 30351,
+    "distancia": 559
+  },
+  {
+    "poblacion": "Alvalade",
+    "provincia": "Portugal",
+    "cp": 7565,
+    "distancia": 545
+  },
+  {
+    "poblacion": "Alvarado",
+    "provincia": "Badajoz",
+    "cp": 6170,
+    "distancia": 393
+  },
+  {
+    "poblacion": "Antzuola",
+    "provincia": "Guipuzcoa",
+    "cp": 20577,
+    "distancia": 1065
+  },
+  {
+    "poblacion": "Aranjuez",
+    "provincia": "Madrid",
+    "cp": 28300,
+    "distancia": 619
+  },
+  {
+    "poblacion": "Arcozelo",
+    "provincia": "Portugal",
+    "cp": "4410 459",
+    "distancia": 776
+  },
+  {
+    "poblacion": "Ayamonte",
+    "provincia": "Huelva",
+    "cp": 21400,
+    "distancia": 336
+  },
+  {
+    "poblacion": "Azambuja",
+    "provincia": "Lisboa",
+    "cp": 2050,
+    "distancia": 625
+  },
+  {
+    "poblacion": "Badalona",
+    "provincia": "Barcelona",
+    "cp": 8911,
+    "distancia": 1150
+  },
+  {
+    "poblacion": "Balazote",
+    "provincia": "Albacete",
+    "cp": 2320,
+    "distancia": 565
+  },
+  {
+    "poblacion": "Baleizao",
+    "provincia": "Portugal",
+    "cp": 7800,
+    "distancia": 400
+  },
+  {
+    "poblacion": "Balsicas",
+    "provincia": "Murcia",
+    "cp": 30591,
+    "distancia": 553
+  },
+  {
+    "poblacion": "Banyoles",
+    "provincia": "Girona",
+    "cp": 17820,
+    "distancia": 1255
+  },
+  {
+    "poblacion": "Barcheta",
+    "provincia": "Valencia",
+    "cp": 46667,
+    "distancia": 734
+  },
+  {
+    "poblacion": "Bembibre",
+    "provincia": "Leon",
+    "cp": 24300,
+    "distancia": 935
+  },
+  {
+    "poblacion": "Benameji",
+    "provincia": "Cordoba",
+    "cp": 14910,
+    "distancia": 211
+  },
+  {
+    "poblacion": "Benaojan",
+    "provincia": "Malaga",
+    "cp": 29370,
+    "distancia": 128
+  },
+  {
+    "poblacion": "Beniajan",
+    "provincia": "Murcia",
+    "cp": 30570,
+    "distancia": 542
+  },
+  {
+    "poblacion": "Benidorm",
+    "provincia": "Alicante",
+    "cp": 3500,
+    "distancia": 645
+  },
+  {
+    "poblacion": "Benifaio",
+    "provincia": "Valencia",
+    "cp": 46450,
+    "distancia": 736
+  },
+  {
+    "poblacion": "Benimodo",
+    "provincia": "Valencia",
+    "cp": 46291,
+    "distancia": 720
+  },
+  {
+    "poblacion": "Bigastro",
+    "provincia": "Alicante",
+    "cp": 3380,
+    "distancia": 569
+  },
+  {
+    "poblacion": "Bormujos",
+    "provincia": "Sevilla",
+    "cp": 41930,
+    "distancia": 210
+  },
+  {
+    "poblacion": "Burriana",
+    "provincia": "Castellon",
+    "cp": 12530,
+    "distancia": 834
+  },
+  {
+    "poblacion": "Cambados",
+    "provincia": "Pontevedra",
+    "cp": 36630,
+    "distancia": 1135
+  },
+  {
+    "poblacion": "Cambrils",
+    "provincia": "Tarragona",
+    "cp": 43850,
+    "distancia": 1020
+  },
+  {
+    "poblacion": "Campello",
+    "provincia": "Alicante",
+    "cp": 3560,
+    "distancia": 623
+  },
+  {
+    "poblacion": "Cantoria",
+    "provincia": "Almeria",
+    "cp": 4850,
+    "distancia": 423
+  },
+  {
+    "poblacion": "Cañamero",
+    "provincia": "Caceres",
+    "cp": 10136,
+    "distancia": 500
+  },
+  {
+    "poblacion": "Cardenas",
+    "provincia": "Almeria",
+    "cp": 4009,
+    "distancia": 351
+  },
+  {
+    "poblacion": "Castalla",
+    "provincia": "Alicante",
+    "cp": 3420,
+    "distancia": 638
+  },
+  {
+    "poblacion": "Castuera",
+    "provincia": "Badajoz",
+    "cp": 6420,
+    "distancia": 414
+  },
+  {
+    "poblacion": "Ceclavin",
+    "provincia": "Caceres",
+    "cp": 10870,
+    "distancia": 532
+  },
+  {
+    "poblacion": "Charches",
+    "provincia": "Granada",
+    "cp": 18511,
+    "distancia": 350
+  },
+  {
+    "poblacion": "Chinchon",
+    "provincia": "Madrid",
+    "cp": 28370,
+    "distancia": 601
+  },
+  {
+    "poblacion": "Chipiona",
+    "provincia": "Cadiz",
+    "cp": 11550,
+    "distancia": 142
+  },
+  {
+    "poblacion": "Chirivel",
+    "provincia": "Almeria",
+    "cp": 4825,
+    "distancia": 406
+  },
+  {
+    "poblacion": "Colmenar",
+    "provincia": "Malaga",
+    "cp": 29170,
+    "distancia": 168
+  },
+  {
+    "poblacion": "Colomera",
+    "provincia": "Granada",
+    "cp": 18564,
+    "distancia": 260
+  },
+  {
+    "poblacion": "CORRALES",
+    "provincia": "Huelva",
+    "cp": 21110,
+    "distancia": 281
+  },
+  {
+    "poblacion": "Corrales",
+    "provincia": "Huelva",
+    "cp": 21120,
+    "distancia": 281
+  },
+  {
+    "poblacion": "Cristina",
+    "provincia": "Badajoz",
+    "cp": 6479,
+    "distancia": 410
+  },
+  {
+    "poblacion": "Elgoibar",
+    "provincia": "Guipuzcoa",
+    "cp": 20870,
+    "distancia": 1081
+  },
+  {
+    "poblacion": "Escoznar",
+    "provincia": "Granada",
+    "cp": 18293,
+    "distancia": 245
+  },
+  {
+    "poblacion": "ESMORIZ",
+    "provincia": "Portugal",
+    "cp": "3885 909",
+    "distancia": 840
+  },
+  {
+    "poblacion": "Estepona",
+    "provincia": "Malaga",
+    "cp": 29680,
+    "distancia": 51
+  },
+  {
+    "poblacion": "Estubeny",
+    "provincia": "Valencia",
+    "cp": 46817,
+    "distancia": 718
+  },
+  {
+    "poblacion": "Ferreira",
+    "provincia": "Granada",
+    "cp": 18513,
+    "distancia": 304
+  },
+  {
+    "poblacion": "Fontanar",
+    "provincia": "Guadalajara",
+    "cp": 19290,
+    "distancia": 737
+  },
+  {
+    "poblacion": "Galaroza",
+    "provincia": "Huelva",
+    "cp": 21291,
+    "distancia": 300
+  },
+  {
+    "poblacion": "Garrucha",
+    "provincia": "Almeria",
+    "cp": 4630,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Gondomar",
+    "provincia": "Pontevedra",
+    "cp": 36380,
+    "distancia": 1013
+  },
+  {
+    "poblacion": "Guadiaro",
+    "provincia": "Cadiz",
+    "cp": 11311,
+    "distancia": 24
+  },
+  {
+    "poblacion": "Guijuelo",
+    "provincia": "Salamanca",
+    "cp": 37770,
+    "distancia": 634
+  },
+  {
+    "poblacion": "Guillena",
+    "provincia": "Sevilla",
+    "cp": 41210,
+    "distancia": 220
+  },
+  {
+    "poblacion": "Herencia",
+    "provincia": "Ciudad Real",
+    "cp": 13640,
+    "distancia": 556
+  },
+  {
+    "poblacion": "Hontoria",
+    "provincia": "Segovia",
+    "cp": 40195,
+    "distancia": 721
+  },
+  {
+    "poblacion": "Illescas",
+    "provincia": "Toledo",
+    "cp": 45200,
+    "distancia": 648
+  },
+  {
+    "poblacion": "Iznalloz",
+    "provincia": "Granada",
+    "cp": 18550,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Jamilena",
+    "provincia": "Jaen",
+    "cp": 23658,
+    "distancia": 360
+  },
+  {
+    "poblacion": "LAKUNTZA",
+    "provincia": "Navarra",
+    "cp": 31830,
+    "distancia": 1060
+  },
+  {
+    "poblacion": "Lanjaron",
+    "provincia": "Granada",
+    "cp": 18420,
+    "distancia": 259
+  },
+  {
+    "poblacion": "Leciñena",
+    "provincia": "Zaragoza",
+    "cp": 50160,
+    "distancia": 986
+  },
+  {
+    "poblacion": "Lendinez",
+    "provincia": "Jaen",
+    "cp": 23613,
+    "distancia": 267
+  },
+  {
+    "poblacion": "Librilla",
+    "provincia": "Murcia",
+    "cp": 30892,
+    "distancia": 496
+  },
+  {
+    "poblacion": "llutxent",
+    "provincia": "Valencia",
+    "cp": 46838,
+    "distancia": 666
+  },
+  {
+    "poblacion": "Maguilla",
+    "provincia": "Badajoz",
+    "cp": 6939,
+    "distancia": 378
+  },
+  {
+    "poblacion": "Maracena",
+    "provincia": "Granada",
+    "cp": 18200,
+    "distancia": 261
+  },
+  {
+    "poblacion": "Marbella",
+    "provincia": "Malaga",
+    "cp": 29600,
+    "distancia": 78
+  },
+  {
+    "poblacion": "Marchena",
+    "provincia": "Sevilla",
+    "cp": 41620,
+    "distancia": 209
+  },
+  {
+    "poblacion": "Marcilla",
+    "provincia": "Navarra",
+    "cp": 31340,
+    "distancia": 991
+  },
+  {
+    "poblacion": "Marquina",
+    "provincia": "Avila",
+    "cp": 48270,
+    "distancia": 1105
+  },
+  {
+    "poblacion": "Marsella",
+    "provincia": "Provenza-Alpes-Costa Azul",
+    "cp": 13002,
+    "distancia": 1700
+  },
+  {
+    "poblacion": "Martiago",
+    "provincia": "Salamanca",
+    "cp": 37510,
+    "distancia": 580
+  },
+  {
+    "poblacion": "Mazarron",
+    "provincia": "Murcia",
+    "cp": 30870,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Medellin",
+    "provincia": "Badajoz",
+    "cp": 6411,
+    "distancia": 432
+  },
+  {
+    "poblacion": "Mengibar",
+    "provincia": "Jaen",
+    "cp": 23620,
+    "distancia": 362
+  },
+  {
+    "poblacion": "Miajadas",
+    "provincia": "Caceres",
+    "cp": 10100,
+    "distancia": 438
+  },
+  {
+    "poblacion": "Milagros",
+    "provincia": "Burgos",
+    "cp": 9460,
+    "distancia": 1070
+  },
+  {
+    "poblacion": "Monforte",
+    "provincia": "Portugal",
+    "cp": "7450 151",
+    "distancia": 477
+  },
+  {
+    "poblacion": "Montalbo",
+    "provincia": "Cuenca",
+    "cp": 16440,
+    "distancia": 653
+  },
+  {
+    "poblacion": "MONTALVO",
+    "provincia": "Portugal",
+    "cp": 2250,
+    "distancia": 600
+  },
+  {
+    "poblacion": "Montilla",
+    "provincia": "Cordoba",
+    "cp": 14550,
+    "distancia": 255
+  },
+  {
+    "poblacion": "Moraleja",
+    "provincia": "Caceres",
+    "cp": 10840,
+    "distancia": 545
+  },
+  {
+    "poblacion": "Morcillo",
+    "provincia": "Caceres",
+    "cp": 10811,
+    "distancia": 519
+  },
+  {
+    "poblacion": "Moriscos",
+    "provincia": "Salamanca",
+    "cp": 37430,
+    "distancia": 637
+  },
+  {
+    "poblacion": "Mostoles",
+    "provincia": "Madrid",
+    "cp": 28900,
+    "distancia": 668
+  },
+  {
+    "poblacion": "Mozarbez",
+    "provincia": "Salamanca",
+    "cp": 37796,
+    "distancia": 676
+  },
+  {
+    "poblacion": "Nigüelas",
+    "provincia": "Granada",
+    "cp": 18657,
+    "distancia": 231
+  },
+  {
+    "poblacion": "Noblejas",
+    "provincia": "Toledo",
+    "cp": 45350,
+    "distancia": 560
+  },
+  {
+    "poblacion": "Ogijares",
+    "provincia": "Granada",
+    "cp": 18151,
+    "distancia": 269
+  },
+  {
+    "poblacion": "Olivares",
+    "provincia": "Sevilla",
+    "cp": 41804,
+    "distancia": 214
+  },
+  {
+    "poblacion": "Olivenza",
+    "provincia": "Badajoz",
+    "cp": 6100,
+    "distancia": 410
+  },
+  {
+    "poblacion": "Orihuela",
+    "provincia": "Alicante",
+    "cp": 3300,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Pamplona",
+    "provincia": "Navarra",
+    "cp": 31000,
+    "distancia": 1039
+  },
+  {
+    "poblacion": "Pedroche",
+    "provincia": "Cordoba",
+    "cp": 14412,
+    "distancia": 385
+  },
+  {
+    "poblacion": "Peligros",
+    "provincia": "Granada",
+    "cp": 18210,
+    "distancia": 264
+  },
+  {
+    "poblacion": "Peñafiel",
+    "provincia": "Portugal",
+    "cp": 4560,
+    "distancia": 910
+  },
+  {
+    "poblacion": "Peñaflor",
+    "provincia": "Sevilla",
+    "cp": 41470,
+    "distancia": 275
+  },
+  {
+    "poblacion": "Perafita",
+    "provincia": "Oporto",
+    "cp": 4455,
+    "distancia": 890
+  },
+  {
+    "poblacion": "Portugos",
+    "provincia": "Granada",
+    "cp": 18415,
+    "distancia": 277
+  },
+  {
+    "poblacion": "Pulianas",
+    "provincia": "Granada",
+    "cp": 18197,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Puntalon",
+    "provincia": "Granada",
+    "cp": 18600,
+    "distancia": 250
+  },
+  {
+    "poblacion": "Purchena",
+    "provincia": "Almeria",
+    "cp": 4870,
+    "distancia": 405
+  },
+  {
+    "poblacion": "RIO CAYA",
+    "provincia": "Badajoz",
+    "cp": 6006,
+    "distancia": 458
+  },
+  {
+    "poblacion": "Salteras",
+    "provincia": "Sevilla",
+    "cp": 41909,
+    "distancia": 213
+  },
+  {
+    "poblacion": "Santa Fe",
+    "provincia": "Granada",
+    "cp": 18320,
+    "distancia": 250
+  },
+  {
+    "poblacion": "Sanxenxo",
+    "provincia": "Pontevedra",
+    "cp": 36960,
+    "distancia": 1116
+  },
+  {
+    "poblacion": "Tabernas",
+    "provincia": "Almeria",
+    "cp": 4007,
+    "distancia": 374
+  },
+  {
+    "poblacion": "Tarancon",
+    "provincia": "Cuenca",
+    "cp": 16400,
+    "distancia": 645
+  },
+  {
+    "poblacion": "Terrugem",
+    "provincia": "Portugal",
+    "cp": "2705 883",
+    "distancia": 686
+  },
+  {
+    "poblacion": "Trindade",
+    "provincia": "Portugal",
+    "cp": "5360-202",
+    "distancia": 440
+  },
+  {
+    "poblacion": "Trujillo",
+    "provincia": "Caceres",
+    "cp": 10200,
+    "distancia": 463
+  },
+  {
+    "poblacion": "Valdivia",
+    "provincia": "Badajoz",
+    "cp": 6720,
+    "distancia": 456
+  },
+  {
+    "poblacion": "Valencia",
+    "provincia": "Valencia",
+    "cp": 46011,
+    "distancia": 816
+  },
+  {
+    "poblacion": "Vialonga",
+    "provincia": "Portugal",
+    "cp": "2625 573",
+    "distancia": 650
+  },
+  {
+    "poblacion": "Zaragoza",
+    "provincia": "Zaragoza",
+    "cp": 50000,
+    "distancia": 976
+  },
+  {
+    "poblacion": "Agoncillo",
+    "provincia": "La Rioja",
+    "cp": 26160,
+    "distancia": 1032
+  },
+  {
+    "poblacion": "Ahillones",
+    "provincia": "Badajoz",
+    "cp": 6940,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Albanchez",
+    "provincia": "Almeria",
+    "cp": 4857,
+    "distancia": 414
+  },
+  {
+    "poblacion": "Albarizas",
+    "provincia": "Malaga",
+    "cp": 29600,
+    "distancia": 84
+  },
+  {
+    "poblacion": "Albufeira",
+    "provincia": "Portugal",
+    "cp": "8200-392",
+    "distancia": 426
+  },
+  {
+    "poblacion": "Albuixech",
+    "provincia": "Valencia",
+    "cp": 46550,
+    "distancia": 770
+  },
+  {
+    "poblacion": "Alcantara",
+    "provincia": "Caceres",
+    "cp": 10980,
+    "distancia": 514
+  },
+  {
+    "poblacion": "Alcaudete",
+    "provincia": "Jaen",
+    "cp": 23660,
+    "distancia": 285
+  },
+  {
+    "poblacion": "Alcuescar",
+    "provincia": "Caceres",
+    "cp": 10160,
+    "distancia": 421
+  },
+  {
+    "poblacion": "Alfarnate",
+    "provincia": "Malaga",
+    "cp": 29194,
+    "distancia": 187
+  },
+  {
+    "poblacion": "Algarrobo",
+    "provincia": "Malaga",
+    "cp": 29750,
+    "distancia": 182
+  },
+  {
+    "poblacion": "Algeciras",
+    "provincia": "Cadiz",
+    "cp": 11000,
+    "distancia": 9
+  },
+  {
+    "poblacion": "ALGECIRAS",
+    "provincia": "Cadiz",
+    "cp": 11201,
+    "distancia": 9
+  },
+  {
+    "poblacion": "Algeciras",
+    "provincia": "Cadiz",
+    "cp": 11202,
+    "distancia": 9
+  },
+  {
+    "poblacion": "Algeciras",
+    "provincia": "Cadiz",
+    "cp": 11205,
+    "distancia": 9
+  },
+  {
+    "poblacion": "Algeciras",
+    "provincia": "Cadiz",
+    "cp": 11206,
+    "distancia": 9
+  },
+  {
+    "poblacion": "ALGECIRAS",
+    "provincia": "Cadiz",
+    "cp": 11207,
+    "distancia": 9
+  },
+  {
+    "poblacion": "Aljaraque",
+    "provincia": "Huelva",
+    "cp": 21110,
+    "distancia": 286
+  },
+  {
+    "poblacion": "Almanzora",
+    "provincia": "Almeria",
+    "cp": 4815,
+    "distancia": 480
+  },
+  {
+    "poblacion": "ALMERIMAR",
+    "provincia": "Almeria",
+    "cp": 4711,
+    "distancia": 318
+  },
+  {
+    "poblacion": "Almoguera",
+    "provincia": "Guadalajara",
+    "cp": 19115,
+    "distancia": 695
+  },
+  {
+    "poblacion": "Almoharin",
+    "provincia": "Caceres",
+    "cp": 10132,
+    "distancia": 446
+  },
+  {
+    "poblacion": "Almoraima",
+    "provincia": "Cadiz",
+    "cp": 11351,
+    "distancia": 23
+  },
+  {
+    "poblacion": "Almuñecar",
+    "provincia": "Granada",
+    "cp": 18690,
+    "distancia": 217
+  },
+  {
+    "poblacion": "Alpedrete",
+    "provincia": "Madrid",
+    "cp": 28430,
+    "distancia": 710
+  },
+  {
+    "poblacion": "Alquerias",
+    "provincia": "Murcia",
+    "cp": 30580,
+    "distancia": 529
+  },
+  {
+    "poblacion": "Amareleja",
+    "provincia": "Portugal",
+    "cp": "7885-046",
+    "distancia": 390
+  },
+  {
+    "poblacion": "Andosilla",
+    "provincia": "Navarra",
+    "cp": 31261,
+    "distancia": 1001
+  },
+  {
+    "poblacion": "Antequera",
+    "provincia": "Malaga",
+    "cp": 29200,
+    "distancia": 190
+  },
+  {
+    "poblacion": "Archidona",
+    "provincia": "Malaga",
+    "cp": 29300,
+    "distancia": 199
+  },
+  {
+    "poblacion": "Arjonilla",
+    "provincia": "Jaen",
+    "cp": 23750,
+    "distancia": 367
+  },
+  {
+    "poblacion": "Balanegra",
+    "provincia": "Almeria",
+    "cp": 4713,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Barcelona",
+    "provincia": "Barcelona",
+    "cp": 8007,
+    "distancia": 1150
+  },
+  {
+    "poblacion": "Belauntza",
+    "provincia": "Guipuzcoa",
+    "cp": 20491,
+    "distancia": 1106
+  },
+  {
+    "poblacion": "Benacazon",
+    "provincia": "Sevilla",
+    "cp": 41805,
+    "distancia": 220
+  },
+  {
+    "poblacion": "Benahadux",
+    "provincia": "Almeria",
+    "cp": 4410,
+    "distancia": 352
+  },
+  {
+    "poblacion": "Benahavis",
+    "provincia": "Malaga",
+    "cp": 29679,
+    "distancia": 83
+  },
+  {
+    "poblacion": "Benavente",
+    "provincia": "Zamora",
+    "cp": 49600,
+    "distancia": 821
+  },
+  {
+    "poblacion": "Benicarlo",
+    "provincia": "Castellon",
+    "cp": 12580,
+    "distancia": 927
+  },
+  {
+    "poblacion": "Beniganim",
+    "provincia": "Valencia",
+    "cp": 46830,
+    "distancia": 685
+  },
+  {
+    "poblacion": "Benijofar",
+    "provincia": "Alicante",
+    "cp": 3178,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Bocairent",
+    "provincia": "Valencia",
+    "cp": 46880,
+    "distancia": 648
+  },
+  {
+    "poblacion": "Bombarral",
+    "provincia": "Portugal",
+    "cp": "2540 540",
+    "distancia": 725
+  },
+  {
+    "poblacion": "Briviesca",
+    "provincia": "Burgos",
+    "cp": 9240,
+    "distancia": 958
+  },
+  {
+    "poblacion": "Bujalance",
+    "provincia": "Cordoba",
+    "cp": 14650,
+    "distancia": 332
+  },
+  {
+    "poblacion": "Calahonda",
+    "provincia": "Granada",
+    "cp": 18730,
+    "distancia": 248
+  },
+  {
+    "poblacion": "Calahorra",
+    "provincia": "La Rioja",
+    "cp": 26500,
+    "distancia": 991
+  },
+  {
+    "poblacion": "Campillos",
+    "provincia": "Malaga",
+    "cp": 29320,
+    "distancia": 207
+  },
+  {
+    "poblacion": "Candeleda",
+    "provincia": "Avila",
+    "cp": 5480,
+    "distancia": 603
+  },
+  {
+    "poblacion": "Cañaveral",
+    "provincia": "Caceres",
+    "cp": 10820,
+    "distancia": 501
+  },
+  {
+    "poblacion": "Carcabuey",
+    "provincia": "Cordoba",
+    "cp": 14810,
+    "distancia": 259
+  },
+  {
+    "poblacion": "Cartagena",
+    "provincia": "Murcia",
+    "cp": 30201,
+    "distancia": 575
+  },
+  {
+    "poblacion": "Cartagena",
+    "provincia": "Murcia",
+    "cp": 30202,
+    "distancia": 575
+  },
+  {
+    "poblacion": "Carvalhal",
+    "provincia": "Lisboa",
+    "cp": 7570,
+    "distancia": 574
+  },
+  {
+    "poblacion": "Casariche",
+    "provincia": "Sevilla",
+    "cp": 41580,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Castellar",
+    "provincia": "Jaen",
+    "cp": 23260,
+    "distancia": 440
+  },
+  {
+    "poblacion": "Catarroja",
+    "provincia": "Valencia",
+    "cp": 46470,
+    "distancia": 746
+  },
+  {
+    "poblacion": "Chauchina",
+    "provincia": "Granada",
+    "cp": 18330,
+    "distancia": 246
+  },
+  {
+    "poblacion": "Churriana",
+    "provincia": "Malaga",
+    "cp": 29140,
+    "distancia": 133
+  },
+  {
+    "poblacion": "Cofrentes",
+    "provincia": "Valencia",
+    "cp": 46625,
+    "distancia": 742
+  },
+  {
+    "poblacion": "Consuegra",
+    "provincia": "Toledo",
+    "cp": 45700,
+    "distancia": 551
+  },
+  {
+    "poblacion": "Cortegana",
+    "provincia": "Huelva",
+    "cp": 21230,
+    "distancia": 311
+  },
+  {
+    "poblacion": "Culleredo",
+    "provincia": "A Coruña",
+    "cp": 15189,
+    "distancia": 1207
+  },
+  {
+    "poblacion": "Deifontes",
+    "provincia": "Granada",
+    "cp": 18570,
+    "distancia": 280
+  },
+  {
+    "poblacion": "El Carpio",
+    "provincia": "Cordoba",
+    "cp": "",
+    "distancia": 321
+  },
+  {
+    "poblacion": "El Lomero",
+    "provincia": "Huelva",
+    "cp": 21330,
+    "distancia": 315
+  },
+  {
+    "poblacion": "El Trobal",
+    "provincia": "Sevilla",
+    "cp": 41727,
+    "distancia": 164
+  },
+  {
+    "poblacion": "Escañuela",
+    "provincia": "Jaen",
+    "cp": 23657,
+    "distancia": 345
+  },
+  {
+    "poblacion": "Espinardo",
+    "provincia": "Murcia",
+    "cp": 30100,
+    "distancia": 517
+  },
+  {
+    "poblacion": "Esquivias",
+    "provincia": "Toledo",
+    "cp": 45221,
+    "distancia": 640
+  },
+  {
+    "poblacion": "Finestrat",
+    "provincia": "Alicante",
+    "cp": 3509,
+    "distancia": 636
+  },
+  {
+    "poblacion": "Galapagar",
+    "provincia": "Madrid",
+    "cp": 28260,
+    "distancia": 712
+  },
+  {
+    "poblacion": "Gavilanes",
+    "provincia": "Avila",
+    "cp": 5460,
+    "distancia": 663
+  },
+  {
+    "poblacion": "Gibraleon",
+    "provincia": "Huelva",
+    "cp": 21500,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Gibraltar",
+    "provincia": "Gibraltar",
+    "cp": 53,
+    "distancia": 21
+  },
+  {
+    "poblacion": "Guadalupe",
+    "provincia": "Caceres",
+    "cp": 10140,
+    "distancia": 463
+  },
+  {
+    "poblacion": "Guadasuar",
+    "provincia": "Valencia",
+    "cp": 46610,
+    "distancia": 734
+  },
+  {
+    "poblacion": "Guarroman",
+    "provincia": "Jaen",
+    "cp": 23001,
+    "distancia": 387
+  },
+  {
+    "poblacion": "Guimaraes",
+    "provincia": "Braga",
+    "cp": 4800,
+    "distancia": 997
+  },
+  {
+    "poblacion": "Hornachos",
+    "provincia": "Badajoz",
+    "cp": 6228,
+    "distancia": 374
+  },
+  {
+    "poblacion": "Idiazabal",
+    "provincia": "Guipuzcoa",
+    "cp": 20213,
+    "distancia": 1090
+  },
+  {
+    "poblacion": "La Coruña",
+    "provincia": "A Coruña",
+    "cp": 15000,
+    "distancia": 1102
+  },
+  {
+    "poblacion": "La Romana",
+    "provincia": "Alicante",
+    "cp": 3669,
+    "distancia": 610
+  },
+  {
+    "poblacion": "Legutiano",
+    "provincia": "Alava",
+    "cp": 1170,
+    "distancia": 1037
+  },
+  {
+    "poblacion": "Lobosillo",
+    "provincia": "Murcia",
+    "cp": 30331,
+    "distancia": 534
+  },
+  {
+    "poblacion": "Lominchar",
+    "provincia": "Toledo",
+    "cp": 45212,
+    "distancia": 657
+  },
+  {
+    "poblacion": "Los Ramos",
+    "provincia": "Murcia",
+    "cp": 30589,
+    "distancia": 544
+  },
+  {
+    "poblacion": "MALLABIA",
+    "provincia": "Vizcaya",
+    "cp": 48269,
+    "distancia": 1075
+  },
+  {
+    "poblacion": "MARINHAIS",
+    "provincia": "Portugal",
+    "cp": "2125 115",
+    "distancia": 620
+  },
+  {
+    "poblacion": "Marmolejo",
+    "provincia": "Jaen",
+    "cp": 23770,
+    "distancia": 356
+  },
+  {
+    "poblacion": "Membrilla",
+    "provincia": "Ciudad Real",
+    "cp": 13230,
+    "distancia": 511
+  },
+  {
+    "poblacion": "Montefrio",
+    "provincia": "Granada",
+    "cp": 18270,
+    "distancia": 250
+  },
+  {
+    "poblacion": "Monturque",
+    "provincia": "Cordoba",
+    "cp": 14930,
+    "distancia": 239
+  },
+  {
+    "poblacion": "Ontinyent",
+    "provincia": "Valencia",
+    "cp": 46870,
+    "distancia": 679
+  },
+  {
+    "poblacion": "Pegalajar",
+    "provincia": "Jaen",
+    "cp": 23110,
+    "distancia": 331
+  },
+  {
+    "poblacion": "Picassent",
+    "provincia": "Valencia",
+    "cp": 46220,
+    "distancia": 747
+  },
+  {
+    "poblacion": "Plasencia",
+    "provincia": "Caceres",
+    "cp": 10600,
+    "distancia": 537
+  },
+  {
+    "poblacion": "Raal - el",
+    "provincia": "Murcia",
+    "cp": 30139,
+    "distancia": 531
+  },
+  {
+    "poblacion": "Roda - la",
+    "provincia": "Albacete",
+    "cp": 2630,
+    "distancia": 626
+  },
+  {
+    "poblacion": "Salamanca",
+    "provincia": "Salamanca",
+    "cp": 37000,
+    "distancia": 660
+  },
+  {
+    "poblacion": "San gines",
+    "provincia": "Murcia",
+    "cp": 30169,
+    "distancia": 514
+  },
+  {
+    "poblacion": "San roque",
+    "provincia": "Cadiz",
+    "cp": 11360,
+    "distancia": 18
+  },
+  {
+    "poblacion": "Santa Ana",
+    "provincia": "Jaen",
+    "cp": 23692,
+    "distancia": 294
+  },
+  {
+    "poblacion": "Santaella",
+    "provincia": "Cordoba",
+    "cp": 14546,
+    "distancia": 276
+  },
+  {
+    "poblacion": "Santomera",
+    "provincia": "Murcia",
+    "cp": 30140,
+    "distancia": 555
+  },
+  {
+    "poblacion": "Sotrondio",
+    "provincia": "Asturias",
+    "cp": 33950,
+    "distancia": 1015
+  },
+  {
+    "poblacion": "Tahivilla",
+    "provincia": "Cadiz",
+    "cp": 11392,
+    "distancia": 47
+  },
+  {
+    "poblacion": "Talayuela",
+    "provincia": "Caceres",
+    "cp": 10310,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Tomelloso",
+    "provincia": "Ciudad Real",
+    "cp": 13700,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Trasmulas",
+    "provincia": "Granada",
+    "cp": 18328,
+    "distancia": 238
+  },
+  {
+    "poblacion": "Trebujena",
+    "provincia": "Cadiz",
+    "cp": 11560,
+    "distancia": 132
+  },
+  {
+    "poblacion": "Valdemoro",
+    "provincia": "Madrid",
+    "cp": 28343,
+    "distancia": 644
+  },
+  {
+    "poblacion": "Valdorros",
+    "provincia": "Burgos",
+    "cp": 9320,
+    "distancia": 885
+  },
+  {
+    "poblacion": "Vallelado",
+    "provincia": "Segovia",
+    "cp": 40213,
+    "distancia": 768
+  },
+  {
+    "poblacion": "Viso - el",
+    "provincia": "Cordoba",
+    "cp": 14470,
+    "distancia": 388
+  },
+  {
+    "poblacion": "Zamoranos",
+    "provincia": "Cordoba",
+    "cp": 14814,
+    "distancia": 277
+  },
+  {
+    "poblacion": "Albuñuelas",
+    "provincia": "Granada",
+    "cp": 18659,
+    "distancia": 275
+  },
+  {
+    "poblacion": "Alcobendas",
+    "provincia": "Madrid",
+    "cp": 28100,
+    "distancia": 690
+  },
+  {
+    "poblacion": "Aldea real",
+    "provincia": "Segovia",
+    "cp": 40292,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Algallarin",
+    "provincia": "Cordoba",
+    "cp": 14439,
+    "distancia": 334
+  },
+  {
+    "poblacion": "Algarinejo",
+    "provincia": "Granada",
+    "cp": 18280,
+    "distancia": 246
+  },
+  {
+    "poblacion": "Almensilla",
+    "provincia": "Sevilla",
+    "cp": 41111,
+    "distancia": 220
+  },
+  {
+    "poblacion": "Almussafes",
+    "provincia": "Valencia",
+    "cp": 46440,
+    "distancia": 743
+  },
+  {
+    "poblacion": "Amorebieta",
+    "provincia": "Vizcaya",
+    "cp": 48340,
+    "distancia": 1082
+  },
+  {
+    "poblacion": "Aznalcazar",
+    "provincia": "Sevilla",
+    "cp": 41849,
+    "distancia": 227
+  },
+  {
+    "poblacion": "Barcarrota",
+    "provincia": "Badajoz",
+    "cp": 6160,
+    "distancia": 368
+  },
+  {
+    "poblacion": "Barqueiros",
+    "provincia": "Portugal",
+    "cp": "4740-670",
+    "distancia": 820
+  },
+  {
+    "poblacion": "Beausoleil",
+    "provincia": "France",
+    "cp": 6240,
+    "distancia": 1910
+  },
+  {
+    "poblacion": "Bellavista",
+    "provincia": "Sevilla",
+    "cp": 41014,
+    "distancia": 194
+  },
+  {
+    "poblacion": "Benaguasil",
+    "provincia": "Valencia",
+    "cp": 46180,
+    "distancia": 817
+  },
+  {
+    "poblacion": "Benajarafe",
+    "provincia": "Malaga",
+    "cp": 29790,
+    "distancia": 165
+  },
+  {
+    "poblacion": "Benamaurel",
+    "provincia": "Granada",
+    "cp": 18817,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Bienvenida",
+    "provincia": "Badajoz",
+    "cp": 6250,
+    "distancia": 320
+  },
+  {
+    "poblacion": "Burguillos",
+    "provincia": "Sevilla",
+    "cp": 41220,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Calasparra",
+    "provincia": "Murcia",
+    "cp": 30420,
+    "distancia": 504
+  },
+  {
+    "poblacion": "Campamento",
+    "provincia": "Cadiz",
+    "cp": 11314,
+    "distancia": 25
+  },
+  {
+    "poblacion": "Campanario",
+    "provincia": "Badajoz",
+    "cp": 6460,
+    "distancia": 470
+  },
+  {
+    "poblacion": "Campo real",
+    "provincia": "Madrid",
+    "cp": 28510,
+    "distancia": 629
+  },
+  {
+    "poblacion": "Campotejar",
+    "provincia": "Granada",
+    "cp": 18565,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Canceladas",
+    "provincia": "Malaga",
+    "cp": 29688,
+    "distancia": 61
+  },
+  {
+    "poblacion": "Cantillana",
+    "provincia": "Sevilla",
+    "cp": 41320,
+    "distancia": 240
+  },
+  {
+    "poblacion": "Carboneras",
+    "provincia": "Almeria",
+    "cp": 4140,
+    "distancia": 415
+  },
+  {
+    "poblacion": "Carboneras",
+    "provincia": "Huelva",
+    "cp": 21208,
+    "distancia": 289
+  },
+  {
+    "poblacion": "Carcaixent",
+    "provincia": "Valencia",
+    "cp": 46740,
+    "distancia": 717
+  },
+  {
+    "poblacion": "Carchelejo",
+    "provincia": "Jaen",
+    "cp": 23192,
+    "distancia": 317
+  },
+  {
+    "poblacion": "Casatejada",
+    "provincia": "Caceres",
+    "cp": 10520,
+    "distancia": 540
+  },
+  {
+    "poblacion": "Chiloeches",
+    "provincia": "Guadalajara",
+    "cp": 19160,
+    "distancia": 680
+  },
+  {
+    "poblacion": "Cobatillas",
+    "provincia": "Murcia",
+    "cp": 30163,
+    "distancia": 550
+  },
+  {
+    "poblacion": "Cocentaina",
+    "provincia": "Alicante",
+    "cp": 3820,
+    "distancia": 658
+  },
+  {
+    "poblacion": "Don alvaro",
+    "provincia": "Badajoz",
+    "cp": 6820,
+    "distancia": 400
+  },
+  {
+    "poblacion": "Don benito",
+    "provincia": "Badajoz",
+    "cp": 6400,
+    "distancia": 437
+  },
+  {
+    "poblacion": "Dos torres",
+    "provincia": "Cordoba",
+    "cp": 14460,
+    "distancia": 375
+  },
+  {
+    "poblacion": "Ejido - el",
+    "provincia": "Almeria",
+    "cp": 4700,
+    "distancia": 307
+  },
+  {
+    "poblacion": "El Coronil",
+    "provincia": "Sevilla",
+    "cp": 41760,
+    "distancia": 168
+  },
+  {
+    "poblacion": "El Pedroso",
+    "provincia": "Sevilla",
+    "cp": 41360,
+    "distancia": 270
+  },
+  {
+    "poblacion": "El Tarajal",
+    "provincia": "Malaga",
+    "cp": 29196,
+    "distancia": 136
+  },
+  {
+    "poblacion": "Eskoriatza",
+    "provincia": "Guipuzcoa",
+    "cp": 20540,
+    "distancia": 968
+  },
+  {
+    "poblacion": "Espartinas",
+    "provincia": "Sevilla",
+    "cp": 41807,
+    "distancia": 226
+  },
+  {
+    "poblacion": "Frigiliana",
+    "provincia": "Malaga",
+    "cp": 29788,
+    "distancia": 200
+  },
+  {
+    "poblacion": "Fuengirola",
+    "provincia": "Malaga",
+    "cp": 29640,
+    "distancia": 107
+  },
+  {
+    "poblacion": "Fuensalida",
+    "provincia": "Toledo",
+    "cp": 45510,
+    "distancia": 654
+  },
+  {
+    "poblacion": "Herreruela",
+    "provincia": "Caceres",
+    "cp": 10560,
+    "distancia": 515
+  },
+  {
+    "poblacion": "Isla Mayor",
+    "provincia": "Sevilla",
+    "cp": 41140,
+    "distancia": 235
+  },
+  {
+    "poblacion": "Jarandilla",
+    "provincia": "Caceres",
+    "cp": 10450,
+    "distancia": 581
+  },
+  {
+    "poblacion": "Juaida, La",
+    "provincia": "Almeria",
+    "cp": 4240,
+    "distancia": 352
+  },
+  {
+    "poblacion": "La Carlota",
+    "provincia": "Cordoba",
+    "cp": 14100,
+    "distancia": 271
+  },
+  {
+    "poblacion": "Lekumberri",
+    "provincia": "Navarra",
+    "cp": 31870,
+    "distancia": 1031
+  },
+  {
+    "poblacion": "Madridejos",
+    "provincia": "Toledo",
+    "cp": 45710,
+    "distancia": 548
+  },
+  {
+    "poblacion": "Manzanares",
+    "provincia": "Ciudad Real",
+    "cp": 13200,
+    "distancia": 508
+  },
+  {
+    "poblacion": "Manzanilla",
+    "provincia": "Huelva",
+    "cp": 21890,
+    "distancia": 241
+  },
+  {
+    "poblacion": "Marchamalo",
+    "provincia": "Guadalajara",
+    "cp": 19180,
+    "distancia": 743
+  },
+  {
+    "poblacion": "Marinaleda",
+    "provincia": "Sevilla",
+    "cp": 41569,
+    "distancia": 225
+  },
+  {
+    "poblacion": "Molar - el",
+    "provincia": "Jaen",
+    "cp": 23469,
+    "distancia": 416
+  },
+  {
+    "poblacion": "Monesterio",
+    "provincia": "Badajoz",
+    "cp": 6260,
+    "distancia": 290
+  },
+  {
+    "poblacion": "Montanchez",
+    "provincia": "Caceres",
+    "cp": 10170,
+    "distancia": 431
+  },
+  {
+    "poblacion": "MONTEJICAR",
+    "provincia": "Granada",
+    "cp": 18561,
+    "distancia": 315
+  },
+  {
+    "poblacion": "Montellano",
+    "provincia": "Sevilla",
+    "cp": 41770,
+    "distancia": 173
+  },
+  {
+    "poblacion": "Montemayor",
+    "provincia": "Cordoba",
+    "cp": 14530,
+    "distancia": 260
+  },
+  {
+    "poblacion": "Montesinos",
+    "provincia": "Albacete",
+    "cp": 2000,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Muela - la",
+    "provincia": "Zaragoza",
+    "cp": 50196,
+    "distancia": 927
+  },
+  {
+    "poblacion": "Murada, La",
+    "provincia": "Alicante",
+    "cp": 3315,
+    "distancia": 552
+  },
+  {
+    "poblacion": "Nacimiento",
+    "provincia": "Almeria",
+    "cp": 4540,
+    "distancia": 375
+  },
+  {
+    "poblacion": "Nonduermas",
+    "provincia": "Murcia",
+    "cp": 30166,
+    "distancia": 517
+  },
+  {
+    "poblacion": "Palenciana",
+    "provincia": "Cordoba",
+    "cp": 14914,
+    "distancia": 212
+  },
+  {
+    "poblacion": "Palma - La",
+    "provincia": "Murcia",
+    "cp": 30593,
+    "distancia": 547
+  },
+  {
+    "poblacion": "Pedro abad",
+    "provincia": "Cordoba",
+    "cp": 14630,
+    "distancia": 332
+  },
+  {
+    "poblacion": "Pontevedra",
+    "provincia": "Pontevedra",
+    "cp": 36000,
+    "distancia": 1085
+  },
+  {
+    "poblacion": "Pozo Alcon",
+    "provincia": "Jaen",
+    "cp": 23485,
+    "distancia": 374
+  },
+  {
+    "poblacion": "Pozoblanco",
+    "provincia": "Cordoba",
+    "cp": 14400,
+    "distancia": 365
+  },
+  {
+    "poblacion": "Rocio - el",
+    "provincia": "Huelva",
+    "cp": 21750,
+    "distancia": 301
+  },
+  {
+    "poblacion": "Rota naval",
+    "provincia": "Cadiz",
+    "cp": 11530,
+    "distancia": 148
+  },
+  {
+    "poblacion": "Rubio - el",
+    "provincia": "Sevilla",
+    "cp": 41568,
+    "distancia": 206
+  },
+  {
+    "poblacion": "San javier",
+    "provincia": "Murcia",
+    "cp": 30730,
+    "distancia": 584
+  },
+  {
+    "poblacion": "San Rafael",
+    "provincia": "Sevilla",
+    "cp": 41500,
+    "distancia": 207
+  },
+  {
+    "poblacion": "Sanguiñeda",
+    "provincia": "Pontevedra",
+    "cp": 36418,
+    "distancia": 1060
+  },
+  {
+    "poblacion": "Santa Cruz",
+    "provincia": "Cordoba",
+    "cp": 14820,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Santiponce",
+    "provincia": "Sevilla",
+    "cp": 41970,
+    "distancia": 208
+  },
+  {
+    "poblacion": "Sotogrande",
+    "provincia": "Cadiz",
+    "cp": 11310,
+    "distancia": 33
+  },
+  {
+    "poblacion": "Talayuelas",
+    "provincia": "Cuenca",
+    "cp": 16320,
+    "distancia": 832
+  },
+  {
+    "poblacion": "Torrecampo",
+    "provincia": "Cordoba",
+    "cp": 14410,
+    "distancia": 384
+  },
+  {
+    "poblacion": "Torremayor",
+    "provincia": "Badajoz",
+    "cp": 6880,
+    "distancia": 400
+  },
+  {
+    "poblacion": "Torremegia",
+    "provincia": "Badajoz",
+    "cp": 6210,
+    "distancia": 356
+  },
+  {
+    "poblacion": "Valdepeñas",
+    "provincia": "Ciudad Real",
+    "cp": 13300,
+    "distancia": 463
+  },
+  {
+    "poblacion": "Valladolid",
+    "provincia": "Valladolid",
+    "cp": 47000,
+    "distancia": 788
+  },
+  {
+    "poblacion": "Villarrasa",
+    "provincia": "Huelva",
+    "cp": 21850,
+    "distancia": 259
+  },
+  {
+    "poblacion": "Villarubia",
+    "provincia": "Cordoba",
+    "cp": 14710,
+    "distancia": 312
+  },
+  {
+    "poblacion": "Villoruela",
+    "provincia": "Salamanca",
+    "cp": 37338,
+    "distancia": 685
+  },
+  {
+    "poblacion": "Zubia - la",
+    "provincia": "Granada",
+    "cp": 18140,
+    "distancia": 274
+  },
+  {
+    "poblacion": "Alcaracejos",
+    "provincia": "Cordoba",
+    "cp": 14480,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Alcoy 03803",
+    "provincia": "Alicante",
+    "cp": 3803,
+    "distancia": 657
+  },
+  {
+    "poblacion": "Algaba - la",
+    "provincia": "Sevilla",
+    "cp": 41980,
+    "distancia": 212
+  },
+  {
+    "poblacion": "Algodonales",
+    "provincia": "Cadiz",
+    "cp": 11680,
+    "distancia": 172
+  },
+  {
+    "poblacion": "Almedinilla",
+    "provincia": "Cordoba",
+    "cp": 14812,
+    "distancia": 256
+  },
+  {
+    "poblacion": "Almendricos",
+    "provincia": "Murcia",
+    "cp": 30893,
+    "distancia": 462
+  },
+  {
+    "poblacion": "Aznalcollar",
+    "provincia": "Sevilla",
+    "cp": 41870,
+    "distancia": 240
+  },
+  {
+    "poblacion": "BENAMARGOSA",
+    "provincia": "Malaga",
+    "cp": 29718,
+    "distancia": 193
+  },
+  {
+    "poblacion": "Benamocarra",
+    "provincia": "Malaga",
+    "cp": 29719,
+    "distancia": 184
+  },
+  {
+    "poblacion": "Beniparrell",
+    "provincia": "Valencia",
+    "cp": 46469,
+    "distancia": 775
+  },
+  {
+    "poblacion": "Berrioplano",
+    "provincia": "Navarra",
+    "cp": 31195,
+    "distancia": 1108
+  },
+  {
+    "poblacion": "Boceguillas",
+    "provincia": "Segovia",
+    "cp": 40560,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Bosque - el",
+    "provincia": "Cadiz",
+    "cp": 11670,
+    "distancia": 157
+  },
+  {
+    "poblacion": "Campanillas",
+    "provincia": "Malaga",
+    "cp": 29590,
+    "distancia": 145
+  },
+  {
+    "poblacion": "CAMPANILLAS",
+    "provincia": "Malaga",
+    "cp": 29591,
+    "distancia": 145
+  },
+  {
+    "poblacion": "Campo Maior",
+    "provincia": "Portugal",
+    "cp": 7370,
+    "distancia": 425
+  },
+  {
+    "poblacion": "Carpio - el",
+    "provincia": "Cordoba",
+    "cp": 14620,
+    "distancia": 321
+  },
+  {
+    "poblacion": "Casabermeja",
+    "provincia": "Malaga",
+    "cp": 29160,
+    "distancia": 162
+  },
+  {
+    "poblacion": "Ciudad real",
+    "provincia": "Ciudad Real",
+    "cp": 13000,
+    "distancia": 525
+  },
+  {
+    "poblacion": "Constantina",
+    "provincia": "Sevilla",
+    "cp": 41450,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Crevillente",
+    "provincia": "Alicante",
+    "cp": 3330,
+    "distancia": 567
+  },
+  {
+    "poblacion": "Cuervo - el",
+    "provincia": "Sevilla",
+    "cp": 41749,
+    "distancia": 121
+  },
+  {
+    "poblacion": "Cullar Vega",
+    "provincia": "Granada",
+    "cp": 18194,
+    "distancia": 260
+  },
+  {
+    "poblacion": "Doña mencia",
+    "provincia": "Cordoba",
+    "cp": 14860,
+    "distancia": 256
+  },
+  {
+    "poblacion": "El Higueron",
+    "provincia": "Cordoba",
+    "cp": 14193,
+    "distancia": 300
+  },
+  {
+    "poblacion": "Elche 03202",
+    "provincia": "Alicante",
+    "cp": 3202,
+    "distancia": 587
+  },
+  {
+    "poblacion": "Escalonilla",
+    "provincia": "Toledo",
+    "cp": 45517,
+    "distancia": 662
+  },
+  {
+    "poblacion": "Ferrol - El",
+    "provincia": "A Coruña",
+    "cp": 15403,
+    "distancia": 1164
+  },
+  {
+    "poblacion": "Figueruelas",
+    "provincia": "Zaragoza",
+    "cp": 50639,
+    "distancia": 939
+  },
+  {
+    "poblacion": "Fuenlabrada",
+    "provincia": "Madrid",
+    "cp": 28900,
+    "distancia": 663
+  },
+  {
+    "poblacion": "Fuensaldaña",
+    "provincia": "Valladolid",
+    "cp": 47194,
+    "distancia": 746
+  },
+  {
+    "poblacion": "Gabias, las",
+    "provincia": "Granada",
+    "cp": 18110,
+    "distancia": 273
+  },
+  {
+    "poblacion": "Granja - la",
+    "provincia": "Caceres",
+    "cp": 10711,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Guadalajara",
+    "provincia": "Guadalajara",
+    "cp": 19000,
+    "distancia": 717
+  },
+  {
+    "poblacion": "Guadalcacin",
+    "provincia": "Cadiz",
+    "cp": 11591,
+    "distancia": 118
+  },
+  {
+    "poblacion": "Guadalcanal",
+    "provincia": "Sevilla",
+    "cp": 41390,
+    "distancia": 294
+  },
+  {
+    "poblacion": "Guadalcazar",
+    "provincia": "Cordoba",
+    "cp": 14130,
+    "distancia": 293
+  },
+  {
+    "poblacion": "Herguijuela",
+    "provincia": "Caceres",
+    "cp": 10230,
+    "distancia": 558
+  },
+  {
+    "poblacion": "Huetor Vega",
+    "provincia": "Granada",
+    "cp": 18198,
+    "distancia": 275
+  },
+  {
+    "poblacion": "Humilladero",
+    "provincia": "Malaga",
+    "cp": 29531,
+    "distancia": 205
+  },
+  {
+    "poblacion": "Ibahernando",
+    "provincia": "Caceres",
+    "cp": 10280,
+    "distancia": 461
+  },
+  {
+    "poblacion": "Jabalquinto",
+    "provincia": "Jaen",
+    "cp": 23712,
+    "distancia": 377
+  },
+  {
+    "poblacion": "La Mojonera",
+    "provincia": "Almeria",
+    "cp": 4745,
+    "distancia": 320
+  },
+  {
+    "poblacion": "Louredo/Mos",
+    "provincia": "Pontevedra",
+    "cp": 36415,
+    "distancia": 976
+  },
+  {
+    "poblacion": "Madrigueras",
+    "provincia": "Albacete",
+    "cp": 2230,
+    "distancia": 622
+  },
+  {
+    "poblacion": "MALAHA (LA)",
+    "provincia": "Granada",
+    "cp": 18130,
+    "distancia": 256
+  },
+  {
+    "poblacion": "Mancha real",
+    "provincia": "Jaen",
+    "cp": 23100,
+    "distancia": 340
+  },
+  {
+    "poblacion": "Martorelles",
+    "provincia": "Barcelona",
+    "cp": 8107,
+    "distancia": 1116
+  },
+  {
+    "poblacion": "Mesas - las",
+    "provincia": "Cuenca",
+    "cp": 16650,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Mijas Costa",
+    "provincia": "Malaga",
+    "cp": 29649,
+    "distancia": 111
+  },
+  {
+    "poblacion": "Montequinto",
+    "provincia": "Sevilla",
+    "cp": 41089,
+    "distancia": 206
+  },
+  {
+    "poblacion": "Montpellier",
+    "provincia": "France",
+    "cp": 34071,
+    "distancia": 1630
+  },
+  {
+    "poblacion": "Monzalbarba",
+    "provincia": "Zaragoza",
+    "cp": 50120,
+    "distancia": 903
+  },
+  {
+    "poblacion": "Morell - el",
+    "provincia": "Tarragona",
+    "cp": 43760,
+    "distancia": 996
+  },
+  {
+    "poblacion": "Navaconcejo",
+    "provincia": "Caceres",
+    "cp": 10613,
+    "distancia": 567
+  },
+  {
+    "poblacion": "PINOS GENIL",
+    "provincia": "Granada",
+    "cp": 18191,
+    "distancia": 283
+  },
+  {
+    "poblacion": "Pinos Genil",
+    "provincia": "Granada",
+    "cp": 18191,
+    "distancia": 283
+  },
+  {
+    "poblacion": "Pozo amargo",
+    "provincia": "Cadiz",
+    "cp": 11659,
+    "distancia": 207
+  },
+  {
+    "poblacion": "Puerto Real",
+    "provincia": "Cadiz",
+    "cp": 11510,
+    "distancia": 109
+  },
+  {
+    "poblacion": "Pulianillas",
+    "provincia": "Granada",
+    "cp": 18197,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Rabida - la",
+    "provincia": "Huelva",
+    "cp": 21819,
+    "distancia": 296
+  },
+  {
+    "poblacion": "Rambla - la",
+    "provincia": "Cordoba",
+    "cp": 14540,
+    "distancia": 263
+  },
+  {
+    "poblacion": "Socuellamos",
+    "provincia": "Ciudad Real",
+    "cp": 13630,
+    "distancia": 553
+  },
+  {
+    "poblacion": "Talarrubias",
+    "provincia": "Badajoz",
+    "cp": 6640,
+    "distancia": 499
+  },
+  {
+    "poblacion": "Tordesillas",
+    "provincia": "Valladolid",
+    "cp": 47100,
+    "distancia": 823
+  },
+  {
+    "poblacion": "Trujillanos",
+    "provincia": "Badajoz",
+    "cp": 6892,
+    "distancia": 398
+  },
+  {
+    "poblacion": "Valdelamusa",
+    "provincia": "Huelva",
+    "cp": 21330,
+    "distancia": 343
+  },
+  {
+    "poblacion": "Valderrubio",
+    "provincia": "Granada",
+    "cp": 18250,
+    "distancia": 245
+  },
+  {
+    "poblacion": "Villadangos",
+    "provincia": "Leon",
+    "cp": 24392,
+    "distancia": 890
+  },
+  {
+    "poblacion": "Villamartin",
+    "provincia": "Cadiz",
+    "cp": 11650,
+    "distancia": 133
+  },
+  {
+    "poblacion": "Villargordo",
+    "provincia": "Jaen",
+    "cp": 23630,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Villarrubio",
+    "provincia": "Cuenca",
+    "cp": 16420,
+    "distancia": 670
+  },
+  {
+    "poblacion": "Albuera - la",
+    "provincia": "Badajoz",
+    "cp": 6170,
+    "distancia": 382
+  },
+  {
+    "poblacion": "Albujon - el",
+    "provincia": "Murcia",
+    "cp": 30330,
+    "distancia": 533
+  },
+  {
+    "poblacion": "Alburquerque",
+    "provincia": "Badajoz",
+    "cp": 6510,
+    "distancia": 484
+  },
+  {
+    "poblacion": "Alcantarilla",
+    "provincia": "Albacete",
+    "cp": 2489,
+    "distancia": 431
+  },
+  {
+    "poblacion": "Alcantarilla",
+    "provincia": "Murcia",
+    "cp": 30820,
+    "distancia": 526
+  },
+  {
+    "poblacion": "Aldeatejada",
+    "provincia": "Salamanca",
+    "cp": 37187,
+    "distancia": 660
+  },
+  {
+    "poblacion": "Alfaz del Pi",
+    "provincia": "Alicante",
+    "cp": 3581,
+    "distancia": 657
+  },
+  {
+    "poblacion": "Aljorra - la",
+    "provincia": "Murcia",
+    "cp": 30390,
+    "distancia": 554
+  },
+  {
+    "poblacion": "Almendralejo",
+    "provincia": "Badajoz",
+    "cp": 6200,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Alquian - el",
+    "provincia": "Almeria",
+    "cp": 4130,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Antilla - la",
+    "provincia": "Huelva",
+    "cp": 21449,
+    "distancia": 319
+  },
+  {
+    "poblacion": "Arechavaleta",
+    "provincia": "Guipuzcoa",
+    "cp": 20550,
+    "distancia": 1070
+  },
+  {
+    "poblacion": "Arrigorriaga",
+    "provincia": "Vizcaya",
+    "cp": 48480,
+    "distancia": 1114
+  },
+  {
+    "poblacion": "Balsapintada",
+    "provincia": "Murcia",
+    "cp": 30332,
+    "distancia": 539
+  },
+  {
+    "poblacion": "Berantevilla",
+    "provincia": "Alava",
+    "cp": 1211,
+    "distancia": 995
+  },
+  {
+    "poblacion": "Bonillo - el",
+    "provincia": "Albacete",
+    "cp": 2610,
+    "distancia": 555
+  },
+  {
+    "poblacion": "Campana - la",
+    "provincia": "Sevilla",
+    "cp": 41429,
+    "distancia": 235
+  },
+  {
+    "poblacion": "Campo camara",
+    "provincia": "Granada",
+    "cp": 18815,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Campohermoso",
+    "provincia": "Almeria",
+    "cp": 4110,
+    "distancia": 384
+  },
+  {
+    "poblacion": "Canonja - la",
+    "provincia": "Tarragona",
+    "cp": 43110,
+    "distancia": 995
+  },
+  {
+    "poblacion": "Carrascalejo",
+    "provincia": "Caceres",
+    "cp": 10331,
+    "distancia": 591
+  },
+  {
+    "poblacion": "Ciempozuelos",
+    "provincia": "Madrid",
+    "cp": 28350,
+    "distancia": 638
+  },
+  {
+    "poblacion": "Cuevas bajas",
+    "provincia": "Malaga",
+    "cp": 29220,
+    "distancia": 188
+  },
+  {
+    "poblacion": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "cp": 41700,
+    "distancia": 184
+  },
+  {
+    "poblacion": "Dos Hermanas",
+    "provincia": "Sevilla",
+    "cp": 41701,
+    "distancia": 184
+  },
+  {
+    "poblacion": "Entrego - el",
+    "provincia": "Asturias",
+    "cp": 33940,
+    "distancia": 960
+  },
+  {
+    "poblacion": "Esparraguera",
+    "provincia": "Barcelona",
+    "cp": 8292,
+    "distancia": 1156
+  },
+  {
+    "poblacion": "Fernan nuñez",
+    "provincia": "Cordoba",
+    "cp": 14520,
+    "distancia": 272
+  },
+  {
+    "poblacion": "Fuente alamo",
+    "provincia": "Murcia",
+    "cp": 30320,
+    "distancia": 526
+  },
+  {
+    "poblacion": "Fuente Tojar",
+    "provincia": "Cordoba",
+    "cp": 14815,
+    "distancia": 275
+  },
+  {
+    "poblacion": "Fuentepelayo",
+    "provincia": "Segovia",
+    "cp": 40260,
+    "distancia": 762
+  },
+  {
+    "poblacion": "Fuentespalda",
+    "provincia": "Teruel",
+    "cp": 44587,
+    "distancia": 970
+  },
+  {
+    "poblacion": "HORNACHUELOS",
+    "provincia": "Cordoba",
+    "cp": 14740,
+    "distancia": 302
+  },
+  {
+    "poblacion": "Huetor tajar",
+    "provincia": "Granada",
+    "cp": 18360,
+    "distancia": 224
+  },
+  {
+    "poblacion": "Las Casillas",
+    "provincia": "Murcia",
+    "cp": 30000,
+    "distancia": 546
+  },
+  {
+    "poblacion": "Lodosa\nijona",
+    "provincia": "Navarra",
+    "cp": 31580,
+    "distancia": 1004
+  },
+  {
+    "poblacion": "Los Palacios",
+    "provincia": "Sevilla",
+    "cp": 41720,
+    "distancia": 170
+  },
+  {
+    "poblacion": "Massalfassar",
+    "provincia": "Valencia",
+    "cp": 46560,
+    "distancia": 821
+  },
+  {
+    "poblacion": "Massamagrell",
+    "provincia": "Valencia",
+    "cp": 46130,
+    "distancia": 821
+  },
+  {
+    "poblacion": "Matalascañas",
+    "provincia": "Huelva",
+    "cp": 21760,
+    "distancia": 293
+  },
+  {
+    "poblacion": "Miñano Mayor",
+    "provincia": "Alava",
+    "cp": 1510,
+    "distancia": 1027
+  },
+  {
+    "poblacion": "Miñano Menor",
+    "provincia": "Alava",
+    "cp": 1510,
+    "distancia": 1027
+  },
+  {
+    "poblacion": "MONCARAPACHO",
+    "provincia": "Portugal",
+    "cp": "8700 129",
+    "distancia": 385
+  },
+  {
+    "poblacion": "Navalcarnero",
+    "provincia": "Madrid",
+    "cp": 28600,
+    "distancia": 695
+  },
+  {
+    "poblacion": "Pinos Puente",
+    "provincia": "Granada",
+    "cp": 18240,
+    "distancia": 261
+  },
+  {
+    "poblacion": "Puente Genil",
+    "provincia": "Cordoba",
+    "cp": 14500,
+    "distancia": 253
+  },
+  {
+    "poblacion": "Punta umbria",
+    "provincia": "Huelva",
+    "cp": 21100,
+    "distancia": 309
+  },
+  {
+    "poblacion": "Rio de Mouro",
+    "provincia": "Lisboa",
+    "cp": 2635,
+    "distancia": 693
+  },
+  {
+    "poblacion": "San fernando",
+    "provincia": "Cadiz",
+    "cp": 11100,
+    "distancia": 102
+  },
+  {
+    "poblacion": "San jeronimo",
+    "provincia": "Sevilla",
+    "cp": 41015,
+    "distancia": 215
+  },
+  {
+    "poblacion": "Santa Amalia",
+    "provincia": "Badajoz",
+    "cp": 6410,
+    "distancia": 422
+  },
+  {
+    "poblacion": "Saucejo - el",
+    "provincia": "Sevilla",
+    "cp": 41650,
+    "distancia": 191
+  },
+  {
+    "poblacion": "Seseña nuevo",
+    "provincia": "Toledo",
+    "cp": 45224,
+    "distancia": 635
+  },
+  {
+    "poblacion": "Seseña viejo",
+    "provincia": "Toledo",
+    "cp": 45223,
+    "distancia": 635
+  },
+  {
+    "poblacion": "Torremolinos",
+    "provincia": "Malaga",
+    "cp": 29620,
+    "distancia": 127
+  },
+  {
+    "poblacion": "Torres Novas",
+    "provincia": "Portugal",
+    "cp": "2350-616",
+    "distancia": 677
+  },
+  {
+    "poblacion": "Velez-Malaga",
+    "provincia": "Malaga",
+    "cp": 29700,
+    "distancia": 178
+  },
+  {
+    "poblacion": "Alcaidia - la",
+    "provincia": "Cordoba",
+    "cp": 14940,
+    "distancia": 231
+  },
+  {
+    "poblacion": "Aldeilla - la",
+    "provincia": "Almeria",
+    "cp": 4710,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Amares, Braga",
+    "provincia": "Portugal",
+    "cp": "4720-527",
+    "distancia": 915
+  },
+  {
+    "poblacion": "Arroyomolinos",
+    "provincia": "Madrid",
+    "cp": 28939,
+    "distancia": 705
+  },
+  {
+    "poblacion": "Barrios - los",
+    "provincia": "Cadiz",
+    "cp": 11370,
+    "distancia": 10
+  },
+  {
+    "poblacion": "Betxi / Bechi",
+    "provincia": "Castellon",
+    "cp": 12549,
+    "distancia": 826
+  },
+  {
+    "poblacion": "Boiro (boiro)",
+    "provincia": "A Coruña",
+    "cp": 15930,
+    "distancia": 1107
+  },
+  {
+    "poblacion": "Campillo - el",
+    "provincia": "Huelva",
+    "cp": 21650,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Carolina - la",
+    "provincia": "Jaen",
+    "cp": 23200,
+    "distancia": 400
+  },
+  {
+    "poblacion": "Castellbisbal",
+    "provincia": "Barcelona",
+    "cp": 8755,
+    "distancia": 1123
+  },
+  {
+    "poblacion": "Coria del Rio",
+    "provincia": "Sevilla",
+    "cp": 41100,
+    "distancia": 210
+  },
+  {
+    "poblacion": "Escorial - el",
+    "provincia": "Madrid",
+    "cp": 28280,
+    "distancia": 722
+  },
+  {
+    "poblacion": "Fuente piedra",
+    "provincia": "Malaga",
+    "cp": 29520,
+    "distancia": 208
+  },
+  {
+    "poblacion": "Guejar sierra",
+    "provincia": "Granada",
+    "cp": 18160,
+    "distancia": 284
+  },
+  {
+    "poblacion": "Hernan cortes",
+    "provincia": "Badajoz",
+    "cp": 6412,
+    "distancia": 429
+  },
+  {
+    "poblacion": "Huercal-Overa",
+    "provincia": "Almeria",
+    "cp": 4600,
+    "distancia": 449
+  },
+  {
+    "poblacion": "Isla cristina",
+    "provincia": "Huelva",
+    "cp": 21410,
+    "distancia": 332
+  },
+  {
+    "poblacion": "Jonquera - la",
+    "provincia": "Girona",
+    "cp": 17700,
+    "distancia": 1250
+  },
+  {
+    "poblacion": "Juzbado\nijona",
+    "provincia": "Salamanca",
+    "cp": 37115,
+    "distancia": 687
+  },
+  {
+    "poblacion": "Labores - las",
+    "provincia": "Ciudad Real",
+    "cp": 13660,
+    "distancia": 546
+  },
+  {
+    "poblacion": "Leca do Balio",
+    "provincia": "Portugal",
+    "cp": "4465-703",
+    "distancia": 868
+  },
+  {
+    "poblacion": "Los Alcazares",
+    "provincia": "Murcia",
+    "cp": 30710,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Luisiana - la",
+    "provincia": "Sevilla",
+    "cp": 41430,
+    "distancia": 268
+  },
+  {
+    "poblacion": "Molares - los",
+    "provincia": "Sevilla",
+    "cp": 41750,
+    "distancia": 181
+  },
+  {
+    "poblacion": "Molins de rei",
+    "provincia": "Barcelona",
+    "cp": 8750,
+    "distancia": 1150
+  },
+  {
+    "poblacion": "Montehermoso",
+    "provincia": "Caceres",
+    "cp": 10810,
+    "distancia": 534
+  },
+  {
+    "poblacion": "Muro de alcoy",
+    "provincia": "Alicante",
+    "cp": 3830,
+    "distancia": 675
+  },
+  {
+    "poblacion": "Olias del rey",
+    "provincia": "Toledo",
+    "cp": 45280,
+    "distancia": 625
+  },
+  {
+    "poblacion": "Olula del Rio",
+    "provincia": "Almeria",
+    "cp": 4860,
+    "distancia": 411
+  },
+  {
+    "poblacion": "Palma del Rio",
+    "provincia": "Cordoba",
+    "cp": 14700,
+    "distancia": 279
+  },
+  {
+    "poblacion": "Pozo Estrecho",
+    "provincia": "Murcia",
+    "cp": 30594,
+    "distancia": 544
+  },
+  {
+    "poblacion": "Prado del rey",
+    "provincia": "Cadiz",
+    "cp": 11660,
+    "distancia": 169
+  },
+  {
+    "poblacion": "Puente genave",
+    "provincia": "Jaen",
+    "cp": 23350,
+    "distancia": 465
+  },
+  {
+    "poblacion": "Repilado - el",
+    "provincia": "Huelva",
+    "cp": 21360,
+    "distancia": 306
+  },
+  {
+    "poblacion": "Rosales - los",
+    "provincia": "Sevilla",
+    "cp": 41330,
+    "distancia": 241
+  },
+  {
+    "poblacion": "San Sebastian",
+    "provincia": "Guipuzcoa",
+    "cp": 20000,
+    "distancia": 1155
+  },
+  {
+    "poblacion": "Torre del mar",
+    "provincia": "Malaga",
+    "cp": 29740,
+    "distancia": 177
+  },
+  {
+    "poblacion": "Torre pacheco",
+    "provincia": "Murcia",
+    "cp": 30700,
+    "distancia": 546
+  },
+  {
+    "poblacion": "Torredelcampo",
+    "provincia": "Jaen",
+    "cp": 23640,
+    "distancia": 357
+  },
+  {
+    "poblacion": "Torrejoncillo",
+    "provincia": "Caceres",
+    "cp": 10830,
+    "distancia": 512
+  },
+  {
+    "poblacion": "Torres Vedras",
+    "provincia": "Portugal",
+    "cp": "2650-383",
+    "distancia": 699
+  },
+  {
+    "poblacion": "Valdemingomez",
+    "provincia": "Madrid",
+    "cp": 28050,
+    "distancia": 678
+  },
+  {
+    "poblacion": "Ventilla - la",
+    "provincia": "Cordoba",
+    "cp": 14112,
+    "distancia": 285
+  },
+  {
+    "poblacion": "Victoria - la",
+    "provincia": "Cordoba",
+    "cp": 14140,
+    "distancia": 256
+  },
+  {
+    "poblacion": "Villa del Rio",
+    "provincia": "Cordoba",
+    "cp": 14640,
+    "distancia": 344
+  },
+  {
+    "poblacion": "Villacarrillo",
+    "provincia": "Jaen",
+    "cp": 23300,
+    "distancia": 420
+  },
+  {
+    "poblacion": "Villarrobledo",
+    "provincia": "Albacete",
+    "cp": 2600,
+    "distancia": 571
+  },
+  {
+    "poblacion": "Alcala del rio",
+    "provincia": "Sevilla",
+    "cp": 41200,
+    "distancia": 224
+  },
+  {
+    "poblacion": "Alcala la real",
+    "provincia": "Jaen",
+    "cp": 23680,
+    "distancia": 294
+  },
+  {
+    "poblacion": "Aldea del cano",
+    "provincia": "Caceres",
+    "cp": 10163,
+    "distancia": 432
+  },
+  {
+    "poblacion": "Aldea quintana",
+    "provincia": "Cordoba",
+    "cp": 14191,
+    "distancia": 280
+  },
+  {
+    "poblacion": "Beas de segura",
+    "provincia": "Jaen",
+    "cp": 23280,
+    "distancia": 449
+  },
+  {
+    "poblacion": "Calahorra - la",
+    "provincia": "Granada",
+    "cp": 18512,
+    "distancia": 311
+  },
+  {
+    "poblacion": "Campos del rio",
+    "provincia": "Murcia",
+    "cp": 30191,
+    "distancia": 546
+  },
+  {
+    "poblacion": "Cañada de biar",
+    "provincia": "Alicante",
+    "cp": 3409,
+    "distancia": 690
+  },
+  {
+    "poblacion": "CASAL DO CONDE",
+    "provincia": "Torres Novas",
+    "cp": "2350-616",
+    "distancia": 677
+  },
+  {
+    "poblacion": "Colmenar viejo",
+    "provincia": "Madrid",
+    "cp": 28770,
+    "distancia": 708
+  },
+  {
+    "poblacion": "Corchuela - la",
+    "provincia": "Sevilla",
+    "cp": 41700,
+    "distancia": 184
+  },
+  {
+    "poblacion": "Corrales - los",
+    "provincia": "Sevilla",
+    "cp": 41657,
+    "distancia": 178
+  },
+  {
+    "poblacion": "Cueva de nerja",
+    "provincia": "Malaga",
+    "cp": 29787,
+    "distancia": 179
+  },
+  {
+    "poblacion": "Dehesas viejas",
+    "provincia": "Granada",
+    "cp": 18567,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Encinas reales",
+    "provincia": "Cordoba",
+    "cp": 14913,
+    "distancia": 213
+  },
+  {
+    "poblacion": "FIGUERE DA FOZ",
+    "provincia": "Portugal",
+    "cp": "3080-011",
+    "distancia": 827
+  },
+  {
+    "poblacion": "Fuente del rey",
+    "provincia": "Jaen",
+    "cp": 23692,
+    "distancia": 295
+  },
+  {
+    "poblacion": "FUENTE DEL REY",
+    "provincia": "Sevilla",
+    "cp": 41703,
+    "distancia": 295
+  },
+  {
+    "poblacion": "Fuente obejuna",
+    "provincia": "Cordoba",
+    "cp": 14290,
+    "distancia": 369
+  },
+  {
+    "poblacion": "Fuente palmera",
+    "provincia": "Cordoba",
+    "cp": 14120,
+    "distancia": 272
+  },
+  {
+    "poblacion": "Fuerte del rey",
+    "provincia": "Jaen",
+    "cp": 23180,
+    "distancia": 355
+  },
+  {
+    "poblacion": "Gata de Gorgos",
+    "provincia": "Alicante",
+    "cp": 3740,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Herradura - la",
+    "provincia": "Granada",
+    "cp": 18697,
+    "distancia": 211
+  },
+  {
+    "poblacion": "Llosa de ranes",
+    "provincia": "Valencia",
+    "cp": 46815,
+    "distancia": 714
+  },
+  {
+    "poblacion": "Lora de estepa",
+    "provincia": "Sevilla",
+    "cp": 41564,
+    "distancia": 209
+  },
+  {
+    "poblacion": "MEDINA SIDONIA",
+    "provincia": "Cadiz",
+    "cp": 11170,
+    "distancia": 74
+  },
+  {
+    "poblacion": "MONTE DO TRIGO",
+    "provincia": "Portugal",
+    "cp": "7220-212",
+    "distancia": 554
+  },
+  {
+    "poblacion": "Norias de Daza",
+    "provincia": "Almeria",
+    "cp": 4716,
+    "distancia": 315
+  },
+  {
+    "poblacion": "PERO PINHEIRO",
+    "provincia": "Portugal",
+    "cp": "2715 962",
+    "distancia": 656
+  },
+  {
+    "poblacion": "Provencio - el",
+    "provincia": "Cuenca",
+    "cp": 16670,
+    "distancia": 599
+  },
+  {
+    "poblacion": "Puebla del Rio",
+    "provincia": "Sevilla",
+    "cp": 41130,
+    "distancia": 215
+  },
+  {
+    "poblacion": "Puente mayorga",
+    "provincia": "Cadiz",
+    "cp": 11313,
+    "distancia": 21
+  },
+  {
+    "poblacion": "Puerto Serrano",
+    "provincia": "Cadiz",
+    "cp": 11659,
+    "distancia": 194
+  },
+  {
+    "poblacion": "Redondela - la",
+    "provincia": "Huelva",
+    "cp": 21430,
+    "distancia": 319
+  },
+  {
+    "poblacion": "Rinconada - la",
+    "provincia": "Sevilla",
+    "cp": 41309,
+    "distancia": 214
+  },
+  {
+    "poblacion": "Torredonjimeno",
+    "provincia": "Jaen",
+    "cp": 23650,
+    "distancia": 362
+  },
+  {
+    "poblacion": "Valdelacalzada",
+    "provincia": "Badajoz",
+    "cp": 6185,
+    "distancia": 404
+  },
+  {
+    "poblacion": "Vallecas Villa",
+    "provincia": "Madrid",
+    "cp": 28031,
+    "distancia": 667
+  },
+  {
+    "poblacion": "Venta de Baños",
+    "provincia": "Palencia",
+    "cp": 34200,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Villares - los",
+    "provincia": "Jaen",
+    "cp": 23160,
+    "distancia": 348
+  },
+  {
+    "poblacion": "Viso del alcor",
+    "provincia": "Sevilla",
+    "cp": 41520,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Alcolea de tajo",
+    "provincia": "Toledo",
+    "cp": 45571,
+    "distancia": 588
+  },
+  {
+    "poblacion": "Alcolea del rio",
+    "provincia": "Sevilla",
+    "cp": 41449,
+    "distancia": 229
+  },
+  {
+    "poblacion": "ALONSO DE OJEDA",
+    "provincia": "Caceres",
+    "cp": 10100,
+    "distancia": 442
+  },
+  {
+    "poblacion": "Alonso de ojeda",
+    "provincia": "Caceres",
+    "cp": 10109,
+    "distancia": 442
+  },
+  {
+    "poblacion": "Alsasuañaltsasu",
+    "provincia": "Navarra",
+    "cp": 31800,
+    "distancia": 1066
+  },
+  {
+    "poblacion": "Ametlla del Mar",
+    "provincia": "Barcelona",
+    "cp": 43860,
+    "distancia": 946
+  },
+  {
+    "poblacion": "Aranda de duero",
+    "provincia": "Burgos",
+    "cp": 9400,
+    "distancia": 832
+  },
+  {
+    "poblacion": "Arganda del rey",
+    "provincia": "Madrid",
+    "cp": 28500,
+    "distancia": 679
+  },
+  {
+    "poblacion": "Baños y mendigo",
+    "provincia": "Murcia",
+    "cp": 30155,
+    "distancia": 505
+  },
+  {
+    "poblacion": "Barajas de melo",
+    "provincia": "Cuenca",
+    "cp": 16460,
+    "distancia": 665
+  },
+  {
+    "poblacion": "Barrio monachil",
+    "provincia": "Granada",
+    "cp": 18198,
+    "distancia": 244
+  },
+  {
+    "poblacion": "Beas de granada",
+    "provincia": "Granada",
+    "cp": 18184,
+    "distancia": 281
+  },
+  {
+    "poblacion": "Cabeza del buey",
+    "provincia": "Badajoz",
+    "cp": 6600,
+    "distancia": 431
+  },
+  {
+    "poblacion": "Cabezo de plata",
+    "provincia": "Murcia",
+    "cp": 30164,
+    "distancia": 555
+  },
+  {
+    "poblacion": "Campiñuela baja",
+    "provincia": "Cordoba",
+    "cp": 14014,
+    "distancia": 292
+  },
+  {
+    "poblacion": "Caniles de baza",
+    "provincia": "Granada",
+    "cp": 18810,
+    "distancia": 368
+  },
+  {
+    "poblacion": "Cartagena naval",
+    "provincia": "Murcia",
+    "cp": 30290,
+    "distancia": 575
+  },
+  {
+    "poblacion": "Casas del monte",
+    "provincia": "Caceres",
+    "cp": 10730,
+    "distancia": 544
+  },
+  {
+    "poblacion": "Castro del Río",
+    "provincia": "Cordoba",
+    "cp": "",
+    "distancia": 277
+  },
+  {
+    "poblacion": "Cisterniga - la",
+    "provincia": "Valladolid",
+    "cp": 47193,
+    "distancia": 740
+  },
+  {
+    "poblacion": "Cuacos de yuste",
+    "provincia": "Caceres",
+    "cp": 10430,
+    "distancia": 584
+  },
+  {
+    "poblacion": "Cumbres mayores",
+    "provincia": "Huelva",
+    "cp": 21380,
+    "distancia": 307
+  },
+  {
+    "poblacion": "Faro-Montenegro",
+    "provincia": "Portugal",
+    "cp": "",
+    "distancia": 410
+  },
+  {
+    "poblacion": "Fuente vaqueros",
+    "provincia": "Granada",
+    "cp": 18340,
+    "distancia": 250
+  },
+  {
+    "poblacion": "Fuentes de ebro",
+    "provincia": "Zaragoza",
+    "cp": 50740,
+    "distancia": 986
+  },
+  {
+    "poblacion": "Garrovilla - la",
+    "provincia": "Badajoz",
+    "cp": 6870,
+    "distancia": 399
+  },
+  {
+    "poblacion": "Higuera la real",
+    "provincia": "Badajoz",
+    "cp": 6350,
+    "distancia": 329
+  },
+  {
+    "poblacion": "Hinojosos - los",
+    "provincia": "Cuenca",
+    "cp": 16417,
+    "distancia": 619
+  },
+  {
+    "poblacion": "Jijona o xixona",
+    "provincia": "Alicante",
+    "cp": 3100,
+    "distancia": 620
+  },
+  {
+    "poblacion": "Laguna de duero",
+    "provincia": "Valladolid",
+    "cp": 47140,
+    "distancia": 781
+  },
+  {
+    "poblacion": "Lantejuela - la",
+    "provincia": "Sevilla",
+    "cp": 41630,
+    "distancia": 253
+  },
+  {
+    "poblacion": "Malpica de tajo",
+    "provincia": "Toledo",
+    "cp": 45692,
+    "distancia": 635
+  },
+  {
+    "poblacion": "Melide (melide)",
+    "provincia": "A Coruña",
+    "cp": 15800,
+    "distancia": 1031
+  },
+  {
+    "poblacion": "Miranda de Ebro",
+    "provincia": "Burgos",
+    "cp": 9200,
+    "distancia": 986
+  },
+  {
+    "poblacion": "Mota del cuervo",
+    "provincia": "Cuenca",
+    "cp": 16630,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Navas de tolosa",
+    "provincia": "Jaen",
+    "cp": 23212,
+    "distancia": 392
+  },
+  {
+    "poblacion": "Nueva andalucia",
+    "provincia": "Malaga",
+    "cp": 29660,
+    "distancia": 75
+  },
+  {
+    "poblacion": "Peal de becerro",
+    "provincia": "Jaen",
+    "cp": 23460,
+    "distancia": 380
+  },
+  {
+    "poblacion": "Quart de Poblet",
+    "provincia": "Valencia",
+    "cp": 46930,
+    "distancia": 763
+  },
+  {
+    "poblacion": "Roquetas de Mar",
+    "provincia": "Almeria",
+    "cp": 4740,
+    "distancia": 317
+  },
+  {
+    "poblacion": "Tudela de Duero",
+    "provincia": "Valladolid",
+    "cp": 47320,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Zarza de alange",
+    "provincia": "Badajoz",
+    "cp": 6830,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Alcala del valle",
+    "provincia": "Cadiz",
+    "cp": 11693,
+    "distancia": 167
+  },
+  {
+    "poblacion": "Alhama de murcia",
+    "provincia": "Murcia",
+    "cp": 30840,
+    "distancia": 504
+  },
+  {
+    "poblacion": "Andorra la Vella",
+    "provincia": "Andorra",
+    "cp": "AD500",
+    "distancia": 1285
+  },
+  {
+    "poblacion": "Arroyo de la luz",
+    "provincia": "Caceres",
+    "cp": 10900,
+    "distancia": 471
+  },
+  {
+    "poblacion": "Arroyo de priego",
+    "provincia": "Cordoba",
+    "cp": 14979,
+    "distancia": 270
+  },
+  {
+    "poblacion": "Barranquete - el",
+    "provincia": "Almeria",
+    "cp": 4117,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Cabezo de torres",
+    "provincia": "Murcia",
+    "cp": 30110,
+    "distancia": 540
+  },
+  {
+    "poblacion": "Caldas de Rainha",
+    "provincia": "Lisboa",
+    "cp": 2500,
+    "distancia": 734
+  },
+  {
+    "poblacion": "Casar de caceres",
+    "provincia": "Caceres",
+    "cp": 10190,
+    "distancia": 467
+  },
+  {
+    "poblacion": "Cenes de la vega",
+    "provincia": "Granada",
+    "cp": 18190,
+    "distancia": 269
+  },
+  {
+    "poblacion": "Collado villalba",
+    "provincia": "Madrid",
+    "cp": 28400,
+    "distancia": 718
+  },
+  {
+    "poblacion": "Cueva de la mora",
+    "provincia": "Huelva",
+    "cp": 21330,
+    "distancia": 318
+  },
+  {
+    "poblacion": "Cuevas del campo",
+    "provincia": "Granada",
+    "cp": 18813,
+    "distancia": 342
+  },
+  {
+    "poblacion": "Espinosa Henares",
+    "provincia": "Guadalajara",
+    "cp": 19292,
+    "distancia": 778
+  },
+  {
+    "poblacion": "Esquiroz (Galar)",
+    "provincia": "Navarra",
+    "cp": 31191,
+    "distancia": 1122
+  },
+  {
+    "poblacion": "Fuente de cantos",
+    "provincia": "Badajoz",
+    "cp": 6240,
+    "distancia": 308
+  },
+  {
+    "poblacion": "Fuentes de bejar",
+    "provincia": "Salamanca",
+    "cp": 37790,
+    "distancia": 605
+  },
+  {
+    "poblacion": "Fuentes de oñoro",
+    "provincia": "Salamanca",
+    "cp": 37480,
+    "distancia": 591
+  },
+  {
+    "poblacion": "Huetor santillan",
+    "provincia": "Granada",
+    "cp": 18183,
+    "distancia": 251
+  },
+  {
+    "poblacion": "Marin (san xian)",
+    "provincia": "Pontevedra",
+    "cp": 36915,
+    "distancia": 1039
+  },
+  {
+    "poblacion": "Medina del campo",
+    "provincia": "Valladolid",
+    "cp": 47400,
+    "distancia": 798
+  },
+  {
+    "poblacion": "Monforte del cid",
+    "provincia": "Alicante",
+    "cp": 3670,
+    "distancia": 598
+  },
+  {
+    "poblacion": "Morata de Tajuña",
+    "provincia": "Madrid",
+    "cp": 28530,
+    "distancia": 602
+  },
+  {
+    "poblacion": "Naron (San Xiao)",
+    "provincia": "A Coruña",
+    "cp": 15578,
+    "distancia": 1030
+  },
+  {
+    "poblacion": "Pedroñeras - las",
+    "provincia": "Cuenca",
+    "cp": 16660,
+    "distancia": 622
+  },
+  {
+    "poblacion": "Pueblanueva - la",
+    "provincia": "Toledo",
+    "cp": 45690,
+    "distancia": 637
+  },
+  {
+    "poblacion": "Puerto de Malaga",
+    "provincia": "Malaga",
+    "cp": 29016,
+    "distancia": 139
+  },
+  {
+    "poblacion": "Samorra Correira",
+    "provincia": "Portugal",
+    "cp": "2135 010",
+    "distancia": 650
+  },
+  {
+    "poblacion": "Sierra de yeguas",
+    "provincia": "Malaga",
+    "cp": 29328,
+    "distancia": 222
+  },
+  {
+    "poblacion": "Talavera la real",
+    "provincia": "Badajoz",
+    "cp": 6140,
+    "distancia": 427
+  },
+  {
+    "poblacion": "Uleila del Campo",
+    "provincia": "Almeria",
+    "cp": 4279,
+    "distancia": 438
+  },
+  {
+    "poblacion": "Ventas de Huelma",
+    "provincia": "Granada",
+    "cp": 18131,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Aguadulce Almeria",
+    "provincia": "Almeria",
+    "cp": 4720,
+    "distancia": 333
+  },
+  {
+    "poblacion": "Aguadulce Sevilla",
+    "provincia": "Sevilla",
+    "cp": 41550,
+    "distancia": 248
+  },
+  {
+    "poblacion": "Aguilar de campoo",
+    "provincia": "Palencia",
+    "cp": 34800,
+    "distancia": 909
+  },
+  {
+    "poblacion": "Alcudia de Carlet",
+    "provincia": "Valencia",
+    "cp": 46250,
+    "distancia": 752
+  },
+  {
+    "poblacion": "Alcudia de guadix",
+    "provincia": "Granada",
+    "cp": 18511,
+    "distancia": 330
+  },
+  {
+    "poblacion": "Alhama de almeria",
+    "provincia": "Almeria",
+    "cp": 4400,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Alhama de granada",
+    "provincia": "Granada",
+    "cp": 18120,
+    "distancia": 240
+  },
+  {
+    "poblacion": "Almargem do Bispo",
+    "provincia": "Portugal",
+    "cp": "2715 376",
+    "distancia": 686
+  },
+  {
+    "poblacion": "Almodovar del rio",
+    "provincia": "Cordoba",
+    "cp": 14720,
+    "distancia": 301
+  },
+  {
+    "poblacion": "Arroyo de la miel",
+    "provincia": "Malaga",
+    "cp": 29631,
+    "distancia": 121
+  },
+  {
+    "poblacion": "Arroyo del ojanco",
+    "provincia": "Jaen",
+    "cp": 23340,
+    "distancia": 450
+  },
+  {
+    "poblacion": "Benalmadena costa",
+    "provincia": "Malaga",
+    "cp": 29630,
+    "distancia": 139
+  },
+  {
+    "poblacion": "Benalua de guadix",
+    "provincia": "Granada",
+    "cp": 18510,
+    "distancia": 317
+  },
+  {
+    "poblacion": "Bergondo (carrio)",
+    "provincia": "A Coruña",
+    "cp": 15165,
+    "distancia": 1110
+  },
+  {
+    "poblacion": "Cabo de gata - el",
+    "provincia": "Almeria",
+    "cp": 4150,
+    "distancia": 377
+  },
+  {
+    "poblacion": "Callosa de Segura",
+    "provincia": "Alicante",
+    "cp": 3360,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Cambrils y llinas",
+    "provincia": "Lerida",
+    "cp": 25283,
+    "distancia": 1104
+  },
+  {
+    "poblacion": "Campo de criptana",
+    "provincia": "Ciudad Real",
+    "cp": 13610,
+    "distancia": 580
+  },
+  {
+    "poblacion": "Casas de miravete",
+    "provincia": "Caceres",
+    "cp": 10360,
+    "distancia": 520
+  },
+  {
+    "poblacion": "Corrales del Vino",
+    "provincia": "Zamora",
+    "cp": 49700,
+    "distancia": 705
+  },
+  {
+    "poblacion": "Fuente carreteros",
+    "provincia": "Cordoba",
+    "cp": 14110,
+    "distancia": 291
+  },
+  {
+    "poblacion": "Helguera (reocin)",
+    "provincia": "Cantabria",
+    "cp": 39538,
+    "distancia": 1000
+  },
+  {
+    "poblacion": "Herrera del duque",
+    "provincia": "Badajoz",
+    "cp": 6670,
+    "distancia": 540
+  },
+  {
+    "poblacion": "Humanes de madrid",
+    "provincia": "Madrid",
+    "cp": 28970,
+    "distancia": 739
+  },
+  {
+    "poblacion": "Jaraiz de la vera",
+    "provincia": "Caceres",
+    "cp": 10400,
+    "distancia": 577
+  },
+  {
+    "poblacion": "Lucena del puerto",
+    "provincia": "Huelva",
+    "cp": 21820,
+    "distancia": 267
+  },
+  {
+    "poblacion": "Mairena del alcor",
+    "provincia": "Sevilla",
+    "cp": 41510,
+    "distancia": 202
+  },
+  {
+    "poblacion": "Martin de la jara",
+    "provincia": "Sevilla",
+    "cp": 41658,
+    "distancia": 218
+  },
+  {
+    "poblacion": "Minas de riotinto",
+    "provincia": "Huelva",
+    "cp": 21660,
+    "distancia": 283
+  },
+  {
+    "poblacion": "Molina del Segura",
+    "provincia": "Murcia",
+    "cp": 30500,
+    "distancia": 533
+  },
+  {
+    "poblacion": "Oliveira do Douro",
+    "provincia": "Portugal",
+    "cp": "4430-273",
+    "distancia": 875
+  },
+  {
+    "poblacion": "Orellana la vieja",
+    "provincia": "Badajoz",
+    "cp": 6740,
+    "distancia": 472
+  },
+  {
+    "poblacion": "Palomares del rio",
+    "provincia": "Sevilla",
+    "cp": 41928,
+    "distancia": 209
+  },
+  {
+    "poblacion": "Parets del valles",
+    "provincia": "Barcelona",
+    "cp": 8150,
+    "distancia": 1135
+  },
+  {
+    "poblacion": "Paterna de rivera",
+    "provincia": "Cadiz",
+    "cp": 11178,
+    "distancia": 79
+  },
+  {
+    "poblacion": "Pereiro de Aguiar",
+    "provincia": "Orense",
+    "cp": 32710,
+    "distancia": 978
+  },
+  {
+    "poblacion": "Pozuelo de zarzon",
+    "provincia": "Caceres",
+    "cp": 10813,
+    "distancia": 575
+  },
+  {
+    "poblacion": "Prat de Llobregat",
+    "provincia": "Barcelona",
+    "cp": 8820,
+    "distancia": 1120
+  },
+  {
+    "poblacion": "Priego de Cordoba",
+    "provincia": "Cordoba",
+    "cp": 14800,
+    "distancia": 265
+  },
+  {
+    "poblacion": "Puente del Obispo",
+    "provincia": "Jaen",
+    "cp": 23529,
+    "distancia": 378
+  },
+  {
+    "poblacion": "Quintanar del rey",
+    "provincia": "Cuenca",
+    "cp": 16220,
+    "distancia": 650
+  },
+  {
+    "poblacion": "Ribera del fresno",
+    "provincia": "Badajoz",
+    "cp": 6225,
+    "distancia": 350
+  },
+  {
+    "poblacion": "Sanlucar la Mayor",
+    "provincia": "Sevilla",
+    "cp": 41800,
+    "distancia": 221
+  },
+  {
+    "poblacion": "Sierra de fuentes",
+    "provincia": "Caceres",
+    "cp": 10181,
+    "distancia": 473
+  },
+  {
+    "poblacion": "Torrejon de Ardoz",
+    "provincia": "Madrid",
+    "cp": 28850,
+    "distancia": 679
+  },
+  {
+    "poblacion": "Venta Do Pinheiro",
+    "provincia": "Portugal",
+    "cp": "2665 519",
+    "distancia": 645
+  },
+  {
+    "poblacion": "Alcala de Guadaira",
+    "provincia": "Sevilla",
+    "cp": 41500,
+    "distancia": 194
+  },
+  {
+    "poblacion": "Alcala de henares",
+    "provincia": "Madrid",
+    "cp": 28806,
+    "distancia": 700
+  },
+  {
+    "poblacion": "Alhaurin el Grande",
+    "provincia": "Malaga",
+    "cp": 29120,
+    "distancia": 121
+  },
+  {
+    "poblacion": "Almonaster la real",
+    "provincia": "Huelva",
+    "cp": 21350,
+    "distancia": 317
+  },
+  {
+    "poblacion": "Arenas de san juan",
+    "provincia": "Ciudad Real",
+    "cp": 13679,
+    "distancia": 528
+  },
+  {
+    "poblacion": "Balneario de zujar",
+    "provincia": "Granada",
+    "cp": 18811,
+    "distancia": 362
+  },
+  {
+    "poblacion": "Barbera del valles",
+    "provincia": "Barcelona",
+    "cp": 8210,
+    "distancia": 1130
+  },
+  {
+    "poblacion": "Benalup de sidonia",
+    "provincia": "Cadiz",
+    "cp": 11190,
+    "distancia": 51
+  },
+  {
+    "poblacion": "Benavent de segria",
+    "provincia": "Lerida",
+    "cp": 25132,
+    "distancia": 1121
+  },
+  {
+    "poblacion": "Boadilla del monte",
+    "provincia": "Madrid",
+    "cp": 28660,
+    "distancia": 676
+  },
+  {
+    "poblacion": "Burgo de ebro - el",
+    "provincia": "Zaragoza",
+    "cp": 50730,
+    "distancia": 990
+  },
+  {
+    "poblacion": "Campillo de arenas",
+    "provincia": "Jaen",
+    "cp": 23130,
+    "distancia": 305
+  },
+  {
+    "poblacion": "Casas de don pedro",
+    "provincia": "Badajoz",
+    "cp": 6770,
+    "distancia": 484
+  },
+  {
+    "poblacion": "Cazalegas - pueblo",
+    "provincia": "Toledo",
+    "cp": 45683,
+    "distancia": 626
+  },
+  {
+    "poblacion": "Corral de almaguer",
+    "provincia": "Toledo",
+    "cp": 45880,
+    "distancia": 633
+  },
+  {
+    "poblacion": "Coto de campomanes",
+    "provincia": "Badajoz",
+    "cp": 6892,
+    "distancia": 398
+  },
+  {
+    "poblacion": "Cuesta de la palma",
+    "provincia": "Granada",
+    "cp": 18314,
+    "distancia": 210
+  },
+  {
+    "poblacion": "Daganzos de Arriba",
+    "provincia": "Madrid",
+    "cp": 28814,
+    "distancia": 696
+  },
+  {
+    "poblacion": "Dolores de Pacheco",
+    "provincia": "Murcia",
+    "cp": 30739,
+    "distancia": 513
+  },
+  {
+    "poblacion": "El Real de la Jara",
+    "provincia": "Sevilla",
+    "cp": 41250,
+    "distancia": 275
+  },
+  {
+    "poblacion": "Fuente del maestre",
+    "provincia": "Badajoz",
+    "cp": 6360,
+    "distancia": 353
+  },
+  {
+    "poblacion": "Granja de rocamora",
+    "provincia": "Alicante",
+    "cp": 3348,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Hinojosa del duque",
+    "provincia": "Cordoba",
+    "cp": 14270,
+    "distancia": 371
+  },
+  {
+    "poblacion": "Hinojosa del valle",
+    "provincia": "Badajoz",
+    "cp": 6226,
+    "distancia": 345
+  },
+  {
+    "poblacion": "Huercal de Almería",
+    "provincia": "Almeria",
+    "cp": 4230,
+    "distancia": 349
+  },
+  {
+    "poblacion": "Luis de Sabinillas",
+    "provincia": "Malaga",
+    "cp": 29692,
+    "distancia": 49
+  },
+  {
+    "poblacion": "Mejorada del campo",
+    "provincia": "Madrid",
+    "cp": 28840,
+    "distancia": 707
+  },
+  {
+    "poblacion": "Oliveira Do Bairro",
+    "provincia": "Portugal",
+    "cp": "3770 068",
+    "distancia": 780
+  },
+  {
+    "poblacion": "Palau de plegamans",
+    "provincia": "Barcelona",
+    "cp": 8184,
+    "distancia": 1180
+  },
+  {
+    "poblacion": "Pozuelo de Alarcon",
+    "provincia": "Madrid",
+    "cp": 28224,
+    "distancia": 679
+  },
+  {
+    "poblacion": "Puerto de Valencia",
+    "provincia": "Valencia",
+    "cp": 46011,
+    "distancia": 816
+  },
+  {
+    "poblacion": "Puerto Santa Maria",
+    "provincia": "Cadiz",
+    "cp": 11500,
+    "distancia": 122
+  },
+  {
+    "poblacion": "Ribarroja de turia",
+    "provincia": "Valencia",
+    "cp": 46190,
+    "distancia": 791
+  },
+  {
+    "poblacion": "San jose del valle",
+    "provincia": "Cadiz",
+    "cp": 11580,
+    "distancia": 87
+  },
+  {
+    "poblacion": "Sant Pere Pescador",
+    "provincia": "Girona",
+    "cp": 17470,
+    "distancia": 1250
+  },
+  {
+    "poblacion": "Santiago de Cartes",
+    "provincia": "Cantabria",
+    "cp": 39311,
+    "distancia": 991
+  },
+  {
+    "poblacion": "Santiago del campo",
+    "provincia": "Caceres",
+    "cp": 10191,
+    "distancia": 484
+  },
+  {
+    "poblacion": "Valle de abdalajis",
+    "provincia": "Malaga",
+    "cp": 29240,
+    "distancia": 192
+  },
+  {
+    "poblacion": "Valle de santa ana",
+    "provincia": "Badajoz",
+    "cp": 6178,
+    "distancia": 353
+  },
+  {
+    "poblacion": "Villalba del alcor",
+    "provincia": "Huelva",
+    "cp": 21860,
+    "distancia": 249
+  },
+  {
+    "poblacion": "Villanueva del rey",
+    "provincia": "Cordoba",
+    "cp": 14230,
+    "distancia": 360
+  },
+  {
+    "poblacion": "Villaverde del rio",
+    "provincia": "Sevilla",
+    "cp": 41318,
+    "distancia": 234
+  },
+  {
+    "poblacion": "Alcazar de san juan",
+    "provincia": "Ciudad Real",
+    "cp": 13600,
+    "distancia": 545
+  },
+  {
+    "poblacion": "Almaden de la plata",
+    "provincia": "Sevilla",
+    "cp": 41240,
+    "distancia": 266
+  },
+  {
+    "poblacion": "Argamasilla de alba",
+    "provincia": "Ciudad Real",
+    "cp": 13710,
+    "distancia": 530
+  },
+  {
+    "poblacion": "Armuña de almanzora",
+    "provincia": "Almeria",
+    "cp": 4888,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Azuqueca de Henares",
+    "provincia": "Guadalajara",
+    "cp": 19200,
+    "distancia": 710
+  },
+  {
+    "poblacion": "Cabezon de pisuerga",
+    "provincia": "Valladolid",
+    "cp": 47260,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Cabezuela del valle",
+    "provincia": "Caceres",
+    "cp": 10610,
+    "distancia": 565
+  },
+  {
+    "poblacion": "Cala del moral - la",
+    "provincia": "Malaga",
+    "cp": 29720,
+    "distancia": 162
+  },
+  {
+    "poblacion": "Caleta de salobreña",
+    "provincia": "Granada",
+    "cp": 18680,
+    "distancia": 232
+  },
+  {
+    "poblacion": "Callosa d'en Sarria",
+    "provincia": "Alicante",
+    "cp": 3510,
+    "distancia": 673
+  },
+  {
+    "poblacion": "Calvarrasa de abajo",
+    "provincia": "Salamanca",
+    "cp": 37181,
+    "distancia": 628
+  },
+  {
+    "poblacion": "Campillo de llerena",
+    "provincia": "Badajoz",
+    "cp": 6443,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Caños de meca - los",
+    "provincia": "Cadiz",
+    "cp": 11159,
+    "distancia": 86
+  },
+  {
+    "poblacion": "Caravaca de la cruz",
+    "provincia": "Murcia",
+    "cp": 30400,
+    "distancia": 520
+  },
+  {
+    "poblacion": "Carballo (carballo)",
+    "provincia": "A Coruña",
+    "cp": 15100,
+    "distancia": 1159
+  },
+  {
+    "poblacion": "CAstillo de Locubin",
+    "provincia": "Jaen",
+    "cp": 23670,
+    "distancia": 299
+  },
+  {
+    "poblacion": "Cuevas de Almanzora",
+    "provincia": "Almeria",
+    "cp": 4610,
+    "distancia": 439
+  },
+  {
+    "poblacion": "Fuensanta de martos",
+    "provincia": "Jaen",
+    "cp": 23610,
+    "distancia": 311
+  },
+  {
+    "poblacion": "Fuentidueña de tajo",
+    "provincia": "Madrid",
+    "cp": 28597,
+    "distancia": 600
+  },
+  {
+    "poblacion": "Gevora del caudillo",
+    "provincia": "Badajoz",
+    "cp": 6180,
+    "distancia": 410
+  },
+  {
+    "poblacion": "HUEVAR DEL ALJARAFE",
+    "provincia": "Sevilla",
+    "cp": 41830,
+    "distancia": 226
+  },
+  {
+    "poblacion": "Las Rozas de MAdrid",
+    "provincia": "Madrid",
+    "cp": 28230,
+    "distancia": 695
+  },
+  {
+    "poblacion": "Manga del Mar Menor",
+    "provincia": "Murcia",
+    "cp": 30385,
+    "distancia": 528
+  },
+  {
+    "poblacion": "Nanclares de la oca",
+    "provincia": "Alava",
+    "cp": 1230,
+    "distancia": 1003
+  },
+  {
+    "poblacion": "Navalvillar de pela",
+    "provincia": "Badajoz",
+    "cp": 6760,
+    "distancia": 475
+  },
+  {
+    "poblacion": "Navas del Selpillar",
+    "provincia": "Cordoba",
+    "cp": 14511,
+    "distancia": 233
+  },
+  {
+    "poblacion": "Povoa de Santa Iria",
+    "provincia": "Lisboa",
+    "cp": 2625,
+    "distancia": 623
+  },
+  {
+    "poblacion": "Puerto de Algeciras",
+    "provincia": "Cadiz",
+    "cp": 11000,
+    "distancia": 9
+  },
+  {
+    "poblacion": "Rociana del condado",
+    "provincia": "Huelva",
+    "cp": 21720,
+    "distancia": 260
+  },
+  {
+    "poblacion": "San Isidro de Nijar",
+    "provincia": "Almeria",
+    "cp": 4117,
+    "distancia": 384
+  },
+  {
+    "poblacion": "San juan del puerto",
+    "provincia": "Huelva",
+    "cp": 21610,
+    "distancia": 278
+  },
+  {
+    "poblacion": "San pedro alcantara",
+    "provincia": "Malaga",
+    "cp": 29670,
+    "distancia": 66
+  },
+  {
+    "poblacion": "Valverde de leganes",
+    "provincia": "Badajoz",
+    "cp": 6130,
+    "distancia": 399
+  },
+  {
+    "poblacion": "Valverde del camino",
+    "provincia": "Huelva",
+    "cp": 21600,
+    "distancia": 282
+  },
+  {
+    "poblacion": "Valverde del fresno",
+    "provincia": "Caceres",
+    "cp": 10890,
+    "distancia": 576
+  },
+  {
+    "poblacion": "Velilla San Antonio",
+    "provincia": "Madrid",
+    "cp": 28891,
+    "distancia": 678
+  },
+  {
+    "poblacion": "Yunquera de henares",
+    "provincia": "Guadalajara",
+    "cp": 19210,
+    "distancia": 738
+  },
+  {
+    "poblacion": "Zarza de granadilla",
+    "provincia": "Caceres",
+    "cp": 10710,
+    "distancia": 570
+  },
+  {
+    "poblacion": "Albaida del aljarafe",
+    "provincia": "Sevilla",
+    "cp": 41809,
+    "distancia": 224
+  },
+  {
+    "poblacion": "Alhaurin de la Torre",
+    "provincia": "Malaga",
+    "cp": "",
+    "distancia": 135
+  },
+  {
+    "poblacion": "Arcos de la Frontera",
+    "provincia": "Cadiz",
+    "cp": 11630,
+    "distancia": 107
+  },
+  {
+    "poblacion": "Arroyo de san servan",
+    "provincia": "Badajoz",
+    "cp": 6850,
+    "distancia": 382
+  },
+  {
+    "poblacion": "Benalmadena - pueblo",
+    "provincia": "Malaga",
+    "cp": 29639,
+    "distancia": 117
+  },
+  {
+    "poblacion": "Bolaños de calatrava",
+    "provincia": "Ciudad Real",
+    "cp": 13260,
+    "distancia": 504
+  },
+  {
+    "poblacion": "Burguillos del cerro",
+    "provincia": "Badajoz",
+    "cp": 6370,
+    "distancia": 351
+  },
+  {
+    "poblacion": "Cabanillas del campo",
+    "provincia": "Guadalajara",
+    "cp": 19171,
+    "distancia": 735
+  },
+  {
+    "poblacion": "Cañada de san urbano",
+    "provincia": "Almeria",
+    "cp": 4120,
+    "distancia": 370
+  },
+  {
+    "poblacion": "Castilleja de guzman",
+    "provincia": "Sevilla",
+    "cp": 41908,
+    "distancia": 206
+  },
+  {
+    "poblacion": "Cazalla de la sierra",
+    "provincia": "Sevilla",
+    "cp": 41370,
+    "distancia": 285
+  },
+  {
+    "poblacion": "Churriana de la Vega",
+    "provincia": "Granada",
+    "cp": 18194,
+    "distancia": 263
+  },
+  {
+    "poblacion": "Conil de la frontera",
+    "provincia": "Cadiz",
+    "cp": 11140,
+    "distancia": 88
+  },
+  {
+    "poblacion": "Cuevas de san marcos",
+    "provincia": "Malaga",
+    "cp": 29210,
+    "distancia": 219
+  },
+  {
+    "poblacion": "Ferreira do Alentejo",
+    "provincia": "Portugal",
+    "cp": "7900 191",
+    "distancia": 440
+  },
+  {
+    "poblacion": "Fuentelsaz del campo",
+    "provincia": "Guadalajara",
+    "cp": 19331,
+    "distancia": 828
+  },
+  {
+    "poblacion": "Fuentes de andalucia",
+    "provincia": "Sevilla",
+    "cp": 41420,
+    "distancia": 231
+  },
+  {
+    "poblacion": "Guardamar del segura",
+    "provincia": "Alicante",
+    "cp": 3140,
+    "distancia": 579
+  },
+  {
+    "poblacion": "Guardia de jaen - la",
+    "provincia": "Jaen",
+    "cp": 23170,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Higuera de la sierra",
+    "provincia": "Huelva",
+    "cp": 21220,
+    "distancia": 280
+  },
+  {
+    "poblacion": "Jerez de la Frontera",
+    "provincia": "Cadiz",
+    "cp": 11401,
+    "distancia": 101
+  },
+  {
+    "poblacion": "Jerez de la frontera",
+    "provincia": "Cadiz",
+    "cp": 11408,
+    "distancia": 101
+  },
+  {
+    "poblacion": "La Puebla de Cazalla",
+    "provincia": "Sevilla",
+    "cp": 41540,
+    "distancia": 220
+  },
+  {
+    "poblacion": "Lalin (casco urbano)",
+    "provincia": "Pontevedra",
+    "cp": 36500,
+    "distancia": 1043
+  },
+  {
+    "poblacion": "Mairena del aljarafe",
+    "provincia": "Sevilla",
+    "cp": 41927,
+    "distancia": 204
+  },
+  {
+    "poblacion": "Medina de las torres",
+    "provincia": "Badajoz",
+    "cp": 6320,
+    "distancia": 335
+  },
+  {
+    "poblacion": "Montalban de cordoba",
+    "provincia": "Cordoba",
+    "cp": 14548,
+    "distancia": 266
+  },
+  {
+    "poblacion": "Montornes del valles",
+    "provincia": "Barcelona",
+    "cp": 8170,
+    "distancia": 1120
+  },
+  {
+    "poblacion": "Moraleda de zafayona",
+    "provincia": "Granada",
+    "cp": 18370,
+    "distancia": 230
+  },
+  {
+    "poblacion": "Moraleja de En medio",
+    "provincia": "Madrid",
+    "cp": 28953,
+    "distancia": 670
+  },
+  {
+    "poblacion": "Moron de la Frontera",
+    "provincia": "Sevilla",
+    "cp": 41530,
+    "distancia": 212
+  },
+  {
+    "poblacion": "Motilla del palancar",
+    "provincia": "Cuenca",
+    "cp": 16200,
+    "distancia": 664
+  },
+  {
+    "poblacion": "Novelda del guadiana",
+    "provincia": "Badajoz",
+    "cp": 6183,
+    "distancia": 424
+  },
+  {
+    "poblacion": "Numancia de la sagra",
+    "provincia": "Toledo",
+    "cp": 45230,
+    "distancia": 627
+  },
+  {
+    "poblacion": "Oliva de la frontera",
+    "provincia": "Badajoz",
+    "cp": 6120,
+    "distancia": 360
+  },
+  {
+    "poblacion": "Oliveira do Hospital",
+    "provincia": "Lisboa",
+    "cp": 3404,
+    "distancia": 890
+  },
+  {
+    "poblacion": "Palos de la frontera",
+    "provincia": "Huelva",
+    "cp": 21810,
+    "distancia": 291
+  },
+  {
+    "poblacion": "Puebla de la calzada",
+    "provincia": "Badajoz",
+    "cp": 6490,
+    "distancia": 414
+  },
+  {
+    "poblacion": "Rincon de la Vitoria",
+    "provincia": "Malaga",
+    "cp": 29730,
+    "distancia": 142
+  },
+  {
+    "poblacion": "San Ciprian de Viñas",
+    "provincia": "Orense",
+    "cp": 32901,
+    "distancia": 975
+  },
+  {
+    "poblacion": "San miguel de valero",
+    "provincia": "Salamanca",
+    "cp": 37763,
+    "distancia": 627
+  },
+  {
+    "poblacion": "San Pedro de Pinatar",
+    "provincia": "Murcia",
+    "cp": 30740,
+    "distancia": 566
+  },
+  {
+    "poblacion": "Santa cruz de mudela",
+    "provincia": "Ciudad Real",
+    "cp": 13730,
+    "distancia": 453
+  },
+  {
+    "poblacion": "Sao Bras De Alportel",
+    "provincia": "Algarve",
+    "cp": "8150-036",
+    "distancia": 410
+  },
+  {
+    "poblacion": "Solana de los barros",
+    "provincia": "Badajoz",
+    "cp": 6209,
+    "distancia": 405
+  },
+  {
+    "poblacion": "Tablada - base aerea",
+    "provincia": "Sevilla",
+    "cp": 41090,
+    "distancia": 205
+  },
+  {
+    "poblacion": "Talavera de la Reina",
+    "provincia": "Toledo",
+    "cp": 45600,
+    "distancia": 640
+  },
+  {
+    "poblacion": "Vejer de la Frontera",
+    "provincia": "Cadiz",
+    "cp": 11011,
+    "distancia": 75
+  },
+  {
+    "poblacion": "Vilagarcia de arousa",
+    "provincia": "Pontevedra",
+    "cp": 36600,
+    "distancia": 1123
+  },
+  {
+    "poblacion": "Villaviciosa de odon",
+    "provincia": "Madrid",
+    "cp": 28670,
+    "distancia": 685
+  },
+  {
+    "poblacion": "Zahara de los Atunes",
+    "provincia": "Cadiz",
+    "cp": 11393,
+    "distancia": 62
+  },
+  {
+    "poblacion": "Alberche del caudillo",
+    "provincia": "Toledo",
+    "cp": 45695,
+    "distancia": 604
+  },
+  {
+    "poblacion": "Alcala de los gazules",
+    "provincia": "Cadiz",
+    "cp": 11180,
+    "distancia": 52
+  },
+  {
+    "poblacion": "Aldeanueva de la vera",
+    "provincia": "Caceres",
+    "cp": 10440,
+    "distancia": 587
+  },
+  {
+    "poblacion": "Aldeanueva del camino",
+    "provincia": "Caceres",
+    "cp": 10740,
+    "distancia": 569
+  },
+  {
+    "poblacion": "Belmez de la moraleda",
+    "provincia": "Jaen",
+    "cp": 23568,
+    "distancia": 350
+  },
+  {
+    "poblacion": "Benalua de las villas",
+    "provincia": "Granada",
+    "cp": 18564,
+    "distancia": 302
+  },
+  {
+    "poblacion": "Cabra de santo cristo",
+    "provincia": "Jaen",
+    "cp": 23550,
+    "distancia": 345
+  },
+  {
+    "poblacion": "Camarma de Esteruelas",
+    "provincia": "Madrid",
+    "cp": 28000,
+    "distancia": 701
+  },
+  {
+    "poblacion": "Cartama - estacion de",
+    "provincia": "Malaga",
+    "cp": 29580,
+    "distancia": 146
+  },
+  {
+    "poblacion": "Casarrubios del monte",
+    "provincia": "Toledo",
+    "cp": 45950,
+    "distancia": 674
+  },
+  {
+    "poblacion": "Cortes de la frontera",
+    "provincia": "Malaga",
+    "cp": 29380,
+    "distancia": 85
+  },
+  {
+    "poblacion": "Espeluy - estacion de",
+    "provincia": "Jaen",
+    "cp": 23720,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Fregenal de la sierra",
+    "provincia": "Badajoz",
+    "cp": 6340,
+    "distancia": 321
+  },
+  {
+    "poblacion": "Guadiana del caudillo",
+    "provincia": "Badajoz",
+    "cp": 6186,
+    "distancia": 420
+  },
+  {
+    "poblacion": "Malpartida de caceres",
+    "provincia": "Caceres",
+    "cp": 10910,
+    "distancia": 463
+  },
+  {
+    "poblacion": "Matalobos (a estrada)",
+    "provincia": "Pontevedra",
+    "cp": 36689,
+    "distancia": 1034
+  },
+  {
+    "poblacion": "Melgar de fernamental",
+    "provincia": "Burgos",
+    "cp": 9100,
+    "distancia": 909
+  },
+  {
+    "poblacion": "Navalmoral de la mata",
+    "provincia": "Caceres",
+    "cp": 10300,
+    "distancia": 550
+  },
+  {
+    "poblacion": "Puerta de segura - la",
+    "provincia": "Jaen",
+    "cp": 23360,
+    "distancia": 475
+  },
+  {
+    "poblacion": "Puerto de Santa Maria",
+    "provincia": "Cadiz",
+    "cp": 11500,
+    "distancia": 122
+  },
+  {
+    "poblacion": "Quintana de la serena",
+    "provincia": "Badajoz",
+    "cp": 6450,
+    "distancia": 402
+  },
+  {
+    "poblacion": "Quintanar de la orden",
+    "provincia": "Toledo",
+    "cp": 45800,
+    "distancia": 585
+  },
+  {
+    "poblacion": "San martin de la vega",
+    "provincia": "Madrid",
+    "cp": 28330,
+    "distancia": 644
+  },
+  {
+    "poblacion": "San Martinho do Campo",
+    "provincia": "Portugal",
+    "cp": "4796-906",
+    "distancia": 890
+  },
+  {
+    "poblacion": "San Roman de Bembibre",
+    "provincia": "Leon",
+    "cp": 24318,
+    "distancia": 935
+  },
+  {
+    "poblacion": "Sanlucar de Barrameda",
+    "provincia": "Cadiz",
+    "cp": 11540,
+    "distancia": 125
+  },
+  {
+    "poblacion": "Santa olalla del cala",
+    "provincia": "Huelva",
+    "cp": 21260,
+    "distancia": 346
+  },
+  {
+    "poblacion": "Santa Rosalia-Maqueda",
+    "provincia": "Malaga",
+    "cp": 29591,
+    "distancia": 151
+  },
+  {
+    "poblacion": "Ventorros de san jose",
+    "provincia": "Granada",
+    "cp": 18311,
+    "distancia": 225
+  },
+  {
+    "poblacion": "Villanueva del fresno",
+    "provincia": "Badajoz",
+    "cp": 6110,
+    "distancia": 388
+  },
+  {
+    "poblacion": "Villarejo de salvanes",
+    "provincia": "Madrid",
+    "cp": 28590,
+    "distancia": 638
+  },
+  {
+    "poblacion": "Villaseca de la sagra",
+    "provincia": "Toledo",
+    "cp": 45260,
+    "distancia": 645
+  },
+  {
+    "poblacion": "Aguilar de la frontera",
+    "provincia": "Cordoba",
+    "cp": 14920,
+    "distancia": 249
+  },
+  {
+    "poblacion": "Aguilarejo alto y bajo",
+    "provincia": "Cordoba",
+    "cp": 14005,
+    "distancia": 296
+  },
+  {
+    "poblacion": "Alquerias niño perdido",
+    "provincia": "Castellon",
+    "cp": 12539,
+    "distancia": 825
+  },
+  {
+    "poblacion": "Archena - carretera de",
+    "provincia": "Murcia",
+    "cp": 30563,
+    "distancia": 555
+  },
+  {
+    "poblacion": "Arrollo de macael - el",
+    "provincia": "Almeria",
+    "cp": 4867,
+    "distancia": 408
+  },
+  {
+    "poblacion": "Cortijo de los frailes",
+    "provincia": "Cordoba",
+    "cp": 147,
+    "distancia": 0
+  },
+  {
+    "poblacion": "Ejea de los caballeros",
+    "provincia": "Zaragoza",
+    "cp": 50600,
+    "distancia": 1055
+  },
+  {
+    "poblacion": "Granja de torrehermosa",
+    "provincia": "Badajoz",
+    "cp": 6910,
+    "distancia": 331
+  },
+  {
+    "poblacion": "Las Torres de Cotillas",
+    "provincia": "Murcia",
+    "cp": 30565,
+    "distancia": 533
+  },
+  {
+    "poblacion": "Palma del condado - la",
+    "provincia": "Huelva",
+    "cp": 21700,
+    "distancia": 255
+  },
+  {
+    "poblacion": "Paracuellos del Jarama",
+    "provincia": "Madrid",
+    "cp": 28860,
+    "distancia": 690
+  },
+  {
+    "poblacion": "Pobla de Vallbona - la",
+    "provincia": "Valencia",
+    "cp": 46185,
+    "distancia": 775
+  },
+  {
+    "poblacion": "Puebla de sancho perez",
+    "provincia": "Badajoz",
+    "cp": 6310,
+    "distancia": 332
+  },
+  {
+    "poblacion": "Roda de andalucia - la",
+    "provincia": "Sevilla",
+    "cp": 41590,
+    "distancia": 216
+  },
+  {
+    "poblacion": "San Isidro de Albatera",
+    "provincia": "Alicante",
+    "cp": 3349,
+    "distancia": 584
+  },
+  {
+    "poblacion": "San Vicente de Raspell",
+    "provincia": "Alicante",
+    "cp": 3000,
+    "distancia": 612
+  },
+  {
+    "poblacion": "Santa Maria del Aguila",
+    "provincia": "Almeria",
+    "cp": 4710,
+    "distancia": 322
+  },
+  {
+    "poblacion": "Santiago de Compostela",
+    "provincia": "A Coruña",
+    "cp": 15771,
+    "distancia": 1099
+  },
+  {
+    "poblacion": "Santisteban del Puerto",
+    "provincia": "Jaen",
+    "cp": 23250,
+    "distancia": 433
+  },
+  {
+    "poblacion": "Torrecilla de la tiesa",
+    "provincia": "Caceres",
+    "cp": 10252,
+    "distancia": 505
+  },
+  {
+    "poblacion": "Valencia de las torres",
+    "provincia": "Badajoz",
+    "cp": 6444,
+    "distancia": 340
+  },
+  {
+    "poblacion": "Valverde de burguillos",
+    "provincia": "Badajoz",
+    "cp": 6378,
+    "distancia": 350
+  },
+  {
+    "poblacion": "Villafranca de cordoba",
+    "provincia": "Cordoba",
+    "cp": 14420,
+    "distancia": 314
+  },
+  {
+    "poblacion": "Villanueva de Algaidas",
+    "provincia": "Malaga",
+    "cp": 29310,
+    "distancia": 210
+  },
+  {
+    "poblacion": "Villanueva de san juan",
+    "provincia": "Sevilla",
+    "cp": 41660,
+    "distancia": 255
+  },
+  {
+    "poblacion": "Villanueva del Trabuco",
+    "provincia": "Malaga",
+    "cp": 29313,
+    "distancia": 169
+  },
+  {
+    "poblacion": "Alberca de zancara - la",
+    "provincia": "Cuenca",
+    "cp": 16620,
+    "distancia": 600
+  },
+  {
+    "poblacion": "Aldeamayor de s. martin",
+    "provincia": "Valladolid",
+    "cp": 47162,
+    "distancia": 774
+  },
+  {
+    "poblacion": "Arroyo de la encomienda",
+    "provincia": "Valladolid",
+    "cp": 47195,
+    "distancia": 770
+  },
+  {
+    "poblacion": "Carbajosa de la sagrada",
+    "provincia": "Salamanca",
+    "cp": 37188,
+    "distancia": 675
+  },
+  {
+    "poblacion": "Carrion de los cespedes",
+    "provincia": "Sevilla",
+    "cp": 41820,
+    "distancia": 231
+  },
+  {
+    "poblacion": "Castellanos de moriscos",
+    "provincia": "Salamanca",
+    "cp": 37439,
+    "distancia": 670
+  },
+  {
+    "poblacion": "Castilleja de la cuesta",
+    "provincia": "Sevilla",
+    "cp": 41950,
+    "distancia": 206
+  },
+  {
+    "poblacion": "Castillo de las guardas",
+    "provincia": "Sevilla",
+    "cp": 41890,
+    "distancia": 260
+  },
+  {
+    "poblacion": "Chiclana de la Frontera",
+    "provincia": "Cadiz",
+    "cp": 11130,
+    "distancia": 104
+  },
+  {
+    "poblacion": "Fuente el saz de jarama",
+    "provincia": "Madrid",
+    "cp": 28140,
+    "distancia": 614
+  },
+  {
+    "poblacion": "Jerez de los caballeros",
+    "provincia": "Badajoz",
+    "cp": 6380,
+    "distancia": 343
+  },
+  {
+    "poblacion": "Las cabezas de San Juan",
+    "provincia": "Sevilla",
+    "cp": "",
+    "distancia": 142
+  },
+  {
+    "poblacion": "Leca Palmeira Matosnhos",
+    "provincia": "Portugal",
+    "cp": "4450 747",
+    "distancia": 885
+  },
+  {
+    "poblacion": "Lucainena de las torres",
+    "provincia": "Almeria",
+    "cp": 4210,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Malpartida de plasencia",
+    "provincia": "Caceres",
+    "cp": 10680,
+    "distancia": 534
+  },
+  {
+    "poblacion": "Palmar - el (el palmar)",
+    "provincia": "Murcia",
+    "cp": 30120,
+    "distancia": 530
+  },
+  {
+    "poblacion": "San agustin de guadalix",
+    "provincia": "Madrid",
+    "cp": 28750,
+    "distancia": 710
+  },
+  {
+    "poblacion": "San enrique de guadiaro",
+    "provincia": "Cadiz",
+    "cp": 11312,
+    "distancia": 24
+  },
+  {
+    "poblacion": "San fernando de henares",
+    "provincia": "Madrid",
+    "cp": 28830,
+    "distancia": 667
+  },
+  {
+    "poblacion": "Santos de maimona - los",
+    "provincia": "Badajoz",
+    "cp": 6230,
+    "distancia": 332
+  },
+  {
+    "poblacion": "Torre de miguel sesmero",
+    "provincia": "Badajoz",
+    "cp": 6172,
+    "distancia": 385
+  },
+  {
+    "poblacion": "TORRECILLAS DE LA TIESA",
+    "provincia": "Caceres",
+    "cp": 10252,
+    "distancia": 505
+  },
+  {
+    "poblacion": "Villanueva de alcardete",
+    "provincia": "Toledo",
+    "cp": 45810,
+    "distancia": 600
+  },
+  {
+    "poblacion": "Villanueva de la serena",
+    "provincia": "Badajoz",
+    "cp": 6700,
+    "distancia": 449
+  },
+  {
+    "poblacion": "Villanueva de la sierra",
+    "provincia": "Caceres",
+    "cp": 10812,
+    "distancia": 585
+  },
+  {
+    "poblacion": "Villarrubia de los ojos",
+    "provincia": "Ciudad Real",
+    "cp": 13670,
+    "distancia": 534
+  },
+  {
+    "poblacion": "Villaviciosa de cordoba",
+    "provincia": "Cordoba",
+    "cp": 14300,
+    "distancia": 348
+  },
+  {
+    "poblacion": "Barca de la florida - la",
+    "provincia": "Cadiz",
+    "cp": 11570,
+    "distancia": 99
+  },
+  {
+    "poblacion": "Bollullos de la mitacion",
+    "provincia": "Sevilla",
+    "cp": 41110,
+    "distancia": 215
+  },
+  {
+    "poblacion": "Calahonda - Urbanización",
+    "provincia": "Malaga",
+    "cp": 29649,
+    "distancia": 101
+  },
+  {
+    "poblacion": "Calera y chozas - pueblo",
+    "provincia": "Toledo",
+    "cp": 45686,
+    "distancia": 593
+  },
+  {
+    "poblacion": "Castellar de la frontera",
+    "provincia": "Cadiz",
+    "cp": 11350,
+    "distancia": 26
+  },
+  {
+    "poblacion": "Castellar de santisteban",
+    "provincia": "Jaen",
+    "cp": 23260,
+    "distancia": 440
+  },
+  {
+    "poblacion": "Dolores - los (beniajan)",
+    "provincia": "Murcia",
+    "cp": 30011,
+    "distancia": 563
+  },
+  {
+    "poblacion": "Grove - o (casco urbano)",
+    "provincia": "Pontevedra",
+    "cp": 36980,
+    "distancia": 1117
+  },
+  {
+    "poblacion": "Monterrubio de la serena",
+    "provincia": "Badajoz",
+    "cp": 6427,
+    "distancia": 366
+  },
+  {
+    "poblacion": "Puebla de montalban - la",
+    "provincia": "Toledo",
+    "cp": 45516,
+    "distancia": 655
+  },
+  {
+    "poblacion": "Pueblonuevo del guadiana",
+    "provincia": "Badajoz",
+    "cp": 6184,
+    "distancia": 425
+  },
+  {
+    "poblacion": "San jose de la rinconada",
+    "provincia": "Sevilla",
+    "cp": 41300,
+    "distancia": 223
+  },
+  {
+    "poblacion": "San juan de aznalfarache",
+    "provincia": "Sevilla",
+    "cp": 41920,
+    "distancia": 213
+  },
+  {
+    "poblacion": "San Juan de los Terrenos",
+    "provincia": "Almeria",
+    "cp": 4648,
+    "distancia": 469
+  },
+  {
+    "poblacion": "San Martin del Tesorillo",
+    "provincia": "Cadiz",
+    "cp": 11340,
+    "distancia": 55
+  },
+  {
+    "poblacion": "San vicente de alcantara",
+    "provincia": "Badajoz",
+    "cp": 6500,
+    "distancia": 503
+  },
+  {
+    "poblacion": "Torreblanca de los caños",
+    "provincia": "Sevilla",
+    "cp": 41016,
+    "distancia": 186
+  },
+  {
+    "poblacion": "Villafranco del Guadiana",
+    "provincia": "Badajoz",
+    "cp": 6195,
+    "distancia": 408
+  },
+  {
+    "poblacion": "Villanueva del arzobispo",
+    "provincia": "Jaen",
+    "cp": 23330,
+    "distancia": 430
+  },
+  {
+    "poblacion": "Benifairo de la valldigna",
+    "provincia": "Valencia",
+    "cp": 46791,
+    "distancia": 735
+  },
+  {
+    "poblacion": "Bollullos par del condado",
+    "provincia": "Huelva",
+    "cp": 21710,
+    "distancia": 253
+  },
+  {
+    "poblacion": "Camino de guardias viejas",
+    "provincia": "Almeria",
+    "cp": 4715,
+    "distancia": 305
+  },
+  {
+    "poblacion": "Fuenlabrada de los montes",
+    "provincia": "Badajoz",
+    "cp": 6660,
+    "distancia": 533
+  },
+  {
+    "poblacion": "Guadalema de los quintero",
+    "provincia": "Sevilla",
+    "cp": 41719,
+    "distancia": 178
+  },
+  {
+    "poblacion": "Puebla de almoradiel - la",
+    "provincia": "Toledo",
+    "cp": 45840,
+    "distancia": 635
+  },
+  {
+    "poblacion": "Salvatierra de los barros",
+    "provincia": "Badajoz",
+    "cp": 6175,
+    "distancia": 368
+  },
+  {
+    "poblacion": "Santa marta de los barros",
+    "provincia": "Badajoz",
+    "cp": 6150,
+    "distancia": 364
+  },
+  {
+    "poblacion": "Torrecilla de los angeles",
+    "provincia": "Caceres",
+    "cp": 10869,
+    "distancia": 567
+  },
+  {
+    "poblacion": "Villafranca de los barros",
+    "provincia": "Badajoz",
+    "cp": 6220,
+    "distancia": 348
+  },
+  {
+    "poblacion": "San sebastian de los reyes",
+    "provincia": "Madrid",
+    "cp": 28700,
+    "distancia": 688
+  },
+  {
+    "poblacion": "Valencina de la concepcion",
+    "provincia": "Sevilla",
+    "cp": 41907,
+    "distancia": 213
+  },
+  {
+    "poblacion": "Villanueva de los infantes",
+    "provincia": "Ciudad Real",
+    "cp": 13320,
+    "distancia": 496
+  },
+  {
+    "poblacion": "Villanueva del rio y minas",
+    "provincia": "Sevilla",
+    "cp": 41350,
+    "distancia": 243
+  },
+  {
+    "poblacion": "Almunia de doña godina - la",
+    "provincia": "Zaragoza",
+    "cp": 50100,
+    "distancia": 922
+  },
+  {
+    "poblacion": "Castilblanco de los arroyos",
+    "provincia": "Sevilla",
+    "cp": 41230,
+    "distancia": 228
+  },
+  {
+    "poblacion": "Linea de la concepcion - la",
+    "provincia": "Cadiz",
+    "cp": 11300,
+    "distancia": 21
+  },
+  {
+    "poblacion": "San cristobal de entreviñas",
+    "provincia": "Zamora",
+    "cp": 49690,
+    "distancia": 800
+  },
+  {
+    "poblacion": "Palacios y villafranca - los",
+    "provincia": "Sevilla",
+    "cp": 41720,
+    "distancia": 167
+  },
+  {
+    "poblacion": "Acebuchal - el (lora del rio)",
+    "provincia": "Sevilla",
+    "cp": 41440,
+    "distancia": 256
+  },
+  {
+    "poblacion": "Aguilar del campoo - estacion",
+    "provincia": "Palencia",
+    "cp": 34813,
+    "distancia": 842
+  },
+  {
+    "poblacion": "Caldas de reis (casco urbano)",
+    "provincia": "Pontevedra",
+    "cp": 36650,
+    "distancia": 1130
+  },
+  {
+    "poblacion": "Villanueva de los castillejos",
+    "provincia": "Huelva",
+    "cp": 21540,
+    "distancia": 320
+  },
+  {
+    "poblacion": "Casal - o (ordes - santa maria)",
+    "provincia": "A Coruña",
+    "cp": 15680,
+    "distancia": 1160
+  },
+  {
+    "poblacion": "Angeles - los (puerto lumbreras)",
+    "provincia": "Murcia",
+    "cp": 30890,
+    "distancia": 461
+  },
+  {
+    "poblacion": "Cabra de santo cristo - estacion",
+    "provincia": "Jaen",
+    "cp": 23590,
+    "distancia": 345
+  },
+  {
+    "poblacion": "Campillo - el (cañada del rosal)",
+    "provincia": "Sevilla",
+    "cp": 41439,
+    "distancia": 259
+  },
+  {
+    "poblacion": "Acebuchal - el (alcala de guadaira)",
+    "provincia": "Sevilla",
+    "cp": 41500,
+    "distancia": 193
+  },
+  {
+    "poblacion": "Fuenlabrada. Pol. Ind. Cobo Calleja",
+    "provincia": "Madrid",
+    "cp": 28947,
+    "distancia": 663
+  }
+]

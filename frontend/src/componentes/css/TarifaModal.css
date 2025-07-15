@@ -1,0 +1,153 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  overflow: auto;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background: white;
+  border-radius: 16px;
+  width: 850px;
+  max-width: 95vw;
+  max-height: 90vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow-y: auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background: linear-gradient(135deg, #e8eaf5 0%, #d0d4e4 100%);
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.modal-columns {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.modal-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  background: none;
+  border: none;
+  color: #444;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+  z-index: 1001;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-input-group label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.modal-input-group input[type="text"],
+.modal-input-group input[type="number"] {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 2px solid #ccc;
+  width: 100%;
+  background-color: #fafafa;
+  color: #111;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.modal-input-group input:focus {
+  border-color: #646cff;
+  background-color: #fff;
+}
+
+.modal-input-group div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.modal-input-group div label {
+  font-weight: normal;
+  color: #444;
+  cursor: pointer;
+}
+
+/* Botón */
+.button {
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  background-color: #646cff;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #4a4dd4;
+  transform: scale(1.02);
+}
+
+.button:disabled {
+  background-color: #a5a5d6;
+  cursor: not-allowed;
+}
+
+/* Resultado de la tarifa */
+.tarifa-result {
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #f5f6fc;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  box-shadow: inset 0 0 6px #ddd;
+  text-align: left;
+  white-space: nowrap;
+}
