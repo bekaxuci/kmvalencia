@@ -4,11 +4,17 @@ import "../componentes/css/TarifaModal.css";
 const TarifaModal = ({ onClose, puerto, destino, provincia, cp, distancia }) => {
   const [precioCobrarKm, setPrecioCobrarKm] = useState("");
   const [precioPagarKm, setPrecioPagarKm] = useState("");
+
   const [tieneRecargo, setTieneRecargo] = useState(false);
   const [porcentajeRecargoCobrar, setPorcentajeRecargoCobrar] = useState("");
   const [porcentajeRecargoPagar, setPorcentajeRecargoPagar] = useState("");
-  const [totalCobrar, setTotalCobrar] = useState(null);
-  const [totalPagar, setTotalPagar] = useState(null);
+
+  const [tieneBAF, setTieneBAF] = useState(false);
+  const [bafCobrar, setBafCobrar] = useState("");
+  const [bafPagar, setBafPagar] = useState("");
+
+  // Estado único para resultados
+  const [resultado, setResultado] = useState(null);
 
   const calcularTarifa = () => {
     const cobrarKm = parseFloat(precioCobrarKm.replace(",", ".")) || 0;
@@ -18,27 +24,40 @@ const TarifaModal = ({ onClose, puerto, destino, provincia, cp, distancia }) => 
     const recargoCobrar = parseFloat(porcentajeRecargoCobrar) || 0;
     const recargoPagar = parseFloat(porcentajeRecargoPagar) || 0;
 
-    if (!isNaN(cobrarKm) && !isNaN(kms)) {
-      let total = cobrarKm * kms;
-      if (tieneRecargo) total *= 1 + recargoCobrar / 100;
-      setTotalCobrar(total.toFixed(2));
-    } else {
-      setTotalCobrar(null);
+    const bafCobrarNum = parseFloat(bafCobrar) || 0;
+    const bafPagarNum = parseFloat(bafPagar) || 0;
+
+    if (isNaN(cobrarKm) || isNaN(pagarKm) || isNaN(kms)) {
+      setResultado(null);
+      return;
     }
 
-    if (!isNaN(pagarKm) && !isNaN(kms)) {
-      let total = pagarKm * kms;
-      if (tieneRecargo) total *= 1 + recargoPagar / 100;
-      setTotalPagar(total.toFixed(2));
-    } else {
-      setTotalPagar(null);
-    }
+    let totalCobrar = cobrarKm * kms;
+    if (tieneRecargo) totalCobrar *= 1 + recargoCobrar / 100;
+    if (tieneBAF) totalCobrar *= 1 + bafCobrarNum / 100;
+
+    let totalPagar = pagarKm * kms;
+    if (tieneRecargo) totalPagar *= 1 + recargoPagar / 100;
+    if (tieneBAF) totalPagar *= 1 + bafPagarNum / 100;
+
+    const beneficio = totalCobrar - totalPagar;
+
+    setResultado({
+      cobrarFinal: totalCobrar.toFixed(2),
+      pagarFinal: totalPagar.toFixed(2),
+      beneficio: beneficio.toFixed(2),
+    });
   };
 
   return (
-    <div className="modal-overlay" onClick={(e) => e.target.classList.contains("modal-overlay") && onClose()}>
+    <div
+      className="modal-overlay"
+      onClick={(e) => e.target.classList.contains("modal-overlay") && onClose()}
+    >
       <div className="modal-content">
-        <button className="modal-close" onClick={onClose}>✖</button>
+        <button className="modal-close" onClick={onClose}>
+          ✖
+        </button>
 
         <h2 className="modal-title">Calcula tu tarifa</h2>
 
@@ -97,7 +116,8 @@ const TarifaModal = ({ onClose, puerto, destino, provincia, cp, distancia }) => 
                     value="no"
                     checked={!tieneRecargo}
                     onChange={() => setTieneRecargo(false)}
-                  /> No
+                  />{" "}
+                  No
                 </label>
                 <label>
                   <input
@@ -106,7 +126,8 @@ const TarifaModal = ({ onClose, puerto, destino, provincia, cp, distancia }) => 
                     value="si"
                     checked={tieneRecargo}
                     onChange={() => setTieneRecargo(true)}
-                  /> Sí
+                  />{" "}
+                  Sí
                 </label>
               </div>
             </div>
@@ -139,18 +160,76 @@ const TarifaModal = ({ onClose, puerto, destino, provincia, cp, distancia }) => 
               </>
             )}
 
+            <div className="modal-input-group">
+              <label>¿Tiene BAF (cargo adicional)?</label>
+              <div>
+                <label>
+                  <input
+                    type="radio"
+                    name="baf"
+                    value="no"
+                    checked={!tieneBAF}
+                    onChange={() => setTieneBAF(false)}
+                  />{" "}
+                  No
+                </label>
+                <label>
+                  <input
+                    type="radio"
+                    name="baf"
+                    value="si"
+                    checked={tieneBAF}
+                    onChange={() => setTieneBAF(true)}
+                  />{" "}
+                  Sí
+                </label>
+              </div>
+            </div>
+
+            {tieneBAF && (
+              <>
+                <div className="modal-input-group">
+                  <label>BAF a cobrar (%):</label>
+                  <input
+                    type="number"
+                    value={bafCobrar}
+                    onChange={(e) => setBafCobrar(e.target.value)}
+                    min="0"
+                    step="0.01"
+                    placeholder="Introduce % BAF a cobrar"
+                  />
+                </div>
+                <div className="modal-input-group">
+                  <label>BAF a pagar (%):</label>
+                  <input
+                    type="number"
+                    value={bafPagar}
+                    onChange={(e) => setBafPagar(e.target.value)}
+                    min="0"
+                    step="0.01"
+                    placeholder="Introduce % BAF a pagar"
+                  />
+                </div>
+              </>
+            )}
+
             <button className="button" onClick={calcularTarifa}>
               Calcular tarifa
             </button>
 
-            {(totalCobrar !== null || totalPagar !== null) && (
+            {/* Resultado */}
+            {resultado && (
               <div className="tarifa-result">
-                {totalCobrar !== null && (
-                  <p><strong>Total a cobrar:</strong> {totalCobrar} €</p>
-                )}
-                {totalPagar !== null && (
-                  <p><strong>Total a pagar:</strong> {totalPagar} €</p>
-                )}
+                <p><strong>Total a cobrar:</strong> € {resultado.cobrarFinal}</p>
+                <p><strong>Total a pagar:</strong> € {resultado.pagarFinal}</p>
+                <p
+                  style={{
+                    color: resultado.beneficio >= 0 ? "green" : "red",
+                    fontWeight: "bold",
+                  }}
+                >
+                  {resultado.beneficio >= 0 ? "Beneficio" : "Pérdida"}: {resultado.beneficio} €
+                </p>
               </div>
             )}
           </div>

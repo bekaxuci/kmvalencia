@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ModoMapaToggle from "./componentes/ModoMapaToggle"; // Importa el toggle separado
+import MapaConRutas from "./componentes/ModoMapa"
 import "./App.css";
 
 // Imágenes de los puertos
@@ -143,17 +144,8 @@ const App = () => {
       <ModoMapaToggle modoMapa={modoMapa} setModoMapa={setModoMapa} />
 
       {modoMapa ? (
-        <div className="map-view" style={{ width: "100%", height: "600px" }}>
-          <iframe
-            title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24981.024474436024!2d-0.39544014999999996!3d39.4699076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f29c3f70fd1%3A0x2029eb75602b39e!2sPuerto%20de%20Valencia!5e0!3m2!1ses!2ses!4v1710073188293!5m2!1ses!2ses"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+        <div className="map-view" style={{ width: "1500PX", height: "800px" }}>
+            <MapaConRutas />
         </div>
       ) : (
         <>
@@ -263,8 +255,10 @@ const App = () => {
               </div>
             )}
           </div>
-
-          <div
+        </>
+      )}
+      <footer>
+        <div
             className="map-container"
             style={{ backgroundImage: `url(${carreteraImg})` }}
           >
@@ -279,8 +273,7 @@ const App = () => {
               </div>
             )}
           </div>
-        </>
-      )}
+      </footer>
     </div>
   );
 };

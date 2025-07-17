@@ -11,37 +11,37 @@
   padding: 1rem;
   overflow: auto;
   z-index: 1000;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .modal-content {
   position: relative;
-  background: white;
-  border-radius: 16px;
+  background: linear-gradient(135deg, #e8eaf5 0%, #d0d4e4 100%);
+  border-radius: 20px;
   width: 850px;
   max-width: 95vw;
   max-height: 90vh;
-  padding: 2rem;
+  padding: 2rem 1.75rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   overflow-y: auto;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #222;
-  background: linear-gradient(135deg, #e8eaf5 0%, #d0d4e4 100%);
+  box-shadow: 0 10px 30px rgba(100, 108, 255, 0.15);
+  color: #3a3f6e;
 }
 
 .modal-title {
   text-align: center;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 800;
   margin-bottom: 1rem;
-  color: #222;
+  color: #3a3f6e;
+  letter-spacing: 0.03em;
 }
 
 .modal-columns {
   display: flex;
-  gap: 2rem;
+  gap: 1.25rem;
   width: 100%;
 }
 
@@ -52,22 +52,34 @@
   gap: 1.25rem;
 }
 
+/* Botón cerrar similar a .btn-eliminar */
 .modal-close {
   position: absolute;
   top: 12px;
   right: 15px;
-  background: none;
+  background: transparent;
   border: none;
-  color: #444;
-  font-size: 1.8rem;
-  font-weight: bold;
+  color: #ff4d4d;
+  font-size: 1.4rem;
+  font-weight: 700;
   cursor: pointer;
-  transition: color 0.2s;
+  line-height: 1;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+  user-select: none;
   z-index: 1001;
+  box-shadow: inset 0 1px 2px rgba(255, 77, 77, 0.2);
 }
 
 .modal-close:hover {
-  color: #000;
+  color: #cc0000;
+  background-color: rgba(255, 77, 77, 0.4);
+  transform: scale(1.3);
 }
 
 .modal-input-group {
@@ -76,28 +88,34 @@
 }
 
 .modal-input-group label {
-  font-weight: 600;
+  font-weight: 800;
+  color: #3a3f6e;
+  font-size: 1rem;
   margin-bottom: 0.35rem;
-  color: #333;
-  font-size: 0.95rem;
 }
 
+/* Inputs igual a .input-container input[type="text"] */
 .modal-input-group input[type="text"],
 .modal-input-group input[type="number"] {
-  padding: 0.8rem 1rem;
-  font-size: 1rem;
-  border-radius: 25px;
-  border: 2px solid #ccc;
+  padding: 0.85rem 1.25rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: 1.8px solid #a3a9d1;
   width: 100%;
-  background-color: #fafafa;
-  color: #111;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
+  background-color: #fcfcff;
+  color: #2c2f4a;
   outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.4s ease, box-shadow 0.3s ease;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  box-shadow: inset 0 2px 4px rgba(160, 168, 210, 0.15);
 }
 
-.modal-input-group input:focus {
+.modal-input-group input[type="text"]:focus,
+.modal-input-group input[type="number"]:focus {
   border-color: #646cff;
+  box-shadow: 0 0 10px rgba(100, 108, 255, 0.5);
   background-color: #fff;
 }
 
@@ -114,23 +132,28 @@
   cursor: pointer;
 }
 
-/* Botón */
+/* Botón igual a .input-container button */
 .button {
-  padding: 0.9rem 1.2rem;
-  font-size: 1rem;
+  padding: 1rem 1.8rem;
+  font-size: 1.1rem;
   background-color: #646cff;
   color: white;
-  font-weight: 700;
+  font-weight: 800;
   border: none;
-  border-radius: 25px;
+  border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.25s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
   width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 6px 15px rgba(100, 108, 255, 0.35);
+  letter-spacing: 0.03em;
+  font-family: 'Inter', sans-serif;
 }
 
-.button:hover {
+.button:hover:not(:disabled) {
   background-color: #4a4dd4;
-  transform: scale(1.02);
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(74, 77, 212, 0.55);
 }
 
 .button:disabled {
@@ -138,16 +161,15 @@
   cursor: not-allowed;
 }
 
-/* Resultado de la tarifa */
+/* Resultado de la tarifa similar a .route-info */
 .tarifa-result {
-  margin-top: 1.5rem;
-  padding: 1rem 1.5rem;
-  background-color: #f5f6fc;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #333;
-  box-shadow: inset 0 0 6px #ddd;
-  text-align: left;
-  white-space: nowrap;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: #f9faff;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 0 12px rgba(100, 108, 255, 0.1);
+  color: #3a3f6e;
+  user-select: none;
 }
