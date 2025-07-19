@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./css/MapaConRutas.css";
 import TarifaModalMapa from "./TarifaModalMapa";
+import SeleccionTarifaModal from "./SeleccionTarifaModal";
+import TarifaModalPrecioCerradoMapa from "./TarifaModalPrecioCerradoMapa";
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyA7WUH-f6itwbbNixJSXznp57uDH0bDfSM";
 
@@ -35,6 +37,8 @@ const MapaConRutas = () => {
   const [tarifa, setTarifa] = useState(null);
 
   const [modalAbierto, setModalAbierto] = useState(false);
+  const [mostrarModalSeleccionTarifa, setMostrarModalSeleccionTarifa] = useState(false);
+  const [mostrarModalPrecioCerrado, setMostrarModalPrecioCerrado] = useState(false); // NUEVO estado modal precio cerrado
 
   useEffect(() => {
     const iniciarMapa = async () => {
@@ -48,7 +52,6 @@ const MapaConRutas = () => {
       });
 
       const renderer = new window.google.maps.DirectionsRenderer({ draggable: true });
-
       renderer.setMap(map);
 
       setMapa(map);
@@ -199,29 +202,18 @@ const MapaConRutas = () => {
     );
   };
 
-  const calcularTarifa = () => {
-    console.log("Botón Calcular Tarifa pulsado");
-
-    if (!resultadoRuta) {
-      alert("Primero calcula la ruta.");
-      return;
+  const manejarSeleccionTarifa = (tipo) => {
+    setMostrarModalSeleccionTarifa(false);
+    if (tipo === "porKm") {
+      const km = parseFloat(resultadoRuta.distancia);
+      if (!isNaN(km)) {
+        const tarifaCalculada = (km * 0.75).toFixed(2);
+        setTarifa(tarifaCalculada);
+        setModalAbierto(true);
+      }
+    } else if (tipo === "precioCerrado") {
+      setMostrarModalPrecioCerrado(true); // Abrimos modal precio cerrado
     }
-
-    const km = parseFloat(resultadoRuta.distancia);
-    if (isNaN(km)) {
-      alert("La distancia no es válida para calcular tarifa.");
-      return;
-    }
-
-    const tarifaCalculada = (km * 0.75).toFixed(2);
-    setTarifa(tarifaCalculada);
-
-    console.log("Tarifa calculada:", tarifaCalculada);
-    setModalAbierto(true);
-  };
-
-  const cerrarModal = () => {
-    setModalAbierto(false);
   };
 
   return (
@@ -238,13 +230,14 @@ const MapaConRutas = () => {
         />
 
         {destinos.map((destino, index) => (
-          <div key={index} className="destino-item">
+          <div
+            key={index}
+            className={`destino-item ${index < destinos.length - 1 ? "eliminable" : ""}`}
+          >
             <input
               type="text"
               ref={(el) => (destinoRefs.current[index] = el)}
-              placeholder={
-                index === destinos.length - 1 ? "Destino final" : `Parada ${index + 1}`
-              }
+              placeholder={index === destinos.length - 1 ? "Destino final" : `Parada ${index + 1}`}
               value={destino}
               onChange={(e) => handleDestinoChange(index, e.target.value)}
             />
@@ -253,7 +246,6 @@ const MapaConRutas = () => {
                 type="button"
                 className="btn-eliminar"
                 onClick={() => eliminarDestino(index)}
-                aria-label={`Eliminar parada ${index + 1}`}
               >
                 ✕
               </button>
@@ -261,37 +253,50 @@ const MapaConRutas = () => {
           </div>
         ))}
 
+
         <button onClick={agregarDestino}>+ Añadir destino</button>
         <button onClick={calcularRuta}>Calcular ruta</button>
 
         {resultadoRuta && (
           <div className="route-info">
-            <p>
-              <strong>Distancia total:</strong> {resultadoRuta.distancia} km
-            </p>
-            <p>
-              <strong>Duración 🚗:</strong> {resultadoRuta.duracion}
-            </p>
-            <p>
-              <strong>Duración 🚚 (80 km/h):</strong> {resultadoRuta.tarifaTiempo}
-            </p>
+            <p><strong>Distancia total:</strong> {resultadoRuta.distancia} km</p>
+            <p><strong>Duración 🚗:</strong> {resultadoRuta.duracion}</p>
+            <p><strong>Duración 🚚 (80 km/h):</strong> {resultadoRuta.tarifaTiempo}</p>
           </div>
         )}
 
         {resultadoRuta && (
-          <button onClick={calcularTarifa}>Calcular tarifa</button>
+          <button onClick={() => setMostrarModalSeleccionTarifa(true)}>
+            Calcular tarifa
+          </button>
         )}
       </div>
 
       <div ref={mapaRef} id="mapa"></div>
+
+      {mostrarModalSeleccionTarifa && (
+        <SeleccionTarifaModal
+          onClose={() => setMostrarModalSeleccionTarifa(false)}
+          onSeleccion={manejarSeleccionTarifa}
+        />
+      )}
 
       {modalAbierto && (
         <TarifaModalMapa
           origen={origen}
           destinos={destinos}
           distancia={resultadoRuta?.distancia || "0.00"}
-          tarifaCalculada={resultadoRuta ? (parseFloat(resultadoRuta.distancia) * 0.75).toFixed(2) : "0.00"}
+          tarifaCalculada={tarifa}
           onClose={() => setModalAbierto(false)}
+        />
+      )}
+
+      {mostrarModalPrecioCerrado && (
+        <TarifaModalPrecioCerradoMapa
+          origen={origen}
+          destinos={destinos}
+          distancia={resultadoRuta?.distancia || "0.00"}
+          onClose={() => setMostrarModalPrecioCerrado(false)}
         />
       )}
     </div>
@@ -299,4 +304,3 @@ const MapaConRutas = () => {
 };
 
 export default MapaConRutas;
-

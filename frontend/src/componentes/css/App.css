@@ -30,7 +30,8 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 2rem 2.5rem;
-  padding-bottom: 70px; /* espacio para footer fijo */
+  padding-bottom: 70px;
+  /* espacio para footer fijo */
   background: #ffffff;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-radius: 18px;
@@ -222,10 +223,13 @@ p {
 }
 
 @keyframes pulso {
-  0%, 100% {
+
+  0%,
+  100% {
     text-shadow: 0 0 6px rgba(100, 108, 255, 0.4);
     transform: scale(1);
   }
+
   50% {
     text-shadow: 0 0 12px rgba(100, 108, 255, 0.6);
     transform: scale(1.03);
@@ -237,6 +241,7 @@ p {
     opacity: 0;
     transform: translateY(25px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -246,14 +251,17 @@ p {
 /* Contenedor mapa embebido */
 .map-view {
   width: 100%;
-  height: 50vh;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  /* Mantiene proporción 16:9 */
   max-height: 800px;
+  /* Altura máxima en pantallas grandes */
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
   background-color: #f7f9fc;
   margin-top: 1.2rem;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, height 0.3s ease;
 }
 
 .map-view:hover {
@@ -334,6 +342,7 @@ p {
   from {
     left: 120px;
   }
+
   to {
     left: calc(100% - 180px);
   }
@@ -404,9 +413,11 @@ p {
     top: -30px;
     opacity: 0.9;
   }
+
   80% {
     opacity: 1;
   }
+
   100% {
     top: 100vh;
     opacity: 0;
@@ -455,15 +466,19 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #f9fafc; /* tono muy claro para fondo */
-  color: #2f3e57;            /* texto principal azul oscuro suave */
+  background-color: #f9fafc;
+  /* tono muy claro para fondo */
+  color: #2f3e57;
+  /* texto principal azul oscuro suave */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 14px 3rem;
   font-size: 14px;
-  border-top: 1px solid #d1d9e6; /* línea sutil */
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05); /* sombra muy suave */
+  border-top: 1px solid #d1d9e6;
+  /* línea sutil */
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05);
+  /* sombra muy suave */
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   user-select: none;
   z-index: 1000;
@@ -476,7 +491,8 @@ footer p {
 }
 
 footer nav a {
-  color: #557efc; /* azul vibrante igual que tus botones */
+  color: #557efc;
+  /* azul vibrante igual que tus botones */
   text-decoration: none;
   margin-left: 28px;
   font-weight: 700;
@@ -490,7 +506,8 @@ footer nav a:first-child {
 }
 
 footer nav a:hover {
-  color: #4169e8; /* azul más oscuro para hover */
+  color: #4169e8;
+  /* azul más oscuro para hover */
   text-decoration: underline;
 }
 
@@ -503,8 +520,20 @@ footer nav a:hover {
     padding: 1.8rem 2rem;
   }
 
-  .map-view {
-    height: 45vh;
+  /* Móviles grandes */
+  @media (max-width: 768px) {
+    .map-view {
+      max-height: 320px;
+      border-radius: 12px;
+    }
+  }
+
+  /* Móviles pequeños */
+  @media (max-width: 480px) {
+    .map-view {
+      max-height: 220px;
+      border-radius: 10px;
+    }
   }
 
   .distance-highlight {
@@ -516,7 +545,8 @@ footer nav a:hover {
 @media (max-width: 768px) {
   .App {
     padding: 1.2rem 1.5rem;
-    padding-bottom: 90px; /* más espacio para footer fijo */
+    padding-bottom: 90px;
+    /* más espacio para footer fijo */
     border-radius: 12px;
   }
 
@@ -528,10 +558,7 @@ footer nav a:hover {
     max-width: 100%;
   }
 
-  .map-view {
-    height: 40vh;
-    border-radius: 12px;
-  }
+
 
   h1 {
     font-size: clamp(1.5rem, 5vw, 2.5rem);
