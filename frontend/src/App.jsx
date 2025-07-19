@@ -1,17 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ModoMapaToggle from "./componentes/ModoMapaToggle"; // Importa el toggle separado
-import MapaConRutas from "./componentes/ModoMapa"
-import "./App.css";
+import MapaConRutas from "./componentes/ModoMapa";
+import "./componentes/css/App.css";
+import SeleccionTarifaModal from "./componentes/SeleccionTarifaModal"
+import TarifaModalPrecioCerrado from "./componentes/TarifaModalPrecioCerrado";
 
-// Imágenes de los puertos
-import puertoValenciaImg from "./componentes/PUERTODEVALENCIA.png";
-import puertoAlgecirasImg from "./componentes/PUERTODEALGECIRAS.png";
-import puertoBarcelonaImg from "./componentes/PUERTODEBARCELONA.png";
-
-// Otras imágenes
-import camionImg from "./componentes/camion.png";
-import carreteraImg from "./componentes/carretera.png";
-import destinoImg from "./componentes/destino.png";
 
 // Datos por puerto
 import puertoValencia from "../public/puertovalencia.json";
@@ -27,20 +20,6 @@ const datosPorPuerto = {
   "Puerto de Barcelona": puertoBarcelona,
 };
 
-// Asociación de puertos con sus imágenes
-const imagenesPorPuerto = {
-  "Puerto de Valencia": puertoValenciaImg,
-  "Puerto de Algeciras": puertoAlgecirasImg,
-  "Puerto de Barcelona": puertoBarcelonaImg,
-};
-
-// Array con las imágenes para slideshow
-const slideshowImages = [
-  { name: "Puerto de Valencia", img: puertoValenciaImg },
-  { name: "Puerto de Algeciras", img: puertoAlgecirasImg },
-  { name: "Puerto de Barcelona", img: puertoBarcelonaImg },
-];
-
 const App = () => {
   const [input, setInput] = useState("");
   const [filteredLocations, setFilteredLocations] = useState([]);
@@ -51,6 +30,9 @@ const App = () => {
   const [selectedPuerto, setSelectedPuerto] = useState("");
   const [localidades, setLocalidades] = useState([]);
   const [showTarifaModal, setShowTarifaModal] = useState(false);
+  const [showPreguntaModal, setShowPreguntaModal] = useState(false);
+  const [tipoTarifa, setTipoTarifa] = useState(null); // "porKm" o "precioCerrado"
+
 
   // Estado para controlar modo mapa / app
   const [modoMapa, setModoMapa] = useState(false);
@@ -84,16 +66,6 @@ const App = () => {
   }, [input, localidades]);
 
   // UseEffect para slideshow automático cada 2 segundos solo si NO hay puerto seleccionado
-  useEffect(() => {
-    if (selectedPuerto) return; // No hacer slideshow si hay puerto seleccionado
-
-    const interval = setInterval(() => {
-      setSlideIndex((prevIndex) => (prevIndex + 1) % slideshowImages.length);
-    }, 2000);
-
-    return () => clearInterval(interval);
-  }, [selectedPuerto]);
-
   const handlePuertoChange = (e) => {
     setSelectedPuerto(e.target.value);
   };
@@ -144,8 +116,8 @@ const App = () => {
       <ModoMapaToggle modoMapa={modoMapa} setModoMapa={setModoMapa} />
 
       {modoMapa ? (
-        <div className="map-view" style={{ width: "1500PX", height: "800px" }}>
-            <MapaConRutas />
+        <div className="map-view" style={{ width: "1500px", height: "800px" }}>
+          <MapaConRutas />
         </div>
       ) : (
         <>
@@ -210,12 +182,42 @@ const App = () => {
               <button
                 type="button"
                 className="button"
-                onClick={() => setShowTarifaModal(true)}
+                onClick={() => setShowPreguntaModal(true)}
               >
                 Calcula tu tarifa
               </button>
-              {showTarifaModal && (
+
+              {/* Modal de selección de tipo de tarifa */}
+              {showPreguntaModal && (
+                <SeleccionTarifaModal
+                  onClose={() => setShowPreguntaModal(false)}
+                  onSeleccion={(tipo) => {
+                    if (tipo === "porKm") {
+                      setTipoTarifa("porKm");
+                      setShowPreguntaModal(false);
+                      setShowTarifaModal(true);
+                    } else if (tipo === "precioCerrado") {
+                      setTipoTarifa("precioCerrado");
+                      setShowPreguntaModal(false);
+                      setShowTarifaModal(true);
+                    }
+                  }}
+                />
+              )}
+
+              {/* Solo se abre si se eligió "porKm" */}
+              {showTarifaModal && tipoTarifa === "porKm" && (
                 <TarifaModal
+                  onClose={() => setShowTarifaModal(false)}
+                  puerto={selectedPuerto}
+                  destino={selectedLocation}
+                  provincia={provincia}
+                  cp={cp}
+                  distancia={distance}
+                />
+              )}
+              {showTarifaModal && tipoTarifa === "precioCerrado" && (
+                <TarifaModalPrecioCerrado
                   onClose={() => setShowTarifaModal(false)}
                   puerto={selectedPuerto}
                   destino={selectedLocation}
@@ -226,53 +228,16 @@ const App = () => {
               )}
             </div>
           )}
-
-          <div className="map-content">
-            <div className="map-item puerto">
-              {/* Aquí muestra el slideshow si NO hay puerto seleccionado */}
-              {!selectedPuerto ? (
-                <img
-                  src={slideshowImages[slideIndex].img}
-                  alt={slideshowImages[slideIndex].name}
-                  className="puerto-img"
-                  style={{ borderRadius: "20px", width: "100%", maxWidth: "400px" }}
-                />
-              ) : (
-                <img
-                  src={imagenesPorPuerto[selectedPuerto]}
-                  alt={selectedPuerto}
-                  className="puerto-img"
-                />
-              )}
-            </div>
-
-            {distance !== null && selectedLocation && (
-              <div className="map-item marker">
-                <div className="marker-emoji">
-                  <img src={destinoImg} alt="Ubicación" />
-                </div>
-                <div className="marker-arrow" />
-              </div>
-            )}
-          </div>
         </>
       )}
+
       <footer>
-        <div
-            className="map-container"
-            style={{ backgroundImage: `url(${carreteraImg})` }}
-          >
-            {distance !== null && selectedLocation && (
-              <div
-                className="map-item camion"
-                style={{
-                  animationDuration: `${Math.min(Math.max(distance / 20, 6), 10)}s`,
-                }}
-              >
-                <img src={camionImg} alt="Camión" className="camion-img" />
-              </div>
-            )}
-          </div>
+        <p>© {new Date().getFullYear()} Transporte Marítimo</p>
+        <nav>
+          <a href="/aviso-legal">Aviso Legal</a>
+          <a href="/politica-privacidad">Política de Privacidad</a>
+          <a href="/contacto">Contacto</a>
+        </nav>
       </footer>
     </div>
   );
