@@ -127,25 +127,11 @@
   box-shadow: 0 0 60px rgba(85, 126, 252, 0.25);
 }
 
-/* === ITEM DESTINO + BOTÓN ELIMINAR === */
+/* === ITEM DESTINO + BOTÓN ELIMINAR + BOTÓN INTERCAMBIO === */
 .destino-item {
   display: flex;
   align-items: center;
   gap: 0.5rem; /* pequeño espacio entre input y botón */
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: #2f3e57;
-  user-select: none;
-  background-color: #eef1f9;
-  box-shadow: inset 0 1px 2px rgba(85, 126, 252, 0.1);
-}
-
-/* === ITEM DESTINO GENERAL === */
-.destino-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
   border-radius: 12px;
   font-weight: 700;
   font-size: 0.95rem;
@@ -177,25 +163,65 @@
   background-color: #fff;
 }
 
-/* === CUANDO DESTINO ES ELIMINABLE: 80/20 SPLIT === */
-.destino-item.eliminable input[type="text"] {
-  flex: 0 0 80%;
-  max-width: 80%;
+/* === CUANDO DESTINO ES ELIMINABLE: INPUT + BOTÓN INTERCAMBIO + BOTÓN ELIMINAR === */
+.destino-item.eliminable {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #2f3e57;
+  background-color: #eef1f9;
+  box-shadow: inset 0 1px 2px rgba(85, 126, 252, 0.1);
 }
 
-.destino-item.eliminable .btn-eliminar {
+/* Input ocupa 75% */
+.destino-item.eliminable input[type="text"] {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding: 0.6rem 1rem;
+  border-radius: 30px;
+  border: 2px solid #d1d9e6;
+  background-color: #f9fafc;
+  color: #2f3e57;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  box-shadow: inset 0 2px 4px rgba(180, 190, 210, 0.25);
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Botón intercambio 5% */
+.btn-intercambio {
+  flex: 0 0 5%;
+  max-width: 5%;
+  background: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: #557efc;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.25s ease, transform 0.2s ease;
+  padding: 0;
+  user-select: none;
+}
+
+.btn-intercambio:hover {
+  color: #4169e8;
+  transform: scale(1.2);
+}
+
+/* Botón eliminar 20% */
+.btn-eliminar {
   flex: 0 0 20%;
   max-width: 20%;
-  width: 100%;
-  height: 100%;
-}
-
-/* === BOTÓN ELIMINAR (estilo general) === */
-.btn-eliminar {
   background: transparent;
   border: none;
   color: #ff4d4d;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
   line-height: 1;
@@ -213,18 +239,22 @@
   transform: scale(1.15);
 }
 
-
 /* === RESULTADOS DE RUTA === */
 .route-info {
-  font-weight: 800;
-  font-size: 1rem;
-  background: #f9faff;
-  padding: 1rem 1.25rem;
-  border-radius: 14px;
-  margin-top: 1.25rem;
-  box-shadow: 0 0 12px rgba(100, 108, 255, 0.1);
-  color: #34495e;
+  font-weight: 600;            /* Ligero y moderno */
+  font-size: 0.25rem;          /* Más pequeño */
+  background: #f5f7ff;         /* Muy suave y limpio */
+  border-radius: 8px;          /* Más pequeño y redondeado */
+  margin-top: 0.75rem;
+  box-shadow: 0 1px 6px rgba(100, 108, 255, 0.1); /* Sombra súper ligera */
+  color: #2c3e50;
   user-select: none;
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+.route-info:hover {
+  background-color: #e6ebff;
 }
 
 /* === MEDIA QUERIES === */
