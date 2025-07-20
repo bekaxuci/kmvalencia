@@ -1,0 +1,64 @@
+/* Overlay semi-transparente y centrado */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(44, 62, 80, 0.6); /* usa color de .homepage text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Caja modal */
+.modal-container {
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  max-width: 350px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #2c3e50;
+}
+
+/* Botones del modal */
+.modal-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.btn-yes, .btn-no {
+  padding: 0.8rem 2rem;
+  font-weight: 800;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-yes {
+  background-color: #557efc;
+  color: white;
+  box-shadow: 0 6px 20px rgba(85, 126, 252, 0.3);
+}
+
+.btn-yes:hover {
+  background-color: #4169e8;
+  transform: scale(1.05);
+}
+
+.btn-no {
+  background-color: #f44336;
+  color: white;
+  box-shadow: 0 6px 20px rgba(244, 67, 54, 0.3);
+}
+
+.btn-no:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}

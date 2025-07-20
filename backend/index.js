@@ -4,8 +4,8 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
 
-dotenv.config();      // Carga variables de .env
-connectDB();          // Conecta a MongoDB
+dotenv.config();      
+connectDB();          
 
 const app = express();
 
