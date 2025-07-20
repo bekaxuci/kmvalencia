@@ -1,0 +1,27 @@
+/* Importa la fuente Inter si aún no lo haces */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+/* Reutiliza todo el CSS base que ya usaste para .homepage, .btn-login, .homepage-main, etc. */
+
+/* Estilo del formulario de registro */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.register-form input {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.register-form input:focus {
+  border-color: #557efc;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(85, 126, 252, 0.2);
+}

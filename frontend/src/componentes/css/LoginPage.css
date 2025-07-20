@@ -1,0 +1,138 @@
+/* Importa la fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+/* Reutilizamos tu estilo */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #2c3e50;
+}
+
+.homepage-header {
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.homepage-header h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+}
+
+.homepage-header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn-login,
+.btn-register {
+  padding: 0.5rem 1.2rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login {
+  background-color: transparent;
+  color: #646cff;
+  border: 2px solid #646cff;
+}
+
+.btn-login:hover {
+  background-color: #646cff;
+  color: white;
+}
+
+.btn-register {
+  background-color: #646cff;
+  color: white;
+}
+
+.btn-register:hover {
+  background-color: #4a4dd4;
+}
+
+.homepage-main {
+  flex: 1;
+  padding: 4rem 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.homepage-main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  color: #2e356d;
+}
+
+.homepage-main p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  color: #4a4a4a;
+}
+
+.btn-iniciar {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #557efc;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0 6px 20px rgba(85, 126, 252, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-iniciar:hover {
+  background-color: #4169e8;
+  transform: scale(1.05);
+}
+
+.homepage-footer {
+  background-color: #ffffffdd;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ccc;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
+}
+
+/* Estilo del formulario de login */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-form input {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.login-form input:focus {
+  border-color: #557efc;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(85, 126, 252, 0.2);
+}
