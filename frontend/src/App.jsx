@@ -230,15 +230,6 @@ const App = () => {
           )}
         </>
       )}
-
-      <footer>
-        <p>© {new Date().getFullYear()} Transporte Marítimo</p>
-        <nav>
-          <a href="/aviso-legal">Aviso Legal</a>
-          <a href="/politica-privacidad">Política de Privacidad</a>
-          <a href="/contacto">Contacto</a>
-        </nav>
-      </footer>
     </div>
   );
 };
