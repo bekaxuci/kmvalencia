@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import './componentes/css/LoginPage.css';
+import { useNavigate } from 'react-router-dom';
+import RecuperarContraseña from './componentes/RecuperarContraseña';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [mensaje, setMensaje] = useState('');
+  const [mostrarModal, setMostrarModal] = useState(false); // Estado para mostrar modal
+
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,8 +30,7 @@ function LoginPage() {
         setError(data.error || 'Error al iniciar sesión');
       } else {
         setMensaje(data.mensaje || 'Has iniciado sesión correctamente');
-        // Aquí puedes guardar token o redirigir a otra página
-        // Ejemplo: localStorage.setItem('token', data.token);
+        navigate('/app');
       }
     } catch (err) {
       setError('Error de conexión con el servidor');
@@ -55,10 +59,26 @@ function LoginPage() {
             onChange={(e) => setPassword(e.target.value)}
           />
           <button type="submit" className="btn-iniciar">Iniciar sesión</button>
+
+          <p style={{ marginTop: '1rem' }}>
+            ¿Olvidaste tu contraseña?{' '}
+            <button
+              type="button"
+              className="link-button"
+              onClick={() => setMostrarModal(true)}
+            >
+              Recupérala aquí
+            </button>
+          </p>
         </form>
 
         {error && <p style={{ color: 'red' }}>{error}</p>}
         {mensaje && <p style={{ color: 'green' }}>{mensaje}</p>}
+
+        {/* Mostrar modal solo si mostrarModal es true */}
+        {mostrarModal && (
+          <RecuperarContraseña onClose={() => setMostrarModal(false)} />
+        )}
       </main>
     </div>
   );

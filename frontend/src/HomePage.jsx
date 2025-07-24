@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./componentes/css/HomePage.css";
 import { useNavigate } from "react-router-dom";
 import UsuarioRegistrado from "./componentes/UsuarioRegistrado";
+import logo from "./componentes/imagenes/logo.png"
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -25,7 +26,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <header className="homepage-header">
-        <h1>Distancias Kilométricas</h1>
+        <img src={logo} alt="Logo Distancias KM" className="logo-header" />
         <nav>
           {/* Eliminados "Sobre el proyecto" y "Acceso rápido" */}
           <button onClick={() => navigate("/login")} className="btn-login">

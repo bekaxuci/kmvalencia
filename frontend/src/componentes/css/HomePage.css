@@ -15,22 +15,18 @@
   background: #ffffffcc;
   backdrop-filter: blur(6px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  height: 100px;
 }
 
-.homepage-header h1 {
-  font-size: 1.75rem;
-  font-weight: 900;
-  letter-spacing: 0.03em;
-}
-
-.homepage-header nav {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+.logo-header {
+  height: 100px;
+  /* Ajusta este valor según lo alto que quieras el logo */
+  object-fit: contain;
 }
 
 /* Botones Iniciar sesión y Registrarse */
-.btn-login, .btn-register {
+.btn-login,
+.btn-register {
   padding: 0.5rem 1.2rem;
   font-weight: 700;
   font-size: 0.95rem;
@@ -60,6 +56,12 @@
 
 .btn-register:hover {
   background-color: #4a4dd4;
+}
+
+.homepage-header nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .homepage-main {
