@@ -4,22 +4,26 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
 
-dotenv.config();      
-connectDB();          
+// Cargar las variables de entorno
+dotenv.config();
+
+// Conectar a la base de datos
+connectDB();
 
 const app = express();
 
 // Orígenes permitidos (ajusta según tus URLs)
 const allowedOrigins = [
-  'http://localhost:3000', // React local (puerto típico)
-  'http://localhost:4000', // Si usas otro puerto local
-  'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev',  // Frontend Codespaces
-  'https://shiny-disco-699q69vjq7qx34444-4000.app.github.dev'   // Backend Codespaces (a veces necesario para preflight)
+  'http://localhost:3000',
+  'http://localhost:4000',
+  'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev',
+  'https://shiny-disco-699q69vjq7qx34444-4000.app.github.dev'
 ];
 
+// Configuración de CORS
 app.use(cors({
   origin: function(origin, callback) {
-    if (!origin) return callback(null, true); // Permite peticiones como Postman o curl sin origin
+    if (!origin) return callback(null, true); // Permite peticiones sin origin (Postman, curl)
     if (allowedOrigins.indexOf(origin) === -1) {
       const msg = `El CORS no permite este origen: ${origin}`;
       return callback(new Error(msg), false);
@@ -27,19 +31,22 @@ app.use(cors({
     return callback(null, true);
   },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  credentials: true,
+  credentials: true, // Permite el envío de cookies y autenticación
 }));
 
-app.use(express.json()); // Para parsear JSON en el body
+// Middleware para procesar JSON en el body de la petición
+app.use(express.json());
 
-app.use('/api/auth', authRoutes); // Rutas de autenticación
+// Rutas de autenticación
+app.use('/api/auth', authRoutes);
 
+// Ruta principal
 app.get('/', (req, res) => {
   res.send('Backend funcionando correctamente.');
 });
 
+// Iniciar el servidor
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en puerto ${PORT}`);
 });
-
