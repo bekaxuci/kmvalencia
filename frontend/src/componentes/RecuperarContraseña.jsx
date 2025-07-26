@@ -34,7 +34,7 @@ const RecuperarContraseña = ({ onClose }) => {
 
   return (
     <div className="modal-overlay">
-      <div className="modal-content">
+      <div className="modal-content-recuperar">
         <button className="close-button" onClick={onClose}>×</button>
         <h2>Recuperar contraseña</h2>
         <form onSubmit={handleSubmit}>

@@ -43,7 +43,7 @@ const ResetPasswordPage = () => {
 
     return (
         <div className="modal-overlay">
-            <div className="modal-content">
+            <div className="modal-content-reset">
                 <button className="close-button" onClick={() => window.location.href = '/'}>&times;</button>
                 <h2>Restablecer contraseña</h2>
 
