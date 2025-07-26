@@ -18,6 +18,6 @@ router.post('/login', loginUser);
 router.post('/recuperar', recuperarContrasena);
 
 // Ruta para resetear la contraseña
-router.post('/resetear', resetearContrasena);
+router.post('/reset-password', resetearContrasena); 
 
 module.exports = router;

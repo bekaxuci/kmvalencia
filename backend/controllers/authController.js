@@ -21,18 +21,23 @@ const transporter = nodemailer.createTransport({
 // Registro de usuario
 exports.registerUser = async (req, res) => {
   const { nombre, apellidos, email, empresa, password, confirmarPassword } = req.body;
-  
+
   try {
+    // Comprobamos que las contraseñas coinciden
     if (password !== confirmarPassword) {
       return res.status(400).json({ error: 'Las contraseñas no coinciden' });
     }
 
+    // Verificamos si el usuario ya existe
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       return res.status(400).json({ error: 'El correo ya está registrado' });
     }
 
+    // Hasheamos la contraseña
     const hashedPassword = await bcrypt.hash(password, 10);
+
+    // Creamos el nuevo usuario
     const newUser = new User({ nombre, apellidos, email, empresa, password: hashedPassword });
 
     await newUser.save();
@@ -79,14 +84,21 @@ exports.recuperarContrasena = async (req, res) => {
       return res.status(200).json({ message: 'Si el correo existe, te hemos enviado un email.' });
     }
 
-    const token = uuidv4();
+    const token = uuidv4(); // Generamos un nuevo token
     user.recoveryToken = token;
     user.recoveryTokenExpires = Date.now() + 3600000; // Token válido por 1 hora
     await user.save();
 
-    // Usar una URL que cambie según el entorno
-    const baseURL = process.env.NODE_ENV === 'production' ? 'https://tu-dominio.com' : 'http://localhost:3000';
-    const enlace = `${baseURL}/reset-password?token=${token}`;
+    // Verifica el valor de NODE_ENV
+    console.log("NODE_ENV:", process.env.NODE_ENV);
+
+    // Determinamos la URL base según el entorno
+    const baseURL = process.env.NODE_ENV === 'production'
+    
+      ? 'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev' // URL de producción
+      : 'http://localhost:3000';  // URL local en desarrollo
+
+    const enlace = `${baseURL}/reset-password?token=${token}`; // Enlace completo
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
@@ -101,6 +113,7 @@ exports.recuperarContrasena = async (req, res) => {
       `,
     };
 
+    // Enviamos el correo
     await transporter.sendMail(mailOptions);
     return res.status(200).json({ message: 'Correo de recuperación enviado.' });
   } catch (error) {
@@ -113,33 +126,46 @@ exports.recuperarContrasena = async (req, res) => {
 exports.resetearContrasena = async (req, res) => {
   const { token, nuevaPassword, confirmarPassword } = req.body;
 
+  // Validamos que todos los campos estén presentes
   if (!token || !nuevaPassword || !confirmarPassword) {
     return res.status(400).json({ error: 'Todos los campos son requeridos' });
   }
 
+  // Verificamos que las contraseñas coincidan
   if (nuevaPassword !== confirmarPassword) {
     return res.status(400).json({ error: 'Las contraseñas no coinciden' });
   }
 
   try {
+    // Buscamos al usuario con el token de recuperación y verificamos que no haya expirado
     const user = await User.findOne({
       recoveryToken: token,
-      recoveryTokenExpires: { $gt: Date.now() },
+      recoveryTokenExpires: { $gt: Date.now() }, // Token no expirado
     });
 
     if (!user) {
       return res.status(400).json({ error: 'Token inválido o expirado' });
     }
 
+    // Hasheamos la nueva contraseña
     const hashedPassword = await bcrypt.hash(nuevaPassword, 10);
+
+    // Actualizamos la contraseña del usuario
     user.password = hashedPassword;
-    user.recoveryToken = undefined; // Limpiar token de recuperación
-    user.recoveryTokenExpires = undefined; // Limpiar la expiración del token
+    user.recoveryToken = undefined; // Limpiamos el token de recuperación
+    user.recoveryTokenExpires = undefined; // Limpiamos la expiración del token
     await user.save();
 
     return res.status(200).json({ message: 'Contraseña actualizada correctamente' });
   } catch (error) {
     console.error("Error al actualizar la contraseña:", error);
-    return res.status(500).json({ error: 'Error al actualizar la contraseña' });
+    
+    // Imprimir el error para facilitar la depuración
+    if (error.code === 'ECONNREFUSED') {
+      return res.status(500).json({ error: 'Error de conexión a la base de datos' });
+    }
+
+    return res.status(500).json({ error: 'Ocurrió un error al intentar actualizar la contraseña. Por favor, intenta nuevamente.' });
   }
 };
+
