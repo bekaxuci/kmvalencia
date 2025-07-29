@@ -8,6 +8,7 @@ const userSchema = new mongoose.Schema({
   password: { type: String, required: true },
   recoveryToken: { type: String },
   recoveryTokenExpires: { type: Date },
+  photoURL: { type: String, default: 'default-image-url.jpg' }, 
 });
 
 module.exports = mongoose.model('User', userSchema);

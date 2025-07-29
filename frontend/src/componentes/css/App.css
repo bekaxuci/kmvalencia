@@ -21,22 +21,26 @@ body {
 
 /* Contenedor principal */
 .App {
-  min-height: 100vh;
-  width: 100%;
-  max-width: 1600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 2rem 2.5rem;
-  padding-bottom: 70px;
-  /* espacio para footer fijo */
-  background: #ffffff;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 18px;
-  user-select: none;
-  transition: box-shadow 0.3s ease, background 0.3s ease;
+    max-height: 90vh;
+    min-height: 90vh;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 2.5rem;
+    padding-bottom: 70px;
+    background: #ffffff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    user-select: none;
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+    overflow-y: auto;
+    MARGIN-TOP: 5px;
+
 }
 
 .App:hover {
@@ -523,7 +527,8 @@ footer nav a:hover {
   /* Móviles grandes */
   @media (max-width: 768px) {
     .map-view {
-      max-height: 320px;
+      max-height: none;
+      height: 70vh;
       border-radius: 12px;
     }
   }
@@ -531,8 +536,8 @@ footer nav a:hover {
   /* Móviles pequeños */
   @media (max-width: 480px) {
     .map-view {
-      max-height: 220px;
       border-radius: 10px;
+      height: 60vh;
     }
   }
 

@@ -20,7 +20,7 @@ const transporter = nodemailer.createTransport({
 
 // Registro de usuario
 exports.registerUser = async (req, res) => {
-  const { nombre, apellidos, email, empresa, password, confirmarPassword } = req.body;
+  const { nombre, apellidos, email, empresa, password, confirmarPassword, photoURL } = req.body;
 
   try {
     // Comprobamos que las contraseñas coinciden
@@ -37,8 +37,15 @@ exports.registerUser = async (req, res) => {
     // Hasheamos la contraseña
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Creamos el nuevo usuario
-    const newUser = new User({ nombre, apellidos, email, empresa, password: hashedPassword });
+    // Creamos el nuevo usuario con foto de perfil (puede ser por defecto si no se pasa una URL)
+    const newUser = new User({
+      nombre,
+      apellidos,
+      email,
+      empresa,
+      password: hashedPassword,
+      photoURL: photoURL || 'default-image-url.jpg', // Usamos una foto predeterminada si no se pasa una
+    });
 
     await newUser.save();
     return res.status(201).json({ mensaje: 'Usuario registrado correctamente' });
@@ -63,7 +70,17 @@ exports.loginUser = async (req, res) => {
       return res.status(400).json({ error: 'Usuario o contraseña incorrectos' });
     }
 
-    return res.json({ mensaje: 'Login correcto', user: { nombre: user.nombre, email: user.email } });
+    // En la respuesta devolvemos el nombre, el correo y la foto de perfil
+    return res.json({
+      mensaje: 'Login correcto',
+      user: {
+        nombre: user.nombre,
+        apellidos: user.apellidos,
+        email: user.email,
+        empresa: user.empresa,
+        photoURL: user.photoURL || 'default-image-url.jpg', // Usamos la foto del usuario, si no tiene, una predeterminada
+      },
+    });
   } catch (error) {
     console.error("Error en el login de usuario:", error);
     return res.status(500).json({ error: 'Error en el servidor' });
@@ -94,7 +111,6 @@ exports.recuperarContrasena = async (req, res) => {
 
     // Determinamos la URL base según el entorno
     const baseURL = process.env.NODE_ENV === 'production'
-    
       ? 'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev' // URL de producción
       : 'http://localhost:3000';  // URL local en desarrollo
 
@@ -168,4 +184,3 @@ exports.resetearContrasena = async (req, res) => {
     return res.status(500).json({ error: 'Ocurrió un error al intentar actualizar la contraseña. Por favor, intenta nuevamente.' });
   }
 };
-
