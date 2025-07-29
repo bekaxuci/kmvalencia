@@ -25,13 +25,15 @@ function LoginPage() {
       });
 
       const data = await res.json();
-
-      if (!res.ok) {
-        setError(data.error || 'Error al iniciar sesión');
+      if (res.ok) {
+        // Supongamos que tu backend responde con "user" en el JSON
+        localStorage.setItem("user", JSON.stringify(data.user));
+        setMensaje(data.mensaje || "Has iniciado sesión correctamente");
+        navigate("/app");
       } else {
-        setMensaje(data.mensaje || 'Has iniciado sesión correctamente');
-        navigate('/app');
+        setError(data.error || "Error al iniciar sesión");
       }
+
     } catch (err) {
       setError('Error de conexión con el servidor');
     }
