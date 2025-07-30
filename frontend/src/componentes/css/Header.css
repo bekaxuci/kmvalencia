@@ -4,12 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffff;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255 255 255 / 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.12);
   border-radius: 1.125rem;
   max-height: 5rem;
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #1a1a1a;
+  color: #f0f0f0;
   user-select: none;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
@@ -31,10 +33,11 @@
 }
 
 .logo-header {
-  height: 5.75rem;
-  max-width: 8rem;
+  height: 4.5rem;
+  max-width: 7rem;
   object-fit: contain;
   user-select: none;
+  filter: drop-shadow(0 0 3px rgba(255 255 255 / 0.5));
 }
 
 /* Contenedor botones login/register */
@@ -70,69 +73,74 @@
   white-space: nowrap;
   margin: 0;
   text-align: center;
+  box-shadow: 0 6px 16px rgba(85, 126, 252, 0.35);
+  background: linear-gradient(45deg, #6c8fff, #557efc);
+  color: #fff;
 }
 
 /* Botón login */
 .btn-login {
   background-color: transparent;
-  color: #557efc;
-  border: 2px solid #557efc;
+  color: white !important; /* texto blanco siempre */
+  border: 2px solid #8ab4f8;
   box-shadow: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-login:hover {
-  background-color: #557efc;
-  color: white;
+  background: linear-gradient(45deg, #557efc, #4169e8);
+  color: white !important; /* texto blanco siempre */
   box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
   transform: scale(1.06);
 }
 
 /* Botón registro */
 .btn-register {
-  background-color: #557efc;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  box-shadow: 0 8px 25px rgba(238, 9, 121, 0.55);
   color: white;
-  box-shadow: 0 8px 20px rgba(85, 126, 252, 0.4);
 }
 
 .btn-register:hover {
-  background-color: #4169e8;
-  box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
+  background: linear-gradient(45deg, #ee0979, #ff6a00);
+  box-shadow: 0 12px 30px rgba(238, 9, 121, 0.75);
   transform: scale(1.06);
 }
 
 /* Botón volver o cerrar sesión */
 .btn-home,
 .btn-logout {
-  background-color: #557efc;
+  background: linear-gradient(45deg, #557efc, #4169e8);
+  box-shadow: 0 8px 20px rgba(65, 105, 232, 0.45);
   color: white;
-  box-shadow: 0 8px 20px rgba(85, 126, 252, 0.4);
 }
 
 .btn-home:hover,
 .btn-logout:hover {
-  background-color: #4169e8;
-  box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
+  background: linear-gradient(45deg, #4169e8, #557efc);
+  box-shadow: 0 12px 25px rgba(65, 105, 232, 0.6);
   transform: scale(1.06);
 }
 
-/* Cerrar sesión - rojo */
+/* Cerrar sesión - rojo degradado */
 .btn-logout {
-  background-color: #ff4e4e;
-  box-shadow: 0 8px 20px rgba(255, 78, 78, 0.4);
+  background: linear-gradient(45deg, #ff4e4e, #ff1f1f);
+  box-shadow: 0 8px 20px rgba(255, 31, 31, 0.5);
 }
 
 .btn-logout:hover {
-  background-color: #ff1f1f;
-  box-shadow: 0 12px 25px rgba(255, 31, 31, 0.55);
+  background: linear-gradient(45deg, #ff1f1f, #ff4e4e);
+  box-shadow: 0 12px 25px rgba(255, 31, 31, 0.75);
 }
 
 /* Estilos según la ruta */
 .homepage-header.home {
-  background-color: #f0f8ff;
+  background: rgba(255 255 255 / 0.15);
+  backdrop-filter: blur(10px);
 }
 
 .homepage-header.not-home {
-  background-color: #fff;
+  background: rgba(255 255 255 / 0.1);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   border-radius: 0.75rem;
 }

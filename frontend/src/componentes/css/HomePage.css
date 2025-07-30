@@ -1,115 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .homepage {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  color: #2c3e50;
-}
-
-.homepage-header {
-  padding: 1.5rem 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffffffcc;
-  backdrop-filter: blur(6px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  height: 100px;
-}
-
-.logo-header {
-  height: 100px;
-  /* Ajusta este valor según lo alto que quieras el logo */
-  object-fit: contain;
-}
-
-/* Botones Iniciar sesión y Registrarse */
-.btn-login,
-.btn-register {
-  padding: 0.5rem 1.2rem;
-  font-weight: 700;
-  font-size: 0.95rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* Botón Iniciar sesión: estilo ligero */
-.btn-login {
-  background-color: transparent;
-  color: #646cff;
-  border: 2px solid #646cff;
-}
-
-.btn-login:hover {
-  background-color: #646cff;
-  color: white;
-}
-
-/* Botón Registrarse: estilo sólido */
-.btn-register {
-  background-color: #646cff;
-  color: white;
-}
-
-.btn-register:hover {
-  background-color: #4a4dd4;
-}
-
-.homepage-header nav {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  position: relative;
 }
 
 .homepage-main {
   flex: 1;
-  padding: 4rem 2rem;
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  text-align: justify;
+  background: rgba(255 255 255 / 0.1);
+  border-radius: 20px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 60px rgba(255 255 255 / 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.3s ease;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.homepage-main:hover {
+  transform: scale(1.02);
+}
+
+.homepage-main h1 {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+  color: #f0f0f0;
+  text-transform: uppercase;
   text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
+}
+
+.homepage-main h1 img {
+  height: 150px;
+  width: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+  user-select: none;
 }
 
 .homepage-main h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1.2rem;
-  font-weight: 800;
-  color: #2e356d;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #282c50;
+  line-height: 1.3;
+  text-align: center;
 }
 
 .homepage-main p {
   font-size: 1.2rem;
-  line-height: 1.7;
-  margin-bottom: 2rem;
-  color: #4a4a4a;
+  margin-bottom: 3rem;
+  color: #ddd;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }
 
 .btn-iniciar {
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-  background-color: #557efc;
-  color: white;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  padding: 1.2rem 3rem;
+  border-radius: 40px;
   border: none;
-  border-radius: 30px;
+  color: white;
+  font-weight: 900;
+  font-size: 1.3rem;
   cursor: pointer;
-  font-weight: 800;
-  box-shadow: 0 6px 20px rgba(85, 126, 252, 0.3);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(238, 9, 121, 0.6);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  margin: 0 auto;
 }
 
 .btn-iniciar:hover {
-  background-color: #4169e8;
-  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(238, 9, 121, 0.9);
+  transform: scale(1.1);
 }
 
 .homepage-footer {
-  background-color: #ffffffdd;
-  text-align: center;
-  padding: 1rem 2rem;
-  font-size: 0.9rem;
-  color: #555;
-  border-top: 1px solid #ccc;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.03);
+  align-self: flex-end;              /* Alineado a la derecha dentro del contenedor */
+  font-size: 0.5rem;                 /* Fuente muy pequeña */
+  color: #ddd;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px 12px 0 0;
+  box-shadow:
+    0 -4px 12px rgba(0, 0, 0, 0.2),
+    inset 0 0 25px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 0.2rem 0.6rem;
+  margin-top: auto;                 /* Empuja hacia abajo si hay poco contenido */
+  user-select: none;
+  transition: transform 0.3s ease;
+}
+
+.homepage-footer:hover {
+  transform: scale(1.02);
+}
+
+
+/* Responsive: pantallas pequeñas */
+@media (max-width: 600px) {
+  .homepage-main {
+    margin: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    max-height: 70vh;
+  }
+
+  .homepage-main h1 {
+    font-size: 2.8rem;
+  }
+
+  .homepage-main h2 {
+    font-size: 1.5rem;
+  }
+
+  .homepage-main p {
+    font-size: 1rem;
+  }
+
+  .btn-iniciar {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .homepage-footer {
+    margin-right: 1rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.6rem;
+    border-radius: 16px 16px 0 0;
+  }
 }

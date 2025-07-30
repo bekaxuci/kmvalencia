@@ -16,15 +16,20 @@
 }
 
 .modal-content-recuperar {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 20px;
+  background: rgba(255 255 255 / 0.9);
+  padding: 2.5rem 2rem;
+  border-radius: 1.125rem; /* igual que header */
   max-width: 400px;
   width: 90%;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* similar a header */
   position: relative;
   text-align: center;
   animation: fadeIn 0.3s ease-in-out;
+  color: #2e356d;
+  user-select: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 @keyframes fadeIn {
@@ -41,8 +46,8 @@
 .modal-content-recuperar h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-weight: 900;
   color: #2e356d;
-  font-weight: 800;
 }
 
 .modal-content-recuperar form {
@@ -53,33 +58,36 @@
 
 .modal-content-recuperar input {
   padding: 0.9rem 1rem;
-  border-radius: 10px;
+  border-radius: 1.125rem;
   border: 1px solid #ccc;
   font-size: 1rem;
   font-family: 'Inter', sans-serif;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .modal-content-recuperar input:focus {
   border-color: #557efc;
   outline: none;
-  box-shadow: 0 0 0 2px rgba(85, 126, 252, 0.2);
+  box-shadow: 0 0 0 3px rgba(85, 126, 252, 0.3);
 }
 
 .modal-content-recuperar button[type="submit"] {
   padding: 0.9rem 1.5rem;
   font-size: 1rem;
-  background-color: #557efc;
+  background: linear-gradient(45deg, #6c8fff, #557efc);
   color: white;
   border: none;
-  border-radius: 30px;
+  border-radius: 35px;
   cursor: pointer;
-  font-weight: 700;
-  box-shadow: 0 6px 20px rgba(85, 126, 252, 0.3);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 900;
+  box-shadow: 0 6px 16px rgba(85, 126, 252, 0.35);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-family: 'Inter', sans-serif;
 }
 
 .modal-content-recuperar button[type="submit"]:hover {
-  background-color: #4169e8;
+  background: linear-gradient(45deg, #557efc, #4169e8);
+  box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
   transform: scale(1.05);
 }
 
@@ -93,14 +101,15 @@
   color: #777;
   cursor: pointer;
   transition: color 0.2s ease;
+  user-select: none;
 }
 
 .close-button:hover {
-  color: #000;
+  color: #4169e8;
 }
 
 .modal-content-recuperar p {
   font-size: 0.95rem;
   margin-top: 1rem;
+  color: #444;
 }
-

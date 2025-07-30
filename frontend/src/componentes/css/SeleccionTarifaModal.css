@@ -1,41 +1,46 @@
+/* Importa la fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
 .modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
   overflow: auto;
   z-index: 1000;
-  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .modal {
   position: relative;
-  background: linear-gradient(135deg, #e8eaf5 0%, #d0d4e4 100%);
-  border-radius: 20px;
+  background: rgba(255 255 255 / 0.9);
+  border-radius: 1.125rem; /* igual que header */
   width: 100%;
   max-width: 500px;
   max-height: 90vh;
-  padding: 2rem 1.5rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
   overflow-y: auto;
-  box-shadow: 0 10px 30px rgba(100, 108, 255, 0.15);
-  color: #3a3f6e;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* sombra suave como header */
+  color: #2e356d;
   text-align: center;
+  user-select: none;
+  font-weight: 700;
 }
 
 .modal h2 {
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: #3a3f6e;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #2e356d;
   margin-bottom: 0.5rem;
   letter-spacing: 0.03em;
 }
@@ -49,57 +54,58 @@
 }
 
 .button {
-  padding: 1rem 1.8rem;
+  padding: 0.9rem 1.8rem;
   font-size: 1.1rem;
-  background-color: #646cff;
+  background: linear-gradient(45deg, #6c8fff, #557efc);
   color: white;
-  font-weight: 800;
+  font-weight: 900;
   border: none;
-  border-radius: 30px;
+  border-radius: 35px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease;
   width: 100%;
-  box-shadow: 0 6px 15px rgba(100, 108, 255, 0.35);
+  box-shadow: 0 6px 16px rgba(85, 126, 252, 0.35);
   letter-spacing: 0.03em;
   font-family: 'Inter', sans-serif;
 }
 
 .button:hover:not(:disabled) {
-  background-color: #4a4dd4;
-  transform: scale(1.04);
-  box-shadow: 0 10px 20px rgba(74, 77, 212, 0.55);
+  background: linear-gradient(45deg, #557efc, #4169e8);
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
 }
 
 .button:disabled {
   background-color: #a5a5d6;
   cursor: not-allowed;
+  box-shadow: none;
 }
 
 .close-button {
   position: absolute;
-  top: 12px;
-  right: 15px;
+  top: 14px;
+  right: 18px;
   background: transparent;
   border: none;
-  color: #ff4d4d;
-  font-size: 1.4rem;
-  font-weight: 700;
+  color: #ff4e4e;
+  font-size: 1.5rem;
+  font-weight: 900;
   cursor: pointer;
   line-height: 1;
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
   user-select: none;
-  box-shadow: inset 0 1px 2px rgba(255, 77, 77, 0.2);
+  box-shadow: inset 0 1px 2px rgba(255, 78, 78, 0.25);
 }
 
 .close-button:hover {
   color: #cc0000;
-  background-color: rgba(255, 77, 77, 0.4);
+  background-color: rgba(255, 78, 78, 0.4);
   transform: scale(1.3);
 }
 
@@ -109,16 +115,16 @@
 @media (max-width: 768px) {
   .modal {
     max-width: 90vw;
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1.5rem;
   }
 
   .modal h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .button {
     font-size: 1rem;
-    padding: 0.9rem 1.4rem;
+    padding: 0.85rem 1.4rem;
   }
 }
 
@@ -130,12 +136,12 @@
   }
 
   .modal h2 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
   .button {
     font-size: 0.95rem;
-    padding: 0.85rem 1.2rem;
+    padding: 0.8rem 1.2rem;
   }
 
   .close-button {

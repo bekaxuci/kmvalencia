@@ -1,4 +1,5 @@
 /* Reset básico y fondo */
+/* Elimina márgenes y padding por defecto, fija tamaño completo y fondo degradado */
 html,
 body {
   margin: 0;
@@ -9,10 +10,11 @@ body {
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #1a1a1a;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Evita scroll horizontal */
 }
 
 /* Box-sizing global */
+/* Aplica box-sizing: border-box a todos los elementos y pseudo-elementos */
 *,
 *::before,
 *::after {
@@ -20,35 +22,36 @@ body {
 }
 
 /* Contenedor principal */
+/* Layout principal con altura fija, centrado, padding, fondo blanco, sombra y bordes redondeados */
 .App {
-    max-height: 90vh;
-    min-height: 90vh;
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-    display: flex
-;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 2rem 2.5rem;
-    padding-bottom: 70px;
-    background: #ffffff;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 18px;
-    user-select: none;
-    transition: box-shadow 0.3s ease, background 0.3s ease;
-    overflow-y: auto;
-    MARGIN-TOP: 5px;
-
+  max-height: 90vh;
+  min-height: 90vh;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 2.5rem;
+  padding-bottom: 70px; /* Para espacio inferior (footer quizás) */
+  background: #ffffff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  user-select: none; /* Previene selección de texto */
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  overflow-y: auto; /* Scroll vertical si contenido excede */
+  margin-top: 5px; /* Atención a la mayúscula en MARGIN-TOP */
 }
 
+/* Efecto hover para la caja principal */
 .App:hover {
   box-shadow: 0 8px 50px rgba(0, 0, 0, 0.15);
   background: #fafbfc;
 }
 
 /* Texto estilizado */
+/* Título principal: peso, tamaño responsive, mayúsculas, espaciado y color */
 h1 {
   font-weight: 900;
   font-size: clamp(2rem, 5vw, 3rem);
@@ -59,6 +62,7 @@ h1 {
   user-select: text;
 }
 
+/* Párrafos con tamaño responsive, color suave y centrado */
 p {
   font-size: clamp(1rem, 2.5vw, 1.15rem);
   line-height: 1.6;
@@ -70,6 +74,7 @@ p {
 }
 
 /* Contenedor toggle */
+/* Flex para icono + texto, con espacio y estilo */
 .toggle-container {
   display: flex;
   align-items: center;
@@ -82,6 +87,7 @@ p {
 }
 
 /* Formulario principal */
+/* Columna con separación, centrado y tamaño máximo */
 .form-container {
   display: flex;
   flex-direction: column;
@@ -93,6 +99,7 @@ p {
 }
 
 /* Inputs */
+/* Padding, tamaño responsive, bordes redondeados, color, sombra interna y transición */
 .input {
   padding: 1rem 1.5rem;
   font-size: clamp(1rem, 2.5vw, 1.15rem);
@@ -110,6 +117,8 @@ p {
   user-select: text;
 }
 
+/* Inputs al recibir foco */
+/* Cambia borde, sombra y fondo para indicar enfoque */
 .input:focus {
   border-color: #557efc;
   box-shadow: 0 0 15px rgba(85, 126, 252, 0.6);
@@ -117,6 +126,7 @@ p {
 }
 
 /* Inputs deshabilitados */
+/* Fondo gris claro y cursor no permitido */
 .input:disabled {
   background-color: #e6e9f2;
   color: #a3a8b8;
@@ -124,6 +134,7 @@ p {
 }
 
 /* Botones */
+/* Padding, tamaño responsive, color, bordes redondeados, sombra y transición */
 .button {
   padding: 1.1rem 1.75rem;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
@@ -142,12 +153,16 @@ p {
   user-select: none;
 }
 
+/* Botones deshabilitados */
+/* Color gris claro, sin sombra ni cursor pointer */
 .button:disabled {
   background-color: #b0b7d8;
   cursor: not-allowed;
   box-shadow: none;
 }
 
+/* Hover en botones activos */
+/* Cambia color, aumenta tamaño y sombra */
 .button:hover:not(:disabled) {
   background-color: #4169e8;
   transform: scale(1.06);
@@ -155,6 +170,7 @@ p {
 }
 
 /* Lista de sugerencias */
+/* Caja blanca, con sombra y borde redondeado, scroll vertical si hay overflow */
 .suggestions {
   width: 100%;
   max-width: 480px;
@@ -171,6 +187,8 @@ p {
   user-select: none;
 }
 
+/* Items de la lista */
+/* Flex para separar texto y distancia, borde inferior, color y tipografía */
 .suggestion-item {
   display: flex;
   justify-content: space-between;
@@ -188,6 +206,8 @@ p {
   border-bottom: none;
 }
 
+/* Hover en items */
+/* Fondo azul claro y texto azul */
 .suggestion-item:hover {
   background-color: #f0f4ff;
   color: #557efc;
@@ -205,6 +225,7 @@ p {
 }
 
 /* Resultados */
+/* Texto centrado, con estilo y tamaño responsive */
 .result {
   text-align: center;
   margin-top: 1.8rem;
@@ -215,6 +236,8 @@ p {
   user-select: text;
 }
 
+/* Destacado de distancia */
+/* Tamaño muy grande, color azul, animaciones de pulso y aparición */
 .distance-highlight {
   font-size: clamp(3rem, 10vw, 5rem);
   font-weight: 900;
@@ -226,26 +249,25 @@ p {
   letter-spacing: 0.04em;
 }
 
+/* Animación pulso para texto */
 @keyframes pulso {
-
   0%,
   100% {
     text-shadow: 0 0 6px rgba(100, 108, 255, 0.4);
     transform: scale(1);
   }
-
   50% {
     text-shadow: 0 0 12px rgba(100, 108, 255, 0.6);
     transform: scale(1.03);
   }
 }
 
+/* Animación aparición para texto */
 @keyframes aparecer {
   from {
     opacity: 0;
     transform: translateY(25px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -253,13 +275,12 @@ p {
 }
 
 /* Contenedor mapa embebido */
+/* Tamaño responsive con proporción 16:9, bordes redondeados, sombra */
 .map-view {
   width: 100%;
   max-width: 100%;
   aspect-ratio: 16 / 9;
-  /* Mantiene proporción 16:9 */
   max-height: 800px;
-  /* Altura máxima en pantallas grandes */
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
@@ -273,6 +294,7 @@ p {
 }
 
 /* Contenedor fijo inferior del mapa (carretera) */
+/* Barra fija abajo con padding */
 .map-container {
   position: fixed;
   bottom: 0;
@@ -286,6 +308,7 @@ p {
 }
 
 /* Elemento mapa */
+/* Flex para centrar verticalmente */
 .map-item {
   display: flex;
   flex-direction: column;
@@ -296,6 +319,7 @@ p {
 }
 
 /* Contenedor camión */
+/* Caja relativa con tamaño fijo y sombra interna */
 .contenedor-camion {
   position: relative;
   width: 100%;
@@ -307,6 +331,7 @@ p {
 }
 
 /* Camión animado */
+/* Animación de movimiento de izquierda a derecha, posición absoluta */
 .camion {
   animation-name: move-truck;
   animation-duration: 6s;
@@ -321,6 +346,7 @@ p {
 }
 
 /* Luz de faros */
+/* Pseudo-elemento con gradiente radial y sombra para simular faros */
 .camion::after {
   content: '';
   position: absolute;
@@ -335,289 +361,107 @@ p {
 }
 
 /* Imagen camión */
+/* Imagen con tamaño fijo y volteado horizontalmente */
 .camion-img {
   width: 190px;
   height: 150px;
   transform: scaleX(-1);
 }
 
-/* Animación */
+/* Animación movimiento camión */
 @keyframes move-truck {
   from {
     left: 120px;
   }
-
   to {
     left: calc(100% - 180px);
   }
 }
 
 /* Marcador ubicación */
+/* Caja con texto grande y centrado */
 .marker {
   min-width: 160px;
   text-align: center;
-  padding: 10px 14px;
-  white-space: nowrap;
+  font-weight: 900;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: #557efc;
+  text-shadow: 0 0 10px rgba(85, 126, 252, 0.25);
+  user-select: none;
+}
+
+/* Contenedor de texto */
+/* Columna con espacio y centrado */
+.text-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 200px;
-  margin-bottom: 15%;
+  gap: 1rem;
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Subtítulo */
+/* Texto en azul y mayúsculas */
+.subtitulo {
+  color: #557efc;
+  font-weight: 900;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  margin-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  user-select: text;
+}
+
+/* Parrafo destacado */
+/* Texto destacado con negrita y color fuerte */
+.parrafo-destacado {
+  font-weight: 900;
+  font-size: clamp(1.2rem, 2.7vw, 1.7rem);
   color: #2c3e50;
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
+  margin-bottom: 1.5rem;
+  user-select: text;
 }
 
-.marker-emoji {
-  font-size: 8.5rem;
-  line-height: 1.5;
-}
-
-/* Contenedor general para mapa (fijo abajo) */
-.map-content {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  z-index: 10;
-  pointer-events: none;
-}
-
-/* Contenedores animados (caída) */
-.contenedores-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: 0;
-  font-size: 24px;
-}
-
-.contenedor {
-  position: absolute;
-  top: -30px;
-  animation-name: caer-contenedor;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  user-select: none;
-  color: #557efccc;
-  filter: drop-shadow(0 0 3px #557efc88);
-}
-
-@keyframes caer-contenedor {
-  0% {
-    top: -30px;
-    opacity: 0.9;
-  }
-
-  80% {
-    opacity: 1;
-  }
-
-  100% {
-    top: 100vh;
-    opacity: 0;
-  }
-}
-
-/* Modal overlay oscuro */
-.modal-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(40, 40, 55, 0.45);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-/* Contenido del modal */
-.modal-content {
-  background: #ffffff;
-  padding: 2.5rem 3rem;
-  border-radius: 16px;
-  width: 90%;
-  max-width: 520px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
-  user-select: none;
-}
-
-/* Botón para cerrar modal */
-.modal-close {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  cursor: pointer;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #557efc;
-}
-
-/* Footer fijo */
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f9fafc;
-  /* tono muy claro para fondo */
-  color: #2f3e57;
-  /* texto principal azul oscuro suave */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 3rem;
-  font-size: 14px;
-  border-top: 1px solid #d1d9e6;
-  /* línea sutil */
-  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05);
-  /* sombra muy suave */
-  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  user-select: none;
-  z-index: 1000;
-}
-
-footer p {
+/* Reseteo y estilos globales para listas */
+ul,
+ol {
+  padding-left: 0;
   margin: 0;
-  font-weight: 600;
-  letter-spacing: 0.02em;
 }
 
-footer nav a {
-  color: #557efc;
-  /* azul vibrante igual que tus botones */
-  text-decoration: none;
-  margin-left: 28px;
-  font-weight: 700;
-  font-size: 0.95rem;
-  transition: color 0.25s ease;
-  user-select: none;
-}
-
-footer nav a:first-child {
-  margin-left: 0;
-}
-
-footer nav a:hover {
-  color: #4169e8;
-  /* azul más oscuro para hover */
-  text-decoration: underline;
-}
-
-
-/* -------- MEDIA QUERIES -------- */
-
-/* Tablets y pantallas medianas */
-@media (max-width: 1024px) {
-  .App {
-    padding: 1.8rem 2rem;
-  }
-
-  /* Móviles grandes */
-  @media (max-width: 768px) {
-    .map-view {
-      max-height: none;
-      height: 70vh;
-      border-radius: 12px;
-    }
-  }
-
-  /* Móviles pequeños */
-  @media (max-width: 480px) {
-    .map-view {
-      border-radius: 10px;
-      height: 60vh;
-    }
-  }
-
-  .distance-highlight {
-    font-size: clamp(2.5rem, 8vw, 4.5rem);
-  }
-}
-
-/* Móviles grandes */
+/* Media queries */
+/* Adaptaciones para pantallas más pequeñas */
 @media (max-width: 768px) {
   .App {
-    padding: 1.2rem 1.5rem;
-    padding-bottom: 90px;
-    /* más espacio para footer fijo */
-    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    max-height: auto;
   }
 
   .form-container {
     max-width: 100%;
   }
 
-  .suggestions {
-    max-width: 100%;
-  }
-
-
-
-  h1 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
-  }
-
-  p {
-    max-width: 95%;
-    padding: 0 0.8rem;
-  }
-
-  .distance-highlight {
-    font-size: clamp(2rem, 9vw, 3.5rem);
-  }
-
-  footer {
-    padding: 10px 1.5rem;
-    font-size: 13px;
-  }
-
-  footer nav a {
-    margin-left: 15px;
-  }
-}
-
-/* Móviles pequeños */
-@media (max-width: 480px) {
-  .App {
-    padding: 1rem 1rem;
-    border-radius: 10px;
-  }
-
-  h1 {
-    font-size: clamp(1.25rem, 6vw, 2rem);
-  }
-
-  p {
-    max-width: 100%;
-    padding: 0 0.6rem;
+  .input,
+  .button {
     font-size: 1rem;
   }
 
+  .map-view {
+    max-height: 400px;
+  }
+
   .distance-highlight {
-    font-size: clamp(1.8rem, 12vw, 3rem);
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
   }
 
-  footer {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 1rem;
-    font-size: 12px;
-  }
-
-  footer nav a {
-    margin-left: 12px;
+  .distance-highlight {
+    font-size: 2.5rem;
   }
 }
