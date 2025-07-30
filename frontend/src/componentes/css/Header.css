@@ -48,10 +48,16 @@
   flex-wrap: nowrap;
 }
 
-/* Botones comunes */
+/* Contenedor navegación cuando no está en home */
+.not-home-nav {
+  margin-left: auto;
+}
+
+/* Botones generales */
 .btn-login,
 .btn-register,
-.btn-home {
+.btn-home,
+.btn-logout {
   padding: 0.55rem 1.5rem;
   font-weight: 900;
   font-size: 1rem;
@@ -59,13 +65,14 @@
   border-radius: 35px;
   cursor: pointer;
   transition: background-color 0.35s ease, transform 0.25s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(85, 126, 252, 0.4);
   font-family: 'Inter', sans-serif;
   user-select: none;
   white-space: nowrap;
   margin: 0;
+  text-align: center;
 }
 
+/* Botón login */
 .btn-login {
   background-color: transparent;
   color: #557efc;
@@ -80,9 +87,11 @@
   transform: scale(1.06);
 }
 
+/* Botón registro */
 .btn-register {
   background-color: #557efc;
   color: white;
+  box-shadow: 0 8px 20px rgba(85, 126, 252, 0.4);
 }
 
 .btn-register:hover {
@@ -91,19 +100,33 @@
   transform: scale(1.06);
 }
 
-.btn-home {
+/* Botón volver o cerrar sesión */
+.btn-home,
+.btn-logout {
   background-color: #557efc;
   color: white;
   box-shadow: 0 8px 20px rgba(85, 126, 252, 0.4);
 }
 
-.btn-home:hover {
+.btn-home:hover,
+.btn-logout:hover {
   background-color: #4169e8;
   box-shadow: 0 12px 25px rgba(65, 105, 232, 0.55);
   transform: scale(1.06);
 }
 
-/* Estilos para otras páginas */
+/* Cerrar sesión - rojo */
+.btn-logout {
+  background-color: #ff4e4e;
+  box-shadow: 0 8px 20px rgba(255, 78, 78, 0.4);
+}
+
+.btn-logout:hover {
+  background-color: #ff1f1f;
+  box-shadow: 0 12px 25px rgba(255, 31, 31, 0.55);
+}
+
+/* Estilos según la ruta */
 .homepage-header.home {
   background-color: #f0f8ff;
 }
@@ -114,7 +137,7 @@
   border-radius: 0.75rem;
 }
 
-/* Media Queries para móviles */
+/* Responsive: Tablets y móviles */
 @media (max-width: 768px) {
   .homepage-header {
     flex-direction: column;
@@ -128,23 +151,24 @@
     margin-right: 0;
   }
 
-  .buttonsLoginRegister {
+  .buttonsLoginRegister,
+  .not-home-nav {
     width: 100%;
     justify-content: center;
-    flex-wrap: wrap; /* Para que los botones pasen a la siguiente línea si no caben */
+    flex-wrap: wrap;
     gap: 0.75rem;
     margin-left: 0;
   }
 
   .btn-login,
   .btn-register,
-  .btn-home {
+  .btn-home,
+  .btn-logout {
     padding: 0.5rem 1.2rem;
     font-size: 0.9rem;
-    white-space: normal; /* Permite que el texto haga wrap si es necesario */
-    flex: 1 1 auto; /* Que ocupen el espacio disponible de forma flexible */
     max-width: 150px;
-    text-align: center;
+    flex: 1 1 auto;
+    white-space: normal;
   }
 }
 
@@ -156,9 +180,17 @@
 
   .btn-login,
   .btn-register,
-  .btn-home {
+  .btn-home,
+  .btn-logout {
     padding: 0.4rem 1rem;
     font-size: 0.85rem;
     max-width: 140px;
   }
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }

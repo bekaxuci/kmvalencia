@@ -11,9 +11,17 @@ const Header = () => {
     navigate("/");
   };
 
-  const isHomePage = location.pathname === "/";
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    navigate("/");
+  };
 
-  return (
+  const currentPath = location.pathname;
+  const isHomePage = currentPath === "/";
+  const isAppPage = currentPath === "/app";
+
+  // Contenido del header
+  const headerContent = (
     <header className={`homepage-header ${isHomePage ? "home" : "not-home"}`}>
       <button onClick={handleLogoClick} className="logo-button">
         <img src={logo} alt="Logo Distancias KM" className="logo-header" />
@@ -28,14 +36,20 @@ const Header = () => {
             Registrarse
           </button>
         </div>
-      ) : (
+      ) : isAppPage ? (
         <nav className="not-home-nav">
-          <button onClick={() => navigate("/")} className="btn-home">
-            Volver al inicio
+          <button onClick={handleLogout} className="btn-logout">
+            Cerrar sesión
           </button>
         </nav>
-      )}
+      ) : null}
     </header>
+  );
+
+  return isAppPage ? (
+    <div className="header-container">{headerContent}</div>
+  ) : (
+    headerContent
   );
 };
 
