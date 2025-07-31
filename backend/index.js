@@ -9,22 +9,28 @@ connectDB();
 
 const app = express();
 
-const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : [];
+// Obtener allowed origins desde variable de entorno, separadas por coma
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
+  : [];
 
 app.use(cors({
   origin: function(origin, callback) {
+    // Permitir solicitudes sin origin (Postman, curl)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.indexOf(origin) === -1) {
-      const msg = `El CORS no permite este origen: ${origin}`;
-      return callback(new Error(msg), false);
+
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS no permitido para el origen: ${origin}`));
     }
-    return callback(null, true);
   },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
 
 app.use(express.json());
+
 app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
