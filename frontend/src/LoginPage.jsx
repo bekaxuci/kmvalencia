@@ -8,9 +8,12 @@ function LoginPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [mensaje, setMensaje] = useState('');
-  const [mostrarModal, setMostrarModal] = useState(false); // Estado para mostrar modal
+  const [mostrarModal, setMostrarModal] = useState(false);
 
   const navigate = useNavigate();
+
+  // Leer la URL del backend desde variable de entorno
+  const API_URL = import.meta.env.VITE_API_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,7 +21,7 @@ function LoginPage() {
     setMensaje('');
 
     try {
-      const res = await fetch('https://shiny-disco-699q69vjq7qx34444-4000.app.github.dev/api/auth/login', {
+      const res = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -26,14 +29,12 @@ function LoginPage() {
 
       const data = await res.json();
       if (res.ok) {
-        // Supongamos que tu backend responde con "user" en el JSON
         localStorage.setItem("user", JSON.stringify(data.user));
         setMensaje(data.mensaje || "Has iniciado sesión correctamente");
         navigate("/app");
       } else {
         setError(data.error || "Error al iniciar sesión");
       }
-
     } catch (err) {
       setError('Error de conexión con el servidor');
     }
@@ -77,7 +78,6 @@ function LoginPage() {
         {error && <p style={{ color: 'red' }}>{error}</p>}
         {mensaje && <p style={{ color: 'green' }}>{mensaje}</p>}
 
-        {/* Mostrar modal solo si mostrarModal es true */}
         {mostrarModal && (
           <RecuperarContraseña onClose={() => setMostrarModal(false)} />
         )}
