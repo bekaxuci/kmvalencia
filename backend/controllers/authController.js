@@ -111,7 +111,7 @@ exports.recuperarContrasena = async (req, res) => {
 
     // Determinamos la URL base según el entorno
     const baseURL = process.env.NODE_ENV === 'production'
-      ? 'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev' // URL de producción
+      ? 'https://kmvalencia.vercel.app' // URL de producción
       : 'http://localhost:3000';  // URL local en desarrollo
 
     const enlace = `${baseURL}/reset-password?token=${token}`; // Enlace completo

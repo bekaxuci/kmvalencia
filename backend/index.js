@@ -17,7 +17,8 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:4000',
   'https://shiny-disco-699q69vjq7qx34444-5173.app.github.dev',
-  'https://shiny-disco-699q69vjq7qx34444-4000.app.github.dev'
+  'https://shiny-disco-699q69vjq7qx34444-4000.app.github.dev',
+  'https://kmvalencia.vercel.app'
 ];
 
 // Configuración de CORS
