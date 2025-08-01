@@ -25,7 +25,7 @@ function RegisterPage() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://kmvalencia-eexi9om0w-bekas-projects-33b216ec.vercel.app/api/auth/register', {
+      const response = await fetch('https://kmvalencia-k445wpba2-bekas-projects-33b216ec.vercel.app/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
