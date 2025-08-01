@@ -12,12 +12,15 @@ connectDB();
 
 const app = express();
 
+// Leer allowed origins desde variable de entorno, separar por coma
 const allowedOrigins = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(',').map(origin => origin.trim())
   : [];
 
+// Configuración CORS
 const corsOptions = {
-  origin: function(origin, callback) {
+  origin: function (origin, callback) {
+    // Permitir solicitudes sin origin (Postman, curl, etc)
     if (!origin) return callback(null, true);
     if (allowedOrigins.includes(origin)) {
       callback(null, true);
@@ -31,11 +34,13 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-// Manejar preflight
+// Manejar preflight requests
 app.options('*', cors(corsOptions));
 
+// Middleware para parsear JSON
 app.use(express.json());
 
+// Rutas de autenticación
 app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
