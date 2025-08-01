@@ -13,7 +13,7 @@ function LoginPage() {
   const navigate = useNavigate();
 
   // Leer la URL del backend desde variable de entorno
-  const API_URL = import.meta.env.VITE_API_URL;
+  const API_URL = "https://kmvalencia-rjhnvp1jz-bekas-projects-33b216ec.vercel.app"
   console.log("API_URL:", API_URL); // Mostrar URL base del backend
 
   const handleSubmit = async (e) => {
