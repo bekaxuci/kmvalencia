@@ -41,7 +41,7 @@ app.options('*', cors(corsOptions));
 app.use(express.json());
 
 // Rutas de autenticación
-app.use('/', authRoutes);
+app.use('/api/auth', authRoutes);
 
 app.get('/', (req, res) => {
   res.send('Backend funcionando correctamente.');

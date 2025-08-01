@@ -22,7 +22,7 @@ function LoginPage() {
     setMensaje('');
     console.log("Enviando datos:", { email, password }); // Mostrar datos enviados
 
-    const url = `${API_URL}/login`;
+    const url = `${API_URL}/api/auth/login`;
     console.log("URL completa de petición:", url); // Mostrar URL final que se usa en fetch
 
     try {
