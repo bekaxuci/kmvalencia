@@ -14,28 +14,39 @@ function LoginPage() {
 
   // Leer la URL del backend desde variable de entorno
   const API_URL = import.meta.env.VITE_API_URL;
+  console.log("API_URL:", API_URL); // Mostrar URL base del backend
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     setMensaje('');
+    console.log("Enviando datos:", { email, password }); // Mostrar datos enviados
+
+    const url = `${API_URL}/api/auth/login`;
+    console.log("URL completa de petición:", url); // Mostrar URL final que se usa en fetch
 
     try {
-      const res = await fetch(`${API_URL}/api/auth/login`, {
+      const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
       });
 
+      console.log("Respuesta status:", res.status); // Mostrar código HTTP
       const data = await res.json();
+      console.log("Respuesta JSON:", data); // Mostrar respuesta JSON
+
       if (res.ok) {
         localStorage.setItem("user", JSON.stringify(data.user));
         setMensaje(data.mensaje || "Has iniciado sesión correctamente");
+        console.log("Inicio de sesión OK, navegando...");
         navigate("/app");
       } else {
+        console.error("Error en login:", data.error || "Error al iniciar sesión");
         setError(data.error || "Error al iniciar sesión");
       }
     } catch (err) {
+      console.error("Error de conexión con el servidor:", err);
       setError('Error de conexión con el servidor');
     }
   };
