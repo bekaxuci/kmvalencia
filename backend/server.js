@@ -3,15 +3,40 @@ import fetch from "node-fetch";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
+import dotenv from "dotenv";
+
+// Cargar variables de entorno
+dotenv.config();
 
 const app = express();
-app.use(cors());
-app.use(express.json());
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const GOOGLE_API_KEY = "TU_GOOGLE_API_KEY_AQUI";
+const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || "TU_GOOGLE_API_KEY_AQUI";
+
+// Leer allowed origins desde variable de entorno, separar por coma
+const allowedOrigins = process.env.ALLOWED_ORIGINS
+  ? process.env.ALLOWED_ORIGINS.split(",").map((origin) => origin.trim())
+  : [];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (!origin) return callback(null, true); // Postman, curl, etc
+    if (allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS no permitido para el origen: ${origin}`), false);
+    }
+  },
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions)); // preflight
+
+app.use(express.json());
 
 app.post("/api/ruta", async (req, res) => {
   const { origen, destino, waypoints } = req.body;
@@ -34,10 +59,11 @@ app.post("/api/ruta", async (req, res) => {
     const data = await response.json();
 
     if (data.status !== "OK") {
-      return res.status(500).json({ error: data.status, details: data.error_message });
+      return res
+        .status(500)
+        .json({ error: data.status, details: data.error_message });
     }
 
-    // Sumar distancia y duración de todos los legs
     const { distance, duration } = data.routes[0].legs.reduce(
       (acc, leg) => {
         acc.distance += leg.distance.value;
@@ -47,7 +73,6 @@ app.post("/api/ruta", async (req, res) => {
       { distance: 0, duration: 0 }
     );
 
-    // Extraer pasos (instrucciones) de todas las legs
     const pasos = data.routes[0].legs.flatMap((leg) =>
       leg.steps.map((step) => step.html_instructions)
     );
