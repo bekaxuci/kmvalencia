@@ -1,4 +1,3 @@
-// frontend/src/componentes/RegisterPage.js
 import React, { useState } from 'react';
 import './componentes/css/RegisterPage.css';
 
@@ -25,16 +24,28 @@ function RegisterPage() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://kmvalencia-k445wpba2-bekas-projects-33b216ec.vercel.app/api/auth/register', {
+      // Mostrar datos antes de enviar la solicitud
+      console.log('Enviando datos:', formData);
+      
+      // URL de la API utilizando la variable de entorno
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://kmvalencia.vercel.app/api';
+      console.log('URL completa de la solicitud:', `${apiUrl}/auth/register`);
+
+      // Enviar solicitud POST al backend
+      const response = await fetch(`${apiUrl}/auth/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
       });
 
+      // Verificar respuesta del servidor
       const data = await response.json();
 
       if (response.ok) {
         setMensaje('🎉 Usuario registrado correctamente');
+        console.log('Registro exitoso:', data);
+
+        // Limpiar formulario tras registro
         setFormData({
           nombre: '',
           apellidos: '',
@@ -45,6 +56,7 @@ function RegisterPage() {
         });
       } else {
         setMensaje(`⚠️ ${data.error}`);
+        console.error('Error en el registro:', data.error);
       }
     } catch (error) {
       console.error('Error al registrar:', error);
@@ -61,12 +73,53 @@ function RegisterPage() {
         {mensaje && <p style={{ color: 'crimson' }}>{mensaje}</p>}
 
         <form className="register-form" onSubmit={handleSubmit}>
-          <input type="text" name="nombre" placeholder="Nombre" required value={formData.nombre} onChange={handleChange} />
-          <input type="text" name="apellidos" placeholder="Apellidos" required value={formData.apellidos} onChange={handleChange} />
-          <input type="email" name="email" placeholder="Correo electrónico" required value={formData.email} onChange={handleChange} />
-          <input type="text" name="empresa" placeholder="Empresa (opcional)" value={formData.empresa} onChange={handleChange} />
-          <input type="password" name="password" placeholder="Contraseña" required value={formData.password} onChange={handleChange} />
-          <input type="password" name="confirmarPassword" placeholder="Confirmar contraseña" required value={formData.confirmarPassword} onChange={handleChange} />
+          <input 
+            type="text" 
+            name="nombre" 
+            placeholder="Nombre" 
+            required 
+            value={formData.nombre} 
+            onChange={handleChange} 
+          />
+          <input 
+            type="text" 
+            name="apellidos" 
+            placeholder="Apellidos" 
+            required 
+            value={formData.apellidos} 
+            onChange={handleChange} 
+          />
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="Correo electrónico" 
+            required 
+            value={formData.email} 
+            onChange={handleChange} 
+          />
+          <input 
+            type="text" 
+            name="empresa" 
+            placeholder="Empresa (opcional)" 
+            value={formData.empresa} 
+            onChange={handleChange} 
+          />
+          <input 
+            type="password" 
+            name="password" 
+            placeholder="Contraseña" 
+            required 
+            value={formData.password} 
+            onChange={handleChange} 
+          />
+          <input 
+            type="password" 
+            name="confirmarPassword" 
+            placeholder="Confirmar contraseña" 
+            required 
+            value={formData.confirmarPassword} 
+            onChange={handleChange} 
+          />
           <button type="submit" className="btn-iniciar">Registrarse</button>
         </form>
       </main>
